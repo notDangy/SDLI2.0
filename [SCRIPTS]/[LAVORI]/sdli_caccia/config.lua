@@ -1,0 +1,115 @@
+keys = {
+    -- Letters
+    ["A"] = 0x7065027D,["B"] = 0x4CC0E2FE,["C"] = 0x9959A6F0,["D"] = 0xB4E465B4,["E"] = 0xCEFD9220,["F"] = 0xB2F377E8,["G"] = 0x760A9C6F,
+    ["H"] = 0x24978A28,["I"] = 0xC1989F95,["J"] = 0xF3830D8E,["L"] = 0x80F28E95,["M"] = 0xE31C6A41,["N"] = 0x4BC9DABB,["O"] = 0xF1301666,
+    ["P"] = 0xD82E0BD2,["Q"] = 0xDE794E3E,["R"] = 0xE30CD707,["S"] = 0xD27782E3,["U"] = 0xD8F73058,["V"] = 0x7F8D09B8,["W"] = 0x8FD015D8,
+    ["X"] = 0x8CC9CD42,["Z"] = 0x26E9DC00,["RIGHTBRACKET"] = 0xA5BDCD3C,["LEFTBRACKET"] = 0x430593AA,["MOUSE1"] = 0x07CE1E61,
+    ["MOUSE2"] = 0xF84FA74F,["MOUSE3"] = 0xCEE12B50,["MWUP"] = 0x3076E97C,["CTRL"] = 0xDB096B85,["SPACEBAR"] = 0xD9D0E1C0,["TAB"] = 0xB238FE0B,
+    ["SHIFT"] = 0x8FFC75D6,["ENTER"] = 0xC7B5340A,["BACKSPACE"] = 0x156F7119,["LALT"] = 0x8AAA0AD4,["DEL"] = 0x4AF4D473,["PGUP"] = 0x446258B6,
+    ["PGDN"] = 0x3C3DD371,["F1"] = 0xA8E3F467,["F4"] = 0x1F6D95E5,["F6"] = 0x3C0A40F2,["1"] = 0xE6F612E4,["2"] = 0x1CE6D9EB,["3"] = 0x4F49CC4C,
+    ["4"] = 0x8F9F9E58,["5"] = 0xAB62E997,["6"] = 0xA1FDE2A6,["7"] = 0xB03A913B,["8"] = 0x42385422,["DOWN"] = 0x05CA7C52,["UP"] = 0x6319DB71,
+    ["LEFT"] = 0xA65EBAB4,["RIGHT"] = 0xDEB34313
+}
+
+
+Animal = {
+    [1] =  {["name"] = "Orso",                     ["model"] = -1124266369,  ["item"] = nil,        ["poor"] = 957520252,   ["good"] = 143941906,   ["perfect"] = 1292673537,  ["reward"] = 1.60,  },
+    [2] =  {["name"] = "Big Horn",                  ["model"] = -15687816381, ["item"] = nil,        ["poor"] = 1796037447,  ["good"] = -476045512,  ["perfect"] = 1795984405,  ["reward"] = 0.21,  },
+    [3] =  {["name"] = "Cinghiale",                ["model"] = 2028722809,   ["item"] = "meat_cinghiale",        ["poor"] = 1248540072,  ["good"] = nil,         ["perfect"] = -1858513856, ["reward"] = 0.35,  },
+    [4] =  {["name"] = "Cervo",                    ["model"] = -1963605336,  ["item"] = "meat_cervo",        ["poor"] = 1603936352,  ["good"] = -868657362,  ["perfect"] = -702790226,  ["reward"] = 0.20,  },
+    [5] =  {["name"] = "Bisonte",                  ["model"] = 2028722809,   ["item"] = nil,        ["poor"] = -1730060063, ["good"] = -591117838,  ["perfect"] = -237756948,  ["reward"] = 0.51, ["illegal"] = true,  },
+    --[6] =  {["name"] = "Toro",                     ["model"] = 195700131,    ["item"] = nil,        ["poor"] = 9293261,     ["good"] = -336086818,  ["perfect"] = -53270317,   ["reward"] = 2.50,  },
+    [7] =  {["name"] = "Cervo dalla Coda Bianca",                    ["model"] = 1110710183,   ["item"] = nil,        ["poor"] = -662178186,  ["good"] = -1827027577, ["perfect"] = -1035515486, ["reward"] = 0.25,  },
+    [8] =  {["name"] = "Anatra",                   ["model"] = -1003616053,  ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.20,  },
+    [9] =  {["name"] = "Aquila",                   ["model"] = 1459778951,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.90,  },
+    [10] = {["name"] = "Airone",                   ["model"] = 831859211,    ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.40,  },
+    [11] = {["name"] = "Wapiti",                     ["model"] = -2021043433,  ["item"] = nil,        ["poor"] = 2053771712,  ["good"] = 1181652728,  ["perfect"] = -1332163079, ["reward"] = 0.23,  },
+    [12] = {["name"] = "Volpe rossa americana",    ["model"] = 252669332,    ["item"] = nil,        ["poor"] = 1647012424,  ["good"] = 238733925,   ["perfect"] = 500722008,   ["reward"] = 0.28,  },
+    [13] = {["name"] = "Lupo grigio Grande",       ["model"] = -1143398950,  ["item"] = nil,        ["poor"] = 85441452,    ["good"] = 1145777975,  ["perfect"] = 653400939,   ["reward"] = 0.6,  ["illegal"] = true,},
+    [14] = {["name"] = "Lupo grigio Medio",        ["model"] = -885451903,   ["item"] = nil,        ["poor"] = 85441452,    ["good"] = 1145777975,  ["perfect"] = 653400939,   ["reward"] = 0.4,  ["illegal"] = true,},
+    [15] = {["name"] = "Lupo grigio Piccolo",       ["model"] = -829273561,   ["item"] = nil,        ["poor"] = 85441452,    ["good"] = 1145777975,  ["perfect"] = 653400939,   ["reward"] = 0.32, ["illegal"] = true,},
+    [16] = {["name"] = "Avvoltoio",                ["model"] = 1104697660,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.50,  },
+    [17] = {["name"] = "Tartaruga Azzannatrice",         ["model"] = -407730502,   ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.21,  },
+    [18] = {["name"] = "Tacchino",                 ["model"] = -466054788,   ["item"] = "meat_tacchino",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.15,  },
+    [19] = {["name"] = "Tacchino",                 ["model"] = -2011226991,  ["item"] = "meat_tacchino",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.15,  },
+    [20] = {["name"] = "Tacchino",                 ["model"] = -166054593,   ["item"] = "meat_tacchino",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.15,  },
+    [21] = {["name"] = "Serpente marino",          ["model"] = -229688157,   ["item"] = "snakepoison", ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.17,  },
+    [22] = {["name"] = "Serpente marino",          ["model"] = -229688157,   ["item"] = nil, ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.17,  },
+    [23] = {["name"] = "Boa rosso",                ["model"] = -1790499186,  ["item"] = "snakepoison", ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.24,  },
+    [24] = {["name"] = "Serpente Fer-De-Lance",    ["model"] = 1464167925,   ["item"] = "snakepoison", ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.19,  },
+    [25] = {["name"] = "Serpente a sonagli coda nera", ["model"] = 846659001,    ["item"] = "snakepoison", ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.19,  },
+    [26] = {["name"] = "Serpente a sonagli dell'ovest", ["model"] = 545068538,    ["item"] = "snakepoison", ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.18,  },
+    [27] = {["name"] = "Puzzola a strisce",        ["model"] = -1211566332,  ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.26,  },
+    --[28] = {["name"] = "Pecora di Merino",         ["model"] = 40345436,     ["item"] = "meat",        ["poor"] = 1729948479,  ["good"] = -1317365569, ["perfect"] = 1466150167,  ["reward"] = 1.43,  },
+    [29] = {["name"] = "Gabbiano",                 ["model"] = -164963696,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.22,  },
+    [30] = {["name"] = "Spatola rosata",           ["model"] = -1076508705,  ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.25,  },
+    --[31] = {["name"] = "Gallo domenicano",         ["model"] = 2023522846,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.99,  },
+    [32] = {["name"] = "Sula Sula",                ["model"] = -466687768,   ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.23,  },
+    [33] = {["name"] = "Corvo Imperiale",          ["model"] = -575340245,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.20,  },
+    [34] = {["name"] = "Procione comune",          ["model"] = 1458540991,   ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.24,  },
+    [35] = {["name"] = "Lepre del deserto",        ["model"] = -541762431,   ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.21,  },
+    [36] = {["name"] = "Antilocapra americana",    ["model"] = 1755643085,   ["item"] = nil,        ["poor"] = -983605026,  ["good"] = 554578289,   ["perfect"] = -1544126829, ["reward"] = 0.40,  },
+    [37] = {["name"] = "Fagiano di monte",         ["model"] = 2079703102,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.95,  },
+    [38] = {["name"] = "Opossum della Virginia",   ["model"] = -1414989025,  ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.20,  },
+    --[39] = {["name"] = "Maiale Berkshire",         ["model"] = 1007418994,   ["item"] = "meat",        ["poor"] = -308965548,  ["good"] = -57190831,   ["perfect"] = -1102272634, ["reward"] = 1.27,  },
+    [40] = {["name"] = "Fagiano dal collo ad anello",  ["model"] = 1416324601,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.85,  },
+    [41] = {["name"] = "Pellicano Bianco Americano",   ["model"] = 1265966684,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.18,  },
+    [42] = {["name"] = "L'Ara gialla e blu",       ["model"] = -1797450568,  ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 1.50, },
+    [43] = {["name"] = "Pantera",                  ["model"] = 1654513481,   ["item"] = nil,        ["poor"] = 1584468323,  ["good"] = -395646254,  ["perfect"] = 1969175294,  ["reward"] = 6.20,  },
+    [44] = {["name"] = "Condor della California",  ["model"] = 1205982615,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.65,  },
+    --[45] = {["name"] = "Pollo Domenicano",         ["model"] = -2063183075,  ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.37,  },
+    [46] = {["name"] = "Cormorano a doppia cresta", ["model"] = -2073130256,  ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.72,  },
+    [47] = {["name"] = "Puma",                     ["model"] = 90264823,     ["item"] = nil,        ["poor"] = 1914602340,  ["good"] = 459744337,   ["perfect"] = -1791452194, ["reward"] = 1.12,  ["illegal"] = true},
+    --[48] = {["name"] = "Mucca Cracker",            ["model"] = -50684386,    ["item"] = "meat",        ["poor"] = 334093551,   ["good"] = 1150594075,  ["perfect"] = -845037222,  ["reward"] = 1.37,  },
+    [49] = {["name"] = "Coyote",                   ["model"] = 480688259,    ["item"] = nil,        ["poor"] = -1558096473, ["good"] = 1150939141,  ["perfect"] = -794277189,  ["reward"] = 0.23,  },
+    [50] = {["name"] = "Gru Americana",             ["model"] = -564099192,   ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.18,  },   
+    [51] = {["name"] = "Il mostro di Gila",        ["model"] = 457416415,    ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.26,  }, -- lizard
+    [52] = {["name"] = "Capra alpina",             ["model"] = -753902995,   ["item"] = nil,        ["poor"] = 699990316,   ["good"] = 1710714415,  ["perfect"] = -1648383828, ["reward"] = 0.60,  },
+    [53] = {["name"] = "Oca Canadese",             ["model"] = 723190474,    ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.50,  },
+    [54] = {["name"] = "Falco Ferruino",           ["model"] = -2145890973,  ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.19,  },
+    [55] = {["name"] = "Ardea Herodias", ["model"] = 1095117488,   ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.11,  },
+    [56] = {["name"] = "Iguana verde",             ["model"] = -1854059305,  ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.80,  },
+    [57] = {["name"] = "Iguana del deserto",       ["model"] = -593056309,   ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.21,  },
+    --[58] = {["name"] = "Maiale Peccary",           ["model"] = 1751700893,   ["item"] = "meat",        ["poor"] = -99092070,   ["good"] = -1379330323, ["perfect"] = 1963510418,  ["reward"] = 1.25,  }, -- type of boar (javelina), dont know if its a legendary or not
+    [59] = {["name"] = "Gavia",             ["model"] = 386506078,    ["item"] = nil,     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.36,  },
+    [60] = {["name"] = "Alce",                     ["model"] = -1098441944,  ["item"] = "meat_alce",        ["poor"] = 1868576868,  ["good"] = 1636891382,  ["perfect"] = -217731719,  ["reward"] = 1.0,  },
+    [61] = {["name"] = "Topo muschiato",           ["model"] = -1134449699,  ["item"] = nil,        ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.10,  },
+    [62] = {["name"] = "Gufo della Virginia",      ["model"] = -861544272,   ["item"] = "feather",     ["poor"] = nil,         ["good"] = nil,         ["perfect"] = nil,         ["reward"] = 0.18,  },
+    --[63] = {["name"] = "Bue (Angus)",              ["model"] = 556355544,    ["item"] = nil,        ["poor"] = 4623248928,  ["good"] = 1208128650,  ["perfect"] = 659601266,   ["reward"] = 2.27,  },
+    [64] = {["name"] = "Alligatore",               ["model"] = -1892280447,  ["item"] = nil,        ["poor"] = 1806153689,  ["good"] = -802026654,  ["perfect"] = -1625078531, ["reward"] = 0.48,  ["illegal"] = true,},
+    [65] = {["name"] = "Castoro americano",        ["model"] = 759906147,    ["item"] = nil,        ["poor"] = -1569450319, ["good"] = -2059726619, ["perfect"] = 854596618,   ["reward"] = 0.24,  },
+    [66] = {["name"] = "Orso nero americano",      ["model"] = 730092646,    ["item"] = nil,        ["poor"] = 1083865179,  ["good"] = 1490032862,  ["perfect"] = 663376218,   ["reward"] = 1.48,  },
+
+    --PESC O PESC
+    [67] = {["name"] = "Muskie Leggendario",      ["model"] = -1553593715,    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.2,  },
+    [68] = {["name"] = "Pescegatto XL",      ["model"] = GetHashKey("A_C_FishChannelCatfish_01_XL"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 0.7,  },
+    [69] = {["name"] = "Pescegatto Leggendario",      ["model"] = GetHashKey("A_C_FishChannelCatfish_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.25,  },
+    [70] = {["name"] = "Storione Leggendario",      ["model"] =  GetHashKey("A_C_FishLakeSturgeon_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.3,  },
+    [71] = {["name"] = "MouthBass Leggendario",      ["model"] = GetHashKey("A_C_FishLargeMouthBass_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.1,  },
+    [72] = {["name"] = "NoseGar Leggendario",      ["model"] = GetHashKey("A_C_FishLongNoseGar_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.32,  },
+    [73] = {["name"] = "Luccio Leggendario",      ["model"] = GetHashKey("A_C_FishNorthernPike_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.64,  },
+    [74] = {["name"] = "Trota Leggendaria",      ["model"] = GetHashKey("A_C_FishRainbowTrout_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.25,  },
+    [75] = {["name"] = "Salmone Rosso Leggendario",      ["model"] = GetHashKey("A_C_FishSalmonSockeye_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 1.3,  },
+    [76] = {["name"] = "Salmone Rosso Grande",      ["model"] = GetHashKey("A_C_FishSalmonSockeye_01_ml"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 0.8,  },
+    --[77] = {["name"] = "MouthBass Leggendario (Piccolo)",      ["model"] = GetHashKey("A_C_FishSmallMouthBass_01_lg"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 4.02,  },
+    --[78] = {["name"] = "MouthBass Grande",      ["model"] = GetHashKey("A_C_FishSmallMouthBass_01_ms"),    ["item"] = nil,        ["poor"] = nil,  ["good"] = nil,  ["perfect"] = nil,   ["reward"] = 4.02,  },
+
+
+}
+
+SellerName = "Macellaio"
+SellerIcon = -1665418949
+
+shops = {
+    {["name"] = "Saint Denis",["x"] = 2816.37,  ["y"] = -1322.24, ["z"] = 46.61, ["gain"] = 1.0, ["ped"] = "A_M_M_BiVWorker_01",},
+    {["name"] = "Valentine",  ["x"] = -341.07,  ["y"] = 767.35, ["z"] = 116.71, ["gain"] = 1.0, ["ped"] = "A_M_M_BlWLaborer_01",},
+    {["name"] = "Rhodes",     ["x"] = 1296.36,  ["y"] = -1279.26, ["z"] = 75.84, ["gain"] = 1.0, ["ped"] = "A_M_M_GuaTownfolk_01",},
+    {["name"] = "Tumbleweed", ["x"] = -5508.10, ["y"] = -2947.73, ["z"] = -1.87, ["gain"] = 1.0, ["ped"] = "A_M_M_LowerSDTownfolk_01",},
+    {["name"] = "Anusburg",   ["x"] = 2932.54,  ["y"] = 1302.00,["z"] = 44.48, ["gain"] = 1.0, ["ped"] = "A_M_M_NbxLaborers_01",},
+    {["name"] = "Van Horn",   ["x"] = 2994.23,  ["y"] = 571.79,["z"] = 44.35, ["gain"] = 1.0, ["ped"] = "A_M_M_TumTownfolk_01",},
+    {["name"] = "Blackwater",   ["x"] = -751.1,  ["y"] = -1284.9,["z"] = 43.3, ["gain"] = 1.0, ["ped"] = "A_M_M_TumTownfolk_01",},
+    {["name"] = "Strawberry",   ["x"] = -1753.2,  ["y"] = -394.8, ["z"] = 156.2, ["gain"] = 1.0, ["ped"] = "A_M_M_TumTownfolk_01",},
+    {["name"] = "Valentine", ["x"] = 1157.3,  ["y"] = 1101.5,["z"] = 152.1, ["gain"] = 1.0, ["ped"] = "A_M_M_ValLaborer_01", ["illegal"] = true}, --macellaio illegale
+    {["name"] = "Wapiti", ["x"] = 791.7,  ["y"] = 1512.6, ["z"] = 204.5, ["gain"] = 1.0, ["ped"] = "A_M_M_TumTownfolk_01",},
+}
+
