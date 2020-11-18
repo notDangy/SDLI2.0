@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+        <div class="pb-vorp-stress">
+            <div class="stress">
+                    
+            </div>
+        </div>
+
+        <script type="text/javascript">
+
+            $("document").ready(function() {
+                var barstress = $('.stress');
+                var sizeStress = 38.3;
+
+                barstress.circleProgress({
+                    value: 0.0,
+                    size: sizeStress,
+                    thickness: 4.2,
+                    fill: {
+                        gradient: ['#FFFFFF']
+                    },
+                });
+
+                window.addEventListener("message", function(event) {
+                    if (event.data.type == "stress") {
+                        barstress.circleProgress('value', event.data.value/100);
+                    }
+                });
+            });
+        </script>
+        <script src="circle-progress.js"></script>
+    </body>
+</html>

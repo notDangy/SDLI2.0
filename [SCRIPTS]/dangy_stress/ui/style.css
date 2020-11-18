@@ -1,0 +1,12 @@
+.pb-vorp-stress {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+        background-image: url('stress.png'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 81%;
+        background-position-y: 1.3%; 
+    padding-bottom: 6.8vw;
+    padding-left: 0.3vw;
+}
