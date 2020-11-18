@@ -1,0 +1,121 @@
+{
+
+  "PressToOpen": "Premi [~e~Spazio~q~] per accedere al negozio", // Título del Menú
+  "PressGuide": "Ruota <-[A] [D]-> | Zoom [W] o [S]",
+  "TitleMenuOutfitsUseBtn": "Indossa questo completo",
+  "TitleMenuOutfitsDeleteBtn": "Elimina questo completo",
+
+  "TitleMenuClothes": "Camerino", // Título del Menú
+  "SubTitleMenuClothes": "Vesti il tuo personaggio", // Descripción del Menú
+
+  "NoExistValue": "Non esiste", // La opción que da cuando no hay opciones en algún apartado
+
+  "NoMoney": "Non hai abbastanza soldi",
+  "SuccessfulBuy": "Hai pagato", // Muestra el dinero que te cobran
+
+  "TitleMenuOutfits": "I tuoi completi",
+  "SubTitleMenuOutfits": "Vestiti con un completo salvato in precedenza",
+
+  "PlaceHolderNewOutfit": "Dai un nome al tuo completo",
+  "ButtonNewOutfit": "Salva",
+
+  "MaskValue": "Maschera #",
+  "HatsValue": "Cappello #", // Las opciones del apartado de los sombreros
+  "GlassesValue": "Occhiali #", // Las opciones del apartado de los anteojos
+  "NeckwearValue": "Accessori per il collo #", // Las opciones del apartado de las prendas para el cuello
+  "TiesValue": "Cravatta #", // Las opciones del apartado de las corbatas
+  "ShirtsValue": "Camicia #", // Las opciones del apartado de las camisas
+  "SuspendersValue": "Bretelle #", // Las opciones del apartado de los tirantes
+  "VestsValue": "Gilet #", // Las opciones del apartado de los chalecos
+  "CoatsValue": "Soprabito #", // Las opciones del apartado de los abrigos
+  "PonchosValue": "Poncho #", // Las opciones del apartado de los ponchos
+  "CloaksValue": "Mantella #", // Las opciones del apartado de las capas
+  "GlovesValue": "Guanti #", // Las opciones del apartado de los guantes
+  "RingsValue": "Anello #", // Las opciones del apartado de los anillos
+  "BraceletsValue": "Braccialetto #", // Las opciones del apartado de las pulseras
+  "HolstersValue": "Cinturone #", // Las opciones del apartado de las cartucheras
+  "BeltsValue": "Cintura/Grembuile #", // Las opciones del apartado de los cinturones
+  "BucklesValue": "Fibbia #", // Las opciones del apartado de las hebillas
+  "PantsValue": "Pantalone #", // Las opciones del apartado de los pantalones
+  "SkirtsValue": "Gonna #", // Las opciones del apartado de las faldas
+  "ChapsValue": "Chaps #", // Las opciones del apartado de los zahones
+  "BootsValue": "Calzature #", // Las opciones del apartado de las botas
+  "SpursValue": "Speroni #", // Las opciones del apartado de las espuelas
+  "NoHatsValue": "Senza Cappello", // La opción que da cuando no hay opciones
+  "NoGlassesValue": "Senza Occhiali", // La opción que da cuando no hay opciones
+  "NoNeckwearValue": "Senza Accessori", // La opción que da cuando no hay opciones
+  "NoTiesValue": "Senza Cravatta", // La opción que da cuando no hay opciones
+  "NoShirtsValue": "Senza Camicia", // La opción que da cuando no hay opciones
+  "NoSuspendersValue": "Senza Bretelle", // La opción que da cuando no hay opciones
+  "NoVestsValue": "Senza Gilet", // La opción que da cuando no hay opciones
+  "NoCoatsValue": "Senza Soprabito", // La opción que da cuando no hay opciones
+  "NoPonchosValue": "Senza Poncho", // La opción que da cuando no hay opciones
+  "NoCloaksValue": "Senza Mantella", // La opción que da cuando no hay opciones
+  "NoGlovesValue": "Senza Guanti", // La opción que da cuando no hay opciones
+  "NoRingsValue": "Senza Anello", // La opción que da cuando no hay opciones
+  "NoBraceletsValue": "Senza Braccialetto", // La opción que da cuando no hay opciones
+  "NoHolstersValue": "Senza Cinturone", // La opción que da cuando no hay opciones
+  "NoBeltsValue": "Senza Cintura", // La opción que da cuando no hay opciones
+  "NoBucklesValue": "Senza Fibbia", // La opción que da cuando no hay opciones
+  "NoPantsValue": "Senza Pantalone", // La opción que da cuando no hay opciones
+  "NoSkirtsValue": "Senza Gonna", // La opción que da cuando no hay opciones
+  "NoChapsValue": "Senza Chaps", // La opción que da cuando no hay opciones
+  "NoBootsValue": "Senza Calzature", // La opción que da cuando no hay opciones
+  "NoSpursValue": "Senza Speroni", // La opción que da cuando no hay opciones
+  "NoMaskValue": "Senza Maschera", // La opción que da cuando no hay opciones
+
+  "Hats": "Cappello",
+  "Glasses": "Occhiali",
+  "Masks": "Maschera",
+  "Neckwear": "Accessori collo",
+  "Ties": "Cravatta",
+  "Shirts": "Camicia",
+  "Suspenders": "Bretelle",
+  "Vests": "Gilet",
+  "Coats": "Soprabito",
+  "CoatsClosed": "Soprabito Chiuso",
+  "Ponchos": "Poncho",
+  "Cloaks": "Mantello",
+  "Gloves": "Guanti",
+  "RightRings": "Anello mano Destra",
+  "LeftRings": "Anello mano Sinistra",
+  "Bracelets": "Braccialetto",
+  "PrimaryHolsters": "Cinturone",
+  "Belts": "Cintura",
+  "Buckles": "Fibbia",
+  "SecondaryHolsters": "Fondina secundarias",
+  "Pants": "Pantaloni",
+  "Skirts": "Gonna",
+  "Chaps": "Chaps",
+  "Boots": "Calzature",
+  "Spurs": "Speroni",
+
+  "Finish": "Sei sicuro di confermare il tuo acquisto?", // Confirma la compra
+
+  //Descripciones de los apartados del Menú de la ropa
+  "HatsDesc": "Scegli il Cappello, utili anche per basse temperature",
+  "GlassesDesc": "Scegli gli Occhiali",
+  "MasksDesc": "Scegli la Maschera",
+  "NeckwearDesc": "Scegli Accessori per il collo",
+  "TiesDesc": "Scegli Cravatta",
+  "ShirtsDesc": "Scegli Camicia, utili anche per basse temperature",
+  "SuspendersDesc": "Scegli le Bretelle",
+  "VestsDesc": "Scegli il Gilet, utile anche per basse temperature",
+  "CoatsDesc": "Scegli il Soprabito, utile anche per basse temperature",
+  "PonchosDesc": "Scegli il Poncho, utile anche per basse temperature",
+  "CloaksDesc": "Scegli la Mantella, utile anche per basse temperature",
+  "GlovesDesc": "Scegli Guanti",
+  "RightRingsDesc": "Scegli Anello della mano Destra",
+  "LeftRingsDesc": "Scegli Anello della mano Sinistra",
+  "BraceletsDesc": "Scegli Braccialetto",
+  "PrimaryHolstersDesc": "Scegli Cinturone",
+  "BeltsDesc": "Scegli Cintura",
+  "BucklesDesc": "Scegli Fibbia",
+  "SecondaryHolstersDesc": "Scegli Fondina",
+  "PantsDesc": "Scegli Pantalone, utile anche per basse temperature",
+  "SkirtsDesc": "Scegli Gonna",
+  "ChapsDesc": "Scegli Chaps",
+  "BootsDesc": "Scegli Calzature, utili anche per basse temperature",
+  "SpursDesc": "Scegli Speroni",
+  "FinishDesc": "Assicurati di aver fatto la scelta migliore."
+}

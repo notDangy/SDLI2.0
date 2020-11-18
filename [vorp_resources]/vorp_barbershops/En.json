@@ -1,0 +1,19 @@
+{
+    "PressToOpen": "Premi [~e~Spazio~q~] per accedere al barbiere",
+
+    "TitleBarberMenu": "Barbiere",
+    "SubTitleBarberMenu": "Scegli il tuo stile",
+    "BeardList": "Barba",
+    "BeardDesc": "Scegli la barba che ti piace di più.",
+    "Beard": "Barba #",
+    "NoBeard": "Togli barba",
+    "HairList": "Acconciature",
+    "HairDesc": "Scegli l'acconciatura che ti piace di più.",
+    "Hair": "Capelli #",
+    "NoHair": "Rasa i capelli",
+    "NoExist": "Non esiste",
+    "FinishBtn": "Costo totale {0}$",
+    "SubFinishBtn": "Conferma e paga",
+    "NoMoney": "Non hai abbastanza soldi",
+    "Bought": "Hai pagato {0}$ al barbiere"
+}

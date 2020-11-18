@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#notepad {
+    display: none;
+    position: fixed;
+    left: 128vh;
+    top: 50vh;
+     max-width: 367px;
+    height: 467px;
+    background-image: url("../img/bg.png");
+    background-size: contain;
+    padding: 50px 40px;
+}
+
+#note-txt {
+    background-color: transparent;
+  margin-left: 25px;
+    margin-top: 12px;
+    height: 33vh;
+    width: 26vh;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#notepad2 {
+    display: none;
+    position: relative;
+    left: 128vh;
+    top: 50vh;
+    width: 423px;
+    height: 493px;
+    background-image: url("../img/bg.png");
+    background-size: contain;
+    padding: 50px 40px;
+}
+
+#note-txt2 {
+    background-color: transparent;
+  margin-left: 25px;
+    margin-top: 12px;
+    height: 33vh;
+    width: 26vh;
+    font-family: 'Kalam', cursive;
+
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn {
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 10px;
+    width: 7vh;
+}
+
+.btn-drop {
+    
+    margin-top: 20px;
+    width: 7vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: orange;
+    
+}
+
+.btn-save {
+    
+    margin-top: 20px;
+    width: 7vh;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #356680;
+    color: #f0f0f0;
+}
+
+.moveable {
+    position: relative;
+    background-color: #4c00ff;
+    z-index: 5;
+    border-radius: 100px;
+    width: 5px;
+    padding: 5px 5px;
+    display: none;
+}

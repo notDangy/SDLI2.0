@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="">
+    <title>Inventory HUD</title>
+    <link rel="stylesheet" id="themonic-fonts-css" href="css/contextMenu.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="themonic-fonts-css" href="css/jquery.dialog.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="themonic-fonts-css" href="css/ui.min.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/contextMenu.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dialog.min.js"></script>
+
+    <div id="inventoryHud">
+        <div id="title">Bisaccia</div> <!-- >Bisaccia< -->
+
+        <div id="inventoryElement">
+        </div>
+        <p id="information"></p>
+
+    </div>
+
+    <div id="secondInventoryHud">
+        <div id="titleHorse"></div>
+
+        <div id="secondInventoryElement">
+        </div>
+        <p id="information2"></p>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/contextMenu.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dialog.min.js"></script>
+
+    <script type="text/javascript">
+        var isOpen = false;
+
+        var type = "normal";
+        var disabled = false;
+        var disabledFunction = null;
+        var ready4Action = true;
+
+        var houseId = 0
+
+        function OverSetTitle(title) {
+            document.getElementById("information").innerHTML = title;
+        }
+
+        function OverSetTitleSecond(title) {
+            document.getElementById("information2").innerHTML = title;
+        }
+
+        function HorseSetTitle(title) {
+            document.getElementById("titleHorse").innerHTML = title;
+        }
+
+        $("document").ready(function() {
+
+            $("#secondInventoryHud").draggable();
+            $("#inventoryHud").draggable();
+
+            $("#inventoryHud").hide();
+            $("#secondInventoryHud").hide();
+
+            $("body").on("keyup", function(key) {
+                if (Config.closeKeys.includes(key.which)) {
+                    closeInventory();
+                }
+            });
+
+            $('#inventoryElement').droppable({
+                drop: function(event, ui) {
+                    itemData = ui.draggable.data("item");
+                    itemInventory = ui.draggable.data("inventory");
+
+                    console.log(itemData.label)
+
+                    if (type === "horse" && itemInventory === "second") {
+                        disableInventory(3000);
+                        if (itemData.type != "item_weapon") {
+                            dialog.prompt({
+                                title: "Quantità",
+                                button: "Accetta",
+                                required: true,
+                                item: itemData,
+                                type: itemData.type,
+                                input: {
+                                    type: "number"
+                                },
+                                validate: function(value, item, type) {
+                                    if(ready4Action === true){	
+                                        ready4Action = false;
+                                        console.log("Item: " + item.label + " cantidad:" + value)
+                                        $.post("http://vorp_inventory/TakeFromHorse", JSON.stringify({
+                                            item: itemData,
+                                            type: type,
+                                            number: value
+                                        }));
+                                        setTimeout(function(){ ready4Action = true; }, 3000);
+                                    }    
+                                }
+                            });
+                        } else {
+                            $.post("http://vorp_inventory/TakeFromHorse", JSON.stringify({
+                                item: itemData,
+                                type: itemData.type,
+                                number: 1
+                            }));
+                        }
+                    } else if (type === "cart" && itemInventory === "second") {
+                        disableInventory(3000);
+                        if (itemData.type != "item_weapon") {
+                            dialog.prompt({
+                                title: "Quantità",
+                                button: "Accetta",
+                                required: true,
+                                item: itemData,
+                                type: itemData.type,
+                                input: {
+                                    type: "number"
+                                },
+                                validate: function(value, item, type) {
+                                    if(ready4Action === true){	
+                                        ready4Action = false;	
+                                        console.log("Item: " + item.label + " cantidad:" + value)	
+                                        $.post("http://vorp_inventory/TakeFromCart", JSON.stringify({	
+                                            item: itemData,	
+                                            type: type,	
+                                            number: value	
+                                        }));	
+                                        setTimeout(function(){ ready4Action = true; }, 3000);	//500
+                                    }
+                                }
+                            });
+                        } else {
+                            $.post("http://vorp_inventory/TakeFromCart", JSON.stringify({
+                                item: itemData,
+                                type: itemData.type,
+                                number: 1
+                            }));
+                        }
+                    } else if (type === "house" && itemInventory === "second") {
+                        disableInventory(3000);
+                        if (itemData.type != "item_weapon") {
+                            dialog.prompt({
+                                title: "Quantita",
+                                button: "Accetta",
+                                required: true,
+                                item: itemData,
+                                type: itemData.type,
+                                input: {
+                                    type: "number"
+                                },
+                                validate: function(value, item, type) {
+                                    if(ready4Action === true){	
+                                        ready4Action = false;	
+                                        console.log("Item: " + item.label + " cantidad:" + value)	
+                                        $.post("http://vorp_inventory/TakeFromHouse", JSON.stringify({	
+                                            item: itemData,	
+                                            type: type,	
+                                            number: value,	
+                                            house: houseId	
+                                        }));	
+                                        setTimeout(function(){ ready4Action = true; }, 3000);	
+                                    }
+                                }
+                            });
+                        } else {
+                            $.post("http://vorp_inventory/TakeFromHouse", JSON.stringify({
+                                item: itemData,
+                                type: itemData.type,
+                                number: 1,
+                                house: houseId
+                            }));
+                        }
+                    }
+                }
+            });
+
+            $('#secondInventoryElement').droppable({
+                drop: function(event, ui) {
+                    itemData = ui.draggable.data("item");
+                    itemInventory = ui.draggable.data("inventory");
+
+                    console.log(itemData.label)
+
+                    if (type === "horse" && itemInventory === "main") {
+                        disableInventory(3000);
+                        if (itemData.type != "item_weapon") {
+                            dialog.prompt({
+                                title: "Quantità",
+                                button: "Accetta",
+                                required: true,
+                                item: itemData,
+                                type: itemData.type,
+                                input: {
+                                    type: "number"
+                                },
+                                validate: function(value, item, type) {
+                                    if(ready4Action === true){	
+                                        ready4Action = false;
+                                        console.log("Item: " + item.label + " cantidad:" + value)
+                                        $.post("http://vorp_inventory/MoveToHorse", JSON.stringify({
+                                            item: itemData,
+                                            type: type,
+                                            number: value
+                                        }));
+                                        setTimeout(function(){ ready4Action = true; }, 3000);
+                                    }    
+                                }
+                            });
+                        } else {
+                            $.post("http://vorp_inventory/MoveToHorse", JSON.stringify({
+                                item: itemData,
+                                type: itemData.type,
+                                number: 1
+                            }));
+                        }
+
+                    } else if (type === "cart" && itemInventory === "main") {
+                        disableInventory(3000); //500
+                        if (itemData.type != "item_weapon") {
+                            dialog.prompt({
+                                title: "Quantità",
+                                button: "Accetta",
+                                required: true,
+                                item: itemData,
+                                type: itemData.type,
+                                input: {
+                                    type: "number"
+                                },
+                                validate: function(value, item, type) {
+                                    if(ready4Action === true){	
+                                        ready4Action = false;
+                                        console.log("Item: " + item.label + " cantidad:" + value)
+                                        $.post("http://vorp_inventory/MoveToCart", JSON.stringify({
+                                            item: itemData,
+                                            type: type,
+                                            number: value
+                                        }));
+                                        setTimeout(function(){ ready4Action = true; }, 3000);
+                                    }
+                                }
+                            });
+                        } else {
+                            $.post("http://vorp_inventory/MoveToCart", JSON.stringify({
+                                item: itemData,
+                                type: itemData.type,
+                                number: 1
+                            }));
+                        }
+
+                    } else if (type === "house" && itemInventory === "main") {
+                        disableInventory(3000);
+                        if (itemData.type != "item_weapon") {
+                            dialog.prompt({
+                                title: "Quantità",
+                                button: "Accetta",
+                                required: true,
+                                item: itemData,
+                                type: itemData.type,
+                                input: {
+                                    type: "number"
+                                },
+                                validate: function(value, item, type) {
+                                    if(ready4Action === true){	
+                                        ready4Action = false;
+                                        console.log("Item: " + item.label + " cantidad:" + value)
+                                        $.post("http://vorp_inventory/MoveToHouse", JSON.stringify({
+                                            item: itemData,
+                                            type: type,
+                                            number: value,
+                                            house: houseId
+                                        }));
+                                        setTimeout(function(){ ready4Action = true; }, 3000);
+                                    }    
+                                }
+                            });
+                        } else {
+                            $.post("http://vorp_inventory/MoveToHouse", JSON.stringify({
+                                item: itemData,
+                                type: itemData.type,
+                                number: 1,
+                                house: houseId
+                            }));
+                        }
+
+                    }
+                }
+            });
+
+            window.addEventListener("message", function(event) {
+                if (event.data.action == "display") {
+                    $("#inventoryHud").fadeIn();
+                    $(".controls").remove();
+
+                    $("#inventoryHud").append("<div class='controls'><div class='controls-center'><input type='text' id='search' placeholder='Cerca'/><button id='close'>Chiudi</button></div></div>");
+
+                    $("#search").bind('input', function() {
+                        searchFor = $("#search").val().toLowerCase();
+                        $(".item").each(function() {
+                            label = $(this).data("label").toLowerCase();
+                            if (label.indexOf(searchFor) < 0) {
+                                $(this).hide();
+                            } else {
+                                $(this).show();
+                            }
+                        });
+                    });
+
+                    type = event.data.type
+
+
+                    if (event.data.type == "horse") {
+                        $("#secondInventoryHud").fadeIn();
+
+
+                        HorseSetTitle(event.data.title);
+                    }
+
+                    if (event.data.type == "cart") {
+                        $("#secondInventoryHud").fadeIn();
+
+                        HorseSetTitle(event.data.title);
+                    }
+
+                    if (event.data.type == "house") {
+                        $("#secondInventoryHud").fadeIn();
+
+                        HorseSetTitle(event.data.title);
+
+                        houseId = event.data.houseId;
+                    }
+
+                   
+
+                    disabled = false;
+
+                    $(document).on('keydown', function(event) {
+                        $("#search").focus();
+                    });
+
+                    $("#close").on('click', function(event) {
+                        closeInventory();
+                    });
+                } else if (event.data.action == "hide") {
+                    $("#inventoryHud").fadeOut();
+                    $(".controls").fadeOut();
+                    $(".site-cm-box").remove();
+
+                    $("#secondInventoryHud").fadeOut();
+                    $(".controls").fadeOut();
+                    $(".site-cm-box").remove();
+                    dialog.close();
+                } else if (event.data.action == "setItems") {
+                    inventorySetup(event.data.itemList);
+
+                    if (type != "main") {
+
+                        $('.item').draggable({
+                            helper: 'clone',
+                            appendTo: 'body',
+                            zIndex: 99999,
+                            revert: 'invalid',
+                            start: function(event, ui) {
+                                if (disabled) {
+                                    return false;
+                                }
+
+
+                                itemData = $(this).data("item");
+                                itemInventory = $(this).data("inventory");
+
+                                if (itemInventory === "main") {
+                                    $("#inventoryHud").fadeOut();
+                                } else if (itemInventory === "second") {
+                                    $("#secondInventoryHud").fadeOut();
+                                }
+
+                            },
+                            stop: function() {
+                                itemData = $(this).data("item");
+                                itemInventory = $(this).data("inventory");
+
+                                if (itemInventory === "main") {
+                                    $("#inventoryHud").fadeIn();
+                                } else if (itemInventory === "second") {
+                                    $("#secondInventoryHud").fadeIn();
+                                }
+
+
+                            }
+                        });
+                    }
+
+                } else if (event.data.action == "setSecondInventoryItems") {
+                    secondInventorySetup(event.data.itemList);
+
+                } else if (event.data.action == "nearPlayers") {
+                    if (event.data.what == "give") {
+                        selectPlayerToGive(event.data);
+                    }
+                }
+            });
+        });
+
+        function Interval(time) {
+            var timer = false;
+            this.start = function() {
+                if (this.isRunning()) {
+                    clearInterval(timer);
+                    timer = false;
+                }
+
+                timer = setInterval(function() {
+                    disabled = false;
+                }, time);
+            };
+            this.stop = function() {
+                clearInterval(timer);
+                timer = false;
+            };
+            this.isRunning = function() {
+                return timer !== false;
+            };
+        }
+
+        function disableInventory(ms) {
+            disabled = true;
+
+            if (disabledFunction === null) {
+                disabledFunction = new Interval(ms);
+                disabledFunction.start();
+            } else {
+                if (disabledFunction.isRunning()) {
+                    disabledFunction.stop();
+                }
+
+                disabledFunction.start();
+            }
+        }
+
+        function selectPlayerToGive(data) {
+            dialog.prompt({
+                title: "Seleziona giocatore",
+                button: "Conferma",
+                required: false,
+                item: data,
+                type: data.type,
+                select: true,
+                validate: function(value, data, player) {
+                    $.post("http://vorp_inventory/GiveItem", JSON.stringify({
+                        player: player,
+                        data: data
+                    }));
+                    return true;
+                }
+            });
+        }
+
+        function dropGetHowMany(item, type, hash, id) {
+            if (type != "item_weapon") {
+                dialog.prompt({
+                    title: "Quantità",
+                    button: "Accetta",
+                    required: true,
+                    item: item,
+                    type: type,
+                    input: {
+                        type: "number"
+                    },
+                    validate: function(value, item, type) {
+                        $.post("http://vorp_inventory/DropItem", JSON.stringify({
+                            item: item,
+                            type: type,
+                            number: value
+                        }));
+                        return true;
+                    }
+                });
+            } else {
+                $.post("http://vorp_inventory/DropItem", JSON.stringify({
+                    item: item,
+                    type: type,
+                    hash: hash,
+                    id: parseInt(id)
+                }));
+            }
+        }
+
+        function giveGetHowMany(item, type, hash, id) {
+            if (type != "item_weapon") {
+                dialog.prompt({
+                    title: "Quantità",
+                    button: "Accetta",
+                    required: false,
+                    item: item,
+                    type: type,
+                    input: {
+                        type: "number"
+                    },
+                    validate: function(value, item, type) {
+                        $.post("http://vorp_inventory/GetNearPlayers", JSON.stringify({
+                            type: type,
+                            what: "give",
+                            item: item,
+                            count: value
+                        }));
+                        return true;
+                    }
+                });
+            } else {
+                $.post("http://vorp_inventory/GetNearPlayers", JSON.stringify({
+                    type: type,
+                    what: "give",
+                    item: item,
+                    hash: hash,
+                    id: parseInt(id)
+                }));
+            }
+        }
+
+        function giveGetHowManyMoney() {
+            dialog.prompt({
+                title: "Quantità",
+                button: "Accetta",
+                required: true,
+                item: "money",
+                type: "item_money",
+                input: {
+                    type: "number"
+                },
+                validate: function(value, item, type) {
+                    $.post("http://vorp_inventory/GetNearPlayers", JSON.stringify({
+                        type: type,
+                        what: "give",
+                        item: item,
+                        count: value
+                    }));
+                    return true;
+                }
+            });
+
+        }
+
+        function closeInventory() {
+            $.post("http://vorp_inventory/NUIFocusOff", JSON.stringify({}));
+            isOpen = false;
+        }
+
+        function inventorySetup(items) {
+            $("#inventoryElement").html("");
+
+
+            $.each(items, function(index, item) {
+                count = item.count;
+
+                if (item.limit > 0) {
+                    count = count + " / " + item.limit;
+                }
+
+                    $("#inventoryElement").append("<div data-label='" + item.label + "' style='background-image: url(\"img/items/" + item.name.toLowerCase() + ".png\"), url(img/bgitem.png); background-size: 60px 60px, 80px 80px; background-repeat: no-repeat; background-position: center;' id='item-" + index + "' class='item'><div class='count'>" + count + "</div><div class='text'></div></div>")
+                   
+              
+
+
+                $('#item-' + index).data('item', item);
+                $('#item-' + index).data('inventory', "main");
+
+                var data = [];
+                if (item.used) {
+                    data.push({
+                        text: "Smonta",
+                        action: function() {
+                            $.post("http://vorp_inventory/UnequipWeapon", JSON.stringify({
+                                item: item.name,
+                                id: item.id
+                            }));
+                        }
+                    })
+                }
+                if (item.usable) {
+                    data.push({
+                        text: "Usa",
+                        action: function() {
+                            $.post("http://vorp_inventory/UseItem", JSON.stringify({
+                                item: item.name,
+                                type: item.type,
+                                hash: item.hash,
+                                amount: item.count,
+                                id: item.id
+                            }));
+                        }
+                    });
+                }
+
+                if (item.canRemove) {
+                    data.push({
+                        text: "Dai",
+                        action: function() {
+                            giveGetHowMany(item.name, item.type, item.hash, item.id);
+                        }
+                    });
+
+                    data.push({
+                        text: "Getta",
+                        action: function() {
+                            dropGetHowMany(item.name, item.type, item.hash, item.id);
+                        }
+                    });
+                }
+
+                if (data.length > 0) {
+                    $("#item-" + index).contextMenu([data], {
+                        offsetX: 1,
+                        offsetY: 1,
+                    });
+                }
+
+                $("#item-" + index).hover(
+                    function() {
+                        switch(item.label) {
+                            case "WEAPON_MELEE_KNIFE":
+                                OverSetTitle("Coltello")
+                            break;
+
+                            case "WEAPON_KIT_CAMERA":
+                                OverSetTitle("Macchina Fotografica")
+                            break;
+
+                            case "WEAPON_MELEE_DAVY_LANTERN":
+                                OverSetTitle("Lanterna")
+                            break;
+
+                            case "WEAPON_MELEE_MACHETE":
+                                OverSetTitle("Machete");
+                            break;
+
+                            case "WEAPON_MELEE_LANTERN_ELECTRIC":
+                                OverSetTitle("Lanterna Elettrica")
+                            break;
+
+                            case "WEAPON_MELEE_TORCH":
+                                OverSetTitle("Torcia")
+                            break;
+
+                            case "WEAPON_FISHINGROD":
+                                OverSetTitle("Canna Da Pesca")
+                            break;
+
+                            case "WEAPON_THROWN_THROWING_KNIVES":
+                                OverSetTitle("Coltelli Da Lancio")
+                            break;
+
+                            case "WEAPON_LASSO":
+                                OverSetTitle("Lasso")
+                            break;
+
+                            case "WEAPON_THROWN_TOMAHAWK":
+                                OverSetTitle("Tomahawk")
+                            break;
+
+                            case "WEAPON_PISTOL_M1899":
+                                OverSetTitle("Pistola M1899")
+                            break;
+
+                            case "WEAPON_PISTOL_MAUSER":
+                                OverSetTitle("Pistola Mauser")
+                            break;
+
+                            case "WEAPON_PISTOL_SEMIAUTO":
+                                OverSetTitle("Pistola Semiautomatica")
+                            break;
+
+                            case "WEAPON_PISTOL_VOLCANIC":
+                                OverSetTitle("Pistola Volcanic")
+                            break;
+
+
+                            case "WEAPON_REPEATER_CARBINE":
+                                OverSetTitle("Carabina a Ripetizione")
+                            break;
+
+
+
+                            case "WEAPON_REPEATER_EVANS":
+                                OverSetTitle("Ripetitore Evans")
+                            break;
+
+
+
+                            case "WEAPON_REPEATER_HENRY":
+                                OverSetTitle("Ripetitore Henry")
+                            break;
+
+
+
+                            case "WEAPON_RIFLE_VARMINT":
+                                OverSetTitle("Fuicile Varmint")
+                            break;
+
+
+
+                            case "WEAPON_REPEATER_WINCHESTER":
+                                OverSetTitle("Ripetitore Winchester")
+                            break;
+
+
+
+                            case "WEAPON_REVOLVER_CATTLEMAN":
+                                OverSetTitle("Revolver Cattleman")
+                            break;
+
+
+
+                            case "WEAPON_REVOLVER_DOUBLEACTION":
+                                OverSetTitle("Revolver Doppia Azione ")
+                            break;
+
+
+
+                            case "WEAPON_REVOLVER_LEMAT":
+                                OverSetTitle("Revolver Lemat")
+                            break;
+
+
+                            case "WEAPON_REVOLVER_SCHOFIELD":
+                                OverSetTitle("Revolver Schofield")
+                            break;
+
+
+                            case "WEAPON_RIFLE_BOLTACTION":
+                                OverSetTitle("Fucile Boltaction")
+                            break;
+
+
+
+                            case "WEAPON_SNIPERRIFLE_CARCANO":
+                                OverSetTitle("Fucile Carcano")
+                            break;
+
+
+
+                            case "WEAPON_SNIPERRIFLE_ROLLINGBLOCK":
+                                OverSetTitle("Fucile Rollingblock")
+                            break;
+
+
+
+                            case "WEAPON_RIFLE_SPRINGFIELD":
+                                OverSetTitle("Fucile Springfield")
+                            break;
+
+
+
+                            case "WEAPON_SHOTGUN_DOUBLEBARREL":
+                                OverSetTitle("Doppietta")
+                            break;
+
+
+
+                            case "WEAPON_SHOTGUN_PUMP":
+                                OverSetTitle("Fucile a Pompa")
+                            break;
+
+
+
+                            case "WEAPON_SHOTGUN_REPEATING":
+                                OverSetTitle("Fucile a Pompa Automatico")
+                            break;
+
+
+
+                            case "WEAPON_BOW":
+                                OverSetTitle("Arco")
+                            break;
+
+
+
+                            case "WEAPON_THROWN_DYNAMITE":
+                                OverSetTitle("Dynamite")
+                            break;
+
+
+                            case "WEAPON_THROWN_MOLOTOV":
+                                OverSetTitle("Molotov")
+                            break;
+
+
+                            case "WEAPON_MELEE_HATCHET":
+                                OverSetTitle("Accetta")
+                            break;
+
+                            case "WEAPON_SHOTGUN_SAWEDOFF":
+                                OverSetTitle("Fucile a pompa sawedoff")
+                            break;
+
+                            default:
+                                OverSetTitle(item.label);
+                            break;
+                        }
+                    },
+                    function() {
+                        OverSetTitle(" ");
+                    }
+                );
+
+
+            });
+
+            //AddMoney
+            var m_item = "money";
+            var m_label = "Dollari";
+
+
+            $("#inventoryElement").append("<div data-label='" + m_label + "' style='background-image: url(\"img/items/" + m_item + ".png\"), url(img/bgitem.png); background-size: 60px 60px, 80px 80px; background-repeat: no-repeat; background-position: center;' id='item-" + m_item + "' class='item'><div class='text'></div></div>")
+
+            var data = [];
+
+            data.push({
+                text: "Dai denaro",
+                action: function() {
+                    giveGetHowManyMoney();
+                }
+            });
+
+            data.push({
+                text: "Getta denaro",
+                action: function() {
+                    dropGetHowMany(m_item, "item_money", "asd", 0);
+                }
+            });
+
+
+
+            $("#item-" + m_item).contextMenu([data], {
+                offsetX: 1,
+                offsetY: 1,
+            });
+
+
+            $("#item-" + m_item).hover(
+                function() {
+                    OverSetTitle(m_label);
+                },
+                function() {
+                    OverSetTitle(" ");
+                }
+            );
+
+            $('#item-' + m_item).data('item', m_item);
+            $('#item-' + m_item).data('inventory', "none");
+
+            isOpen = true;
+            initDivMouseOver()
+        }
+
+        function secondInventorySetup(items) {
+            $("#inventoryElement").html("");
+            $("#secondInventoryElement").html("");
+
+            $.each(items, function(index, item) {
+                count = item.count;
+
+                $("#secondInventoryElement").append("<div data-label='" + item.label + "' style='background-image: url(\"img/items/" + item.name.toLowerCase() + ".png\"), url(img/bgitem.png); background-size: 60px 60px, 80px 80px; background-repeat: no-repeat; background-position: center;' id='item-" + index + "' class='item'><div class='count'>" + count + "</div><div class='text'></div></div>")
+                $('#item-' + index).data('item', item);
+                $('#item-' + index).data('inventory', "second");
+
+                $("#item-" + index).hover(
+                    function() {
+                        OverSetTitleSecond(item.label);
+                    },
+                    function() {
+                        OverSetTitleSecond(" ");
+                    }
+                );
+
+            });
+        }
+
+        window.onload = initDivMouseOver;
+
+        function initDivMouseOver() {
+            if (isOpen === true) {
+                var div = document.getElementById("inventoryElement");
+                div.mouseIsOver = false;
+                div.onmouseover = function() {
+                    this.mouseIsOver = true;
+                    $.post("http://vorp_inventory/sound");
+                };
+                div.onmouseout = function() {
+                    this.mouseIsOver = false;
+
+
+                }
+                div.onclick = function() {
+                    if (this.mouseIsOver) {
+
+
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

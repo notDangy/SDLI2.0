@@ -1,0 +1,121 @@
+{
+
+    "PressToOpen": "Appuyez [~e~Espace~q~] pour accéder à la boutique", // Titre du Menu
+    "PressGuide": "Tourner <-[A] [D]-> | Caméra [W] o [S]",
+    "TitleMenuOutfitsUseBtn": "Porter une tenue",
+    "TitleMenuOutfitsDeleteBtn": "Supprimer la tenue",
+
+    "TitleMenuClothes": "Dressing", // Titre du Menu
+    "SubTitleMenuClothes": "Habillez votre personnage", // Description du Menu
+
+    "NoExistValue": "N'existe pas", // L'option qu'il donne quand il n'y a pas d'option
+
+    "NoMoney": "Vous n'avez pas assez d'argent",
+    "SuccessfulBuy": "Vous avez été accusé", // Montre l'argent que vous avez payé
+
+    "TitleMenuOutfits": "Tenue",
+    "SubTitleMenuOutfits": "Portez à nouveau vos vêtements enregistrés",
+
+    "PlaceHolderNewOutfit": "Si vous voulez enregistrer la tenue, nommez-la et enregistrez-la",
+    "ButtonNewOutfit": "Enregistrer la tenue",
+
+    "MaskValue": "Masque #",
+    "HatsValue": "Chapeau #", // Les options de la section chapeaux
+    "GlassesValue": "Lunettes #", // Les options dans la section verres
+    "NeckwearValue": "Vêtement #", // Les options de la section cravates
+    "TiesValue": "Cravate #", // Les options de la section liens
+    "ShirtsValue": "Chemise #", // Les options de la section chemises
+    "SuspendersValue": "Accolades #", // Les options de la section sangles
+    "VestsValue": "Gilet #", // Les options de la section gilets
+    "CoatsValue": "Manteau #", // Les options de la section des manteaux
+    "PonchosValue": "Poncho #", // Les options de la section poncho
+    "CloaksValue": "Cape #", // Les options de la section des couches
+    "GlovesValue": "Gants #", // Les options de la section des gants
+    "RingsValue": "Anneau #", // Les options de la section d'anneau
+    "BraceletsValue": "Bracelet #", // Les options de la section bracelets
+    "HolstersValue": "Étui #", // Les options de la section étuis
+    "BeltsValue": "Ceinture #", // Les options de la section ceintures
+    "BucklesValue": "Boucle #", // Les options de la section boucles
+    "PantsValue": "Pantalon #", // Les options de la section pantalon
+    "SkirtsValue": "Jupe #", // Les options de la section jupes
+    "ChapsValue": "Chaps #", // Les options de la section chaffes
+    "BootsValue": "Bottes #", // Les options de la section bottes
+    "SpursValue": "Éperons #", // Les options de la section des éperons
+    "NoHatsValue": "Sans Chapeau", // L'option qu'il donne lorsque vous ne portez pas de chapeau
+    "NoGlassesValue": "Sans Lunettes", // L'option qu'il donne lorsque vous ne portez pas de lunettes
+    "NoNeckwearValue": "Sans Cravates", // L'option qu'il donne lorsque vous ne portez pas de cravates
+    "NoTiesValue": "Sans Cravate", // L'option qu'il donne lorsque vous ne portez pas de cravate
+    "NoShirtsValue": "Sans Chemise", // L'option qu'il donne lorsque vous ne portez pas de chemise
+    "NoSuspendersValue": "Sans Bretelles", // L'option qu'il donne lorsque vous ne portez pas de bretelles
+    "NoVestsValue": "Sans Gilet", // L'option qu'il donne lorsque vous ne portez pas de gilet
+    "NoCoatsValue": "Sans Manteau", // L'option qu'il donne lorsque vous ne portez pas de manteau
+    "NoPonchosValue": "Sans Poncho", // L'option qu'il donne lorsque vous ne portez pas de poncho
+    "NoCloaksValue": "Sans Cape", // L'option qu'il donne lorsque vous ne portez pas de cape
+    "NoGlovesValue": "Sans Gants", // L'option qu'il donne lorsque vous ne portez pas de gants
+    "NoRingsValue": "Sans Bague", // L'option qu'il donne lorsque vous ne portez pas de bague
+    "NoBraceletsValue": "Sans Bracelet", // L'option qu'il donne lorsque vous ne portez pas de bracelet
+    "NoHolstersValue": "Sans Étui", // L'option qu'il donne lorsque vous ne portez pas d'étui
+    "NoBeltsValue": "Sans Ceinture", // L'option qu'il donne lorsque vous ne portez pas de ceinture
+    "NoBucklesValue": "Sans Boucle", // L'option qu'il donne lorsque vous ne portez pas de boucle
+    "NoPantsValue": "Sans Pantalons", // L'option qu'il donne lorsque vous ne portez pas de pantalon
+    "NoSkirtsValue": "Sans Jupe", // L'option qu'il donne lorsque vous ne portez pas de jupe
+    "NoChapsValue": "Sans Chaps", // L'option qu'il donne lorsque vous ne portez pas de jambiéres
+    "NoBootsValue": "Sans Bottes", // L'option qu'il donne lorsque vous ne portez pas de bottes
+    "NoSpursValue": "Sans Éperons", // L'option qu'il donne lorsque vous ne portez pas d'éperons
+    "NoMaskValue": "Sans masque facial", // L'option qu'il donne lorsque vous ne portez pas de masque facial
+    
+    "Hats": "Chapeaux",
+    "Glasses": "Lunettes",
+    "Masks": "Masques faciaux",
+    "Neckwear": "Vétements",
+    "Ties": "Cravates",
+    "Shirts": "Chemises",
+    "Suspenders": "Accolades",
+    "Vests": "Gilets",
+    "Coats": "Manteaux",
+    "CoatsClosed": "Manteaux fermés",
+    "Ponchos": "Ponchos",
+    "Cloaks": "Couches",
+    "Gloves": "Gants",
+    "RightRings": "Anneaux à droite",
+    "LeftRings": "Anneaux à gauche",
+    "Bracelets": "Bracelets",
+    "PrimaryHolsters": "Étui principal",
+    "Belts": "Ceintures",
+    "Buckles": "Boucles",
+    "SecondaryHolsters": "Étui secondaire",
+    "Pants": "Pantalons",
+    "Skirts": "Jupes",
+    "Chaps": "Chaps",
+    "Boots": "Bottes",
+    "Spurs": "Éperons",
+
+    "Finish": "Habiller le personnage", // Confirmer les options du Menu
+
+    //Descriptions des sections du menu des vétements
+    "HatsDesc": "Choisissez le chapeau",
+    "GlassesDesc": "Choisissez les verres",
+    "MasksDesc": "Choisissez si vous voulez porter un masque facial",
+    "NeckwearDesc": "Choisissez les cravates",
+    "TiesDesc": "Choisissez la cravate",
+    "ShirtsDesc": "Choisissez la chemise",
+    "SuspendersDesc": "Choisissez les bretelles",
+    "VestsDesc": "Choisissez le gilet",
+    "CoatsDesc": "Choisissez le manteau",
+    "PonchosDesc": "Choisissez le poncho",
+    "CloaksDesc": "Choisissez la cape",
+    "GlovesDesc": "Choisissez les gants",
+    "RightRingsDesc": "Choisissez les bagues de droite",
+    "LeftRingsDesc": "Choisissez les bagues gauche",
+    "BraceletsDesc": "Choisissez le bracelet",
+    "PrimaryHolstersDesc": "Choisissez l'étui principal",
+    "BeltsDesc": "Choisissez la ceinture",
+    "BucklesDesc": "Choisissez la boucle",
+    "SecondaryHolstersDesc": "Choisissez l'étui secondaire",
+    "PantsDesc": "Choisissez le pantalon",
+    "SkirtsDesc": "Choisissez la jupe",
+    "ChapsDesc": "Choisissez les chaps",
+    "BootsDesc": "Choisissez les bottes",
+    "SpursDesc": "Choisissez les éperons",
+    "FinishDesc": "Assurez-vous que vous avez tout choisi correctement."
+}

@@ -1,0 +1,1683 @@
+{
+  "defaultlang": "En", // set your language
+
+  "Stores": [
+    {
+      "name": "Bottega di Saint Denis",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ 2825.8, -1317.73, 46.6, 1.0 ],
+      "CameraMain": [ 2825.823, -1318.022, 47.34337, -24.05971, 0.0, 139.5255 ],
+      "NPCStore": [ 2824.49, -1319.49, 46.6, 324.58 ],
+      "SpawnObjectStore": [ 2825.07, -1318.78, 46.81, 319.68 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        },
+		{
+          "Name": "book", // name in DB Items
+          "BuyPrice": 12,
+          "ObjectModel": "p_book03x"
+        },
+		{
+          "Name": "pocket_watch", // name in DB Items
+          "BuyPrice": 25.03,
+          "ObjectModel": "S_INV_POCKETWATCH03X"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        },
+		{
+          "Name": "book", // name in DB Items
+          "SellPrice": 6,
+          "ObjectModel": "p_book03x"
+        },
+		{
+          "Name": "pocket_watch", // name in DB Items
+          "BuyPrice": 12.55,
+          "ObjectModel": "S_INV_POCKETWATCH03X"
+        }
+      ]
+    },
+    {
+      "name": "Bottega di Valentine",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ -322.12, 804.0, 117.88, 1.0 ],
+      "CameraMain": [ -322.1734, 803.6101, 118.4799, -24.29523, 0.0, 99.53492 ],
+      "NPCStore": [ -323.9742, 803.4, 116.8837, 290.32 ],
+      "SpawnObjectStore": [ -323.2, 803.64, 117.93, 280.42 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        },
+		{
+          "Name": "ledger", // name in DB Items
+          "BuyPrice": 3.21,
+          "ObjectModel": "P_AMB_CLIPBOARD_01"
+        },
+        {
+          "Name": "newspaper", // name in DB Items
+          "BuyPrice": 0.5,
+          "ObjectModel": "p_cs_newspaper_01x"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        },
+		{
+          "Name": "ledger", // name in DB Items
+          "SellPrice": 1.50,
+          "ObjectModel": "P_AMB_CLIPBOARD_01"
+        }
+      ]
+    },
+    {
+      "name": "Bottega di Strawberry",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ -1791.67, -386.88, 160.33, 1.0 ],
+      "CameraMain": [ -1791.483, -386.9517, 160.9323, -19.84457, 0.0, -124.4565 ],
+      "NPCStore": [ -1789.63, -388.17, 159.33, 54.8 ],
+      "SpawnObjectStore": [ -1790.51, -387.81, 160.37, 54.81 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ]
+    },
+    {
+      "name": "Bottega di Blackwater",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ -784.44, -1324.02, 43.88, 1.0 ],
+      "CameraMain": [ -784.637, -1323.836, 44.48338, -27.38386, 0.0, 1.385504 ],
+      "NPCStore": [ -784.7, -1321.86, 42.88, 180.63 ],
+      "SpawnObjectStore": [ -784.51, -1322.95, 43.93, 180.73 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ]
+    },
+    {
+      "name": "Bottega di Armadillo",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ -3685.37, -2623.29, -13.43, 1.0 ],
+      "CameraMain": [ -3685.572, -2623.42, -12.83259, -28.52074, 0.0, 90.26805 ],
+      "NPCStore": [ -3687.42, -2623.26, -14.43, 269.67 ],
+      "SpawnObjectStore": [ -3686.43, -2623.32, -13.39, 270.21 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ]
+    },
+    {
+      "name": "Bottega di Tumbleweed",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ -5487.59, -2939.25, -0.39, 1.0 ],
+      "CameraMain": [ -5487.452, -2939.091, 0.2131159, -27.02913, 0.0, -52.49266 ],
+      "NPCStore": [ -5485.57, -2937.91, -1.4, 127.19 ],
+      "SpawnObjectStore": [ -5486.4, -2938.6, -0.37, 127.17 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ]
+    },
+    {
+      "name": "Bottega di Rhodes",
+      "BlipIcon": 1475879922,
+      "EnterStore": [ 1327.91, -1293.35, 77.02, 1.0 ],
+      "CameraMain": [ 1328.116, -1293.4, 77.62312, -27.48834, 0.0, -114.8252 ],
+      "NPCStore": [ 1329.99, -1294.44, 76.02, 64.49 ],
+      "SpawnObjectStore": [ 1329.03, -1293.99, 77.05, 64.29 ],
+      "NPCModel": "U_M_M_ValGenStoreOwner_01",
+      "ItemsBuy": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_coffee", // name in DB Items
+          "BuyPrice": 0.4,
+          "ObjectModel": "p_mugcoffee01x"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "BuyPrice": 0.8,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "BuyPrice": 0.15,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "BuyPrice": 1.3,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "BuyPrice": 12.24,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "BuyPrice": 0.90,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "BuyPrice": 6.23,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "BuyPrice": 0.10,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "BuyPrice": 1.0,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "BuyPrice": 0.09,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "consumable_acqua", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "p_cs_canteen_hercule"
+        },
+        {
+          "Name": "consumable_pane", // name in DB Items
+          "SellPrice": 0.1,
+          "ObjectModel": "s_bit_bread06"
+        },
+        {
+          "Name": "consumable_kidneybeans_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "consumable_salmon_can", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "s_canbeansused01x"
+        },
+        {
+          "Name": "mela", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_bit_apple01x"
+        },
+        {
+          "Name": "consumable_peach", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "s_peach01x"
+        },
+        {
+          "Name": "galletta", // name in DB Items
+          "SellPrice": 0.07,
+          "ObjectModel": "p_biscuits02x"
+        },
+        {
+          "Name": "cigar", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_cigarlit01x"
+        },
+        {
+          "Name": "cigarette", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_cigarette_cs02x"
+        },
+		{
+          "Name": "pipe", // name in DB Items
+          "SellPrice": 6.12,
+          "ObjectModel": "P_PIPE01X"
+        },
+		{
+          "Name": "cheweingtobacco", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "s_tobaccotin01x"
+        },
+		{
+          "Name": "fan", // name in DB Items
+          "SellPrice": 3.06,
+          "ObjectModel": "P_CS_FAN01X"
+        },
+		{
+          "Name": "hairpomade", // name in DB Items
+          "SellPrice": 0.05,
+          "ObjectModel": "p_boxgelatin01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "SellPrice": 0.02,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "goldpan", // name in DB Items
+          "SellPrice": 0.5,
+          "ObjectModel": "p_cs_miningpan01x"
+        },
+        {
+          "Name": "emptybottle", // name in DB Items
+          "SellPrice": 0.04,
+          "ObjectModel": "p_bottletequilafull02x"
+        }
+      ]
+    },
+    {
+      "name": "Mercato Merci Saint Denis",
+      "BlipIcon": -242384756,
+      "EnterStore": [ 2348.5, -1445.4, 45.9, 1.0 ],                                               //blip
+      "CameraMain": [ 2348.3, -1446.4, 47.5, 355.7, 0.0, 357 ],                                   // camera item
+      "NPCStore": [ 2349.5, -1445.3, 45.9, 95.8 ],                                                //npc
+      "SpawnObjectStore": [ 2348.2, -1444.1, 46.7, 355.0 ],                                       //place item
+      "NPCModel": "A_M_M_RHDObeseMen_01",
+      "ItemsBuy": [
+        {
+          "Name": "pomseed", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "caroteseed", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "broccoliseed", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "patateseed", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "cerealiseed", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "p_oppio", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "barbaseed", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "wateringcan", // name in DB Items
+          "BuyPrice": 1,
+          "ObjectModel": ""
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "a_c_fishbluegil_01_ms", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishbluegil_01_sm", // name in DB Items
+          "SellPrice": 0.55,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishbullheadcat_01_ms", // name in DB Items
+          "SellPrice": 0.61,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishbullheadcat_01_sm", // name in DB Items
+          "SellPrice": 0.57,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishchainpickerel_01_ms", // name in DB Items
+          "SellPrice": 0.75,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishchainpickerel_01_sm", // name in DB Items
+          "SellPrice": 0.67,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishlargemouthbass_01_ms", // name in DB Items
+          "SellPrice": 0.77,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishperch_01_ms", // name in DB Items
+          "SellPrice": 0.73,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishperch_01_sm", // name in DB Items
+          "SellPrice": 0.65,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishrainbowtrout_01_ms", // name in DB Items
+          "SellPrice": 0.78,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishredfinpickerel_01_ms", // name in DB Items
+          "SellPrice": 0.63,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishredfinpickerel_01_sm", // name in DB Items
+          "SellPrice": 0.69,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishrockbass_01_ms", // name in DB Items
+          "SellPrice": 0.6,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishrockbass_01_sm", // name in DB Items
+          "SellPrice": 0.55,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishsalmonsockeye_01_ms", // name in DB Items
+          "SellPrice": 0.75,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishsmallmouthbass_01_ms", // name in DB Items
+          "SellPrice": 0.63,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "pomodori", // name in DB Items
+          "SellPrice": 0.25,
+          "ObjectModel": "crp_tomatoes_aa_sim"
+        },
+        {
+          "Name": "broccoli", // name in DB Items
+          "SellPrice": 0.35,
+          "ObjectModel": "crp_broccoli_aa_sim"
+        },
+        {
+          "Name": "carote", // name in DB Items
+          "SellPrice": 0.35,
+          "ObjectModel": "p_carrot01x"
+        },
+        {
+          "Name": "barbabietole", // name in DB Items
+          "SellPrice": 0.23,
+          "ObjectModel": "p_beet_01x"
+        },
+        {
+          "Name": "patate", // name in DB Items
+          "SellPrice": 0.27,
+          "ObjectModel": "p_basketpotato01x"
+        },
+        {
+          "Name": "cereali", // name in DB Items
+          "SellPrice": 0.26,
+          "ObjectModel": "crp_wheat_dry_aa_sim"
+        },
+        {
+          "Name": "ferro", // name in DB Items
+          "SellPrice": 0.27,
+          "ObjectModel": "p_flintpiece02x"
+        },
+        {
+          "Name": "acciaio", // name in DB Items
+          "SellPrice": 0.3,
+          "ObjectModel": "p_flintpiece02x"
+        },
+        {
+          "Name": "carbone", // name in DB Items
+          "SellPrice": 0.22,
+          "ObjectModel": "p_coal01x"
+        },
+        {
+          "Name": "listpino", // name in DB Items
+          "SellPrice": 0.3,
+          "ObjectModel": "p_woodplank01x"
+        },
+        {
+          "Name": "listcedr", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_woodplank04x"
+        },
+        {
+          "Name": "listabe", // name in DB Items
+          "SellPrice": 0.35,
+          "ObjectModel": "p_woodplank03x"
+        }
+      ]
+    },
+    {
+      "name": "Mercato Merci Flatneck Station",
+      "BlipIcon": -242384756,
+      "EnterStore": [ -334.6, -354.6, 88.0, 1.0 ],                                              //blip
+      "CameraMain": [ -335.4, -354.9, 88.0, 28.4, 0.0, 0 ],                                    // camera item
+      "NPCStore": [ -335.7, -352.4, 88.0, 206.4 ],                                              //npc
+      "SpawnObjectStore": [ -336.1, -353.7, 88.2, 22.1 ],                                       //place item
+      "NPCModel": "A_M_M_RHDObeseMen_01",
+      "ItemsBuy": [
+        {
+          "Name": "pomseed", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "caroteseed", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "broccoliseed", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "patateseed", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "cerealiseed", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "p_oppio", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "barbaseed", // name in DB Items
+          "BuyPrice": 0.2,
+          "ObjectModel": "p_packetseeds01x"
+        },
+        {
+          "Name": "fishbait", // name in DB Items
+          "BuyPrice": 0.05,
+          "ObjectModel": "p_baitworm01x"
+        },
+        {
+          "Name": "wateringcan", // name in DB Items
+          "BuyPrice": 1,
+          "ObjectModel": ""
+        }
+      ],
+      "ItemsSell": [
+        {
+          "Name": "a_c_fishbluegil_01_ms", // name in DB Items
+          "SellPrice": 0.4,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishbluegil_01_sm", // name in DB Items
+          "SellPrice": 0.35,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishbullheadcat_01_ms", // name in DB Items
+          "SellPrice": 0.38,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishbullheadcat_01_sm", // name in DB Items
+          "SellPrice": 0.37,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishchainpickerel_01_ms", // name in DB Items
+          "SellPrice": 0.55,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishchainpickerel_01_sm", // name in DB Items
+          "SellPrice": 0.47,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishlargemouthbass_01_ms", // name in DB Items
+          "SellPrice": 0.57,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishperch_01_ms", // name in DB Items
+          "SellPrice": 0.53,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishperch_01_sm", // name in DB Items
+          "SellPrice": 0.45,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishrainbowtrout_01_ms", // name in DB Items
+          "SellPrice": 0.58,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishredfinpickerel_01_ms", // name in DB Items
+          "SellPrice": 0.43,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishredfinpickerel_01_sm", // name in DB Items
+          "SellPrice": 0.49,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishrockbass_01_ms", // name in DB Items
+          "SellPrice": 0.40,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishrockbass_01_sm", // name in DB Items
+          "SellPrice": 0.20,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishsalmonsockeye_01_ms", // name in DB Items
+          "SellPrice": 0.55,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "a_c_fishsmallmouthbass_01_ms", // name in DB Items
+          "SellPrice": 0.43,
+          "ObjectModel": "p_fishhangings1x"
+        },
+        {
+          "Name": "pomodori", // name in DB Items
+          "SellPrice": 0.2,
+          "ObjectModel": "crp_tomatoes_aa_sim"
+        },
+        {
+          "Name": "broccoli", // name in DB Items
+          "SellPrice": 0.3,
+          "ObjectModel": "crp_broccoli_aa_sim"
+        },
+        {
+          "Name": "carote", // name in DB Items
+          "SellPrice": 0.3,
+          "ObjectModel": "p_carrot01x"
+        },
+        {
+          "Name": "barbabietole", // name in DB Items
+          "SellPrice": 0.18,
+          "ObjectModel": "p_beet_01x"
+        },
+        {
+          "Name": "patate", // name in DB Items
+          "SellPrice": 0.22,
+          "ObjectModel": "p_basketpotato01x"
+        },
+        {
+          "Name": "cereali", // name in DB Items
+          "SellPrice": 0.21,
+          "ObjectModel": "crp_wheat_dry_aa_sim"
+        },
+        {
+          "Name": "ferro", // name in DB Items
+          "SellPrice": 0.22,
+          "ObjectModel": "p_flintpiece02x"
+        },
+        {
+          "Name": "acciaio", // name in DB Items
+          "SellPrice": 0.25,
+          "ObjectModel": "p_flintpiece02x"
+        },
+        {
+          "Name": "carbone", // name in DB Items
+          "SellPrice": 0.17,
+          "ObjectModel": "p_coal01x"
+        },
+        {
+          "Name": "listpino", // name in DB Items
+          "SellPrice": 0.25,
+          "ObjectModel": "p_woodplank01x"
+        },
+        {
+          "Name": "listcedr", // name in DB Items
+          "SellPrice": 0.40,
+          "ObjectModel": "p_woodplank04x"
+        },
+        {
+          "Name": "listabe", // name in DB Items
+          "SellPrice": 0.30,
+          "ObjectModel": "p_woodplank03x"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/rdrlino-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/rdrlino-regular-webfont.woff);
+    font-weight: normal;
+}
+
+* {
+    font-family: myFirstFont;
+    box-sizing: inherit;
+    touch-action: manipulation;
+}
+
+body {
+    background-color: transparent;
+    height: auto;
+    max-height: 150%;
+    overflow: auto;
+}
+
+.pb-vorp-water {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+        background-image: url(../bg/water.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: +92%;
+        background-position-y: 1.2%; 
+    padding-bottom: 11.3vw;
+    padding-left: 1.7vw;
+}
+
+.pb-vorp-food {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+        background-image: url(../bg/food.png); 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 86.8%;
+        background-position-y: 1.76%; 
+    padding-bottom: 9.0vw;
+    padding-left: 0.9vw;
+}

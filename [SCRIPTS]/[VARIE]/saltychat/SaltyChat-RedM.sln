@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaltyServer", "SaltyServer\SaltyServer.csproj", "{46A559FA-1994-4B93-8D83-EC5CE19B2D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaltyClient", "SaltyClient\SaltyClient.csproj", "{09379468-236A-49FF-94FF-9C6DBDFA70C2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SaltyShared", "SaltyShared\SaltyShared.shproj", "{FC737FED-B9FC-4F29-B025-812F29A614A0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SaltyShared\SaltyShared.projitems*{09379468-236a-49ff-94ff-9c6dbdfa70c2}*SharedItemsImports = 4
+		SaltyShared\SaltyShared.projitems*{46a559fa-1994-4b93-8d83-ec5ce19b2d18}*SharedItemsImports = 5
+		SaltyShared\SaltyShared.projitems*{fc737fed-b9fc-4f29-b025-812f29a614a0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Debug|x64.ActiveCfg = Debug|x64
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Debug|x64.Build.0 = Debug|x64
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Release|x64.ActiveCfg = Release|x64
+		{46A559FA-1994-4B93-8D83-EC5CE19B2D18}.Release|x64.Build.0 = Release|x64
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Debug|x64.Build.0 = Debug|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Release|x64.ActiveCfg = Release|Any CPU
+		{09379468-236A-49FF-94FF-9C6DBDFA70C2}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4369B9C-1AFF-4299-9AD3-EFC549346281}
+	EndGlobalSection
+EndGlobal

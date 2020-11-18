@@ -1,0 +1,620 @@
+{
+
+    "defaultlang": "En", // set your language
+
+    "StableSlots": 5, // set max horses for each user
+
+    "SecondsToRespawn": 180, // set horse respawn time
+
+    "ItemsBlacklist": [
+        "anything",
+        "DoYoulike"
+    ],
+
+    "HorseSkillPullUpFailPercent": 20, // 20% of fail and drop out from horse
+    "DistanceToTeleport": 100.0,
+
+    "DefaultMaxWeight": 30, // Can store 30 Items by default
+
+    "CustomMaxWeight": [ // Custom values, add a horse or a carriage to be able to modify the weight limit
+        { "huntercart01": 140 },
+        //{ "ArmySupplyWagon": 100 },
+        { "buggy01": 20 },
+        { "buggy02": 20 },
+        { "buggy03": 20 },
+        { "cart02": 20 },
+        { "cart01": 120 },
+        { "cart03": 140 },
+        { "cart04": 150 },
+        { "cart06": 160 },
+        { "cart07": 120 },
+        { "cart08": 125 },
+        { "cart05": 50 },
+        { "chuckwagon000x": 170 },
+        { "chuckwagon002x": 190 },
+        { "gatchuck": 200 },
+        { "utilliwag": 160 },
+        { "wagon02x": 190 },
+        { "wagon04x": 180 },
+        { "wagon05x": 160 },
+        { "supplywagon": 180 },
+        { "coach2": 30 },
+        { "coach3": 20 },
+        { "coach4": 20 },
+        { "coach5": 20 },
+        { "coach6": 20 },
+        //{ "coal_wagon": 100 },
+        //{ "logwagon": 100 },
+        //{ "logwagon2": 100 },
+        //{ "oilWagon01x": 100 },
+        //{ "oilWagon02x": 100 },
+        { "stagecoach001x": 30 },
+        { "stagecoach002x": 40 },
+        { "stagecoach003x": 40 },
+        //{ "stagecoach004x": 100 },
+        { "stagecoach005x": 40 },
+        { "stagecoach006x": 50 },
+        //{ "supplywagon2": 170 },
+        //{ "wagonarmoured01x": 100 },
+        //{ "wagonCircus01x": 100 },
+        //{ "wagonCircus02x": 100 },
+        //{ "wagondairy01x": 100 },
+        { "wagontraveller01x": 100 },
+        { "wagon03x": 90 },
+        { "wagon06x": 120 },
+        { "wagondoc01x": 100 },
+        { "wagonPrison01x": 100 },
+        { "wagonwork01x": 180 },
+
+        //INVENTARIO CAVALLI "ALLA PORTATA DI TUTTI"
+        {"A_C_Donkey_01": 10},
+        {"A_C_Horse_MP_Mangy_Backup": 10},
+        {"A_C_HorseMule_01": 15},
+
+        //INVENTARIO CAVALLI "Paint Horse Americano"
+        {"A_C_Horse_AmericanPaint_Greyovero": 50},
+        {"A_C_Horse_AmericanPaint_Overo": 50},
+        {"A_C_Horse_AmericanPaint_SplashedWhite": 50},
+        {"A_C_Horse_AmericanPaint_Tobiano": 50},
+
+        //INVENTARIO CAVALLI "Trottatore Americano"
+        {"A_C_Horse_AmericanStandardbred_Black": 60},
+        {"A_C_Horse_AmericanStandardbred_Buckskin": 60},
+        {"A_C_Horse_AmericanStandardbred_PalominoDapple": 60},
+        {"A_C_Horse_AmericanStandardbred_SilverTailBuckskin": 60},
+
+        //INVENTARIO CAVALLI "Andaluso"
+        {"A_C_Horse_Andalusian_DarkBay": 60},
+        {"A_C_Horse_Andalusian_Perlino": 60},
+        {"A_C_Horse_Andalusian_RoseGray": 60},
+
+        //INVENTARIO CAVALLI "Appaloosa"
+        {"A_C_Horse_Appaloosa_BlackSnowflake": 60},
+        {"A_C_Horse_Appaloosa_Blanket": 60},
+        {"A_C_Horse_Appaloosa_BrownLeopard": 60},
+        {"A_C_Horse_Appaloosa_FewSpotted_PC": 60},
+        {"A_C_Horse_Appaloosa_Leopard": 60},
+        {"A_C_Horse_Appaloosa_LeopardBlanket": 60},
+
+        //INVENTARIO CAVALLI "Arabo"
+        {"A_C_Horse_Arabian_Black": 50},
+        {"A_C_Horse_Arabian_Grey": 50},
+        {"A_C_Horse_Arabian_RedChestnut": 50},
+        {"A_C_Horse_Arabian_RoseGreyBay": 50},
+        {"A_C_Horse_Arabian_WarpedBrindle_PC": 50},
+        {"A_C_Horse_Arabian_White": 50},
+
+        //INVENTARIO CAVALLI "Ardennesse"
+        {"A_C_Horse_Ardennes_BayRoan": 60},
+        {"A_C_Horse_Ardennes_IronGreyRoan": 60},
+        {"A_C_Horse_Ardennes_StrawberryRoan": 60},
+
+        //INVENTARIO CAVALLI "Belga"
+        {"A_C_Horse_Belgian_BlondChestnut": 70},
+        {"A_C_Horse_Belgian_MealyChestnut": 70},
+
+        //INVENTARIO CAVALLI "Olandese a Sangue Caldo"
+        {"A_C_Horse_DutchWarmblood_ChocolateRoan": 60},
+        {"A_C_Horse_DutchWarmblood_SealBrown": 60},
+        {"A_C_Horse_Buell_WarVets": 60},
+        {"A_C_Horse_DutchWarmblood_SootyBuckskin": 60},
+
+        //INVENTARIO CAVALLI "Unghere Mezzosangue"
+        {"A_C_Horse_HungarianHalfbred_DarkDappleGrey": 60},
+        {"A_C_Horse_HungarianHalfbred_FlaxenChestnut": 60},
+        {"A_C_Horse_HungarianHalfbred_LiverChestnut": 60},
+        {"A_C_Horse_HungarianHalfbred_PiebaldTobiano": 60},
+
+        //INVENTARIO CAVALLI "Americano da Sella"
+        {"A_C_Horse_KentuckySaddle_Black": 70},
+        {"A_C_Horse_KentuckySaddle_ButterMilkBuckskin_PC": 70},
+        {"A_C_Horse_KentuckySaddle_ChestnutPinto": 70},
+        {"A_C_Horse_KentuckySaddle_Grey": 70},
+        {"A_C_Horse_KentuckySaddle_SilverBay": 70},
+
+        //INVENTARIO CAVALLI "Kladruber"
+        {"A_C_Horse_Kladruber_Black": 60},
+        {"A_C_Horse_Kladruber_Silver": 60},
+        {"A_C_Horse_Kladruber_Cremello": 60},
+        {"A_C_Horse_Kladruber_Grey": 60},
+        {"A_C_Horse_Kladruber_DappleRoseGrey": 60},
+        {"A_C_Horse_Kladruber_White": 60},
+
+        //INVENTARIO CAVALLI "Missouri Fox Trotter"
+        {"A_C_Horse_MissouriFoxTrotter_AmberChampagne": 70},
+        {"A_C_Horse_MissouriFoxTrotter_SableChampagne": 70},
+        {"A_C_Horse_MissouriFoxTrotter_SilverDapplePinto": 70},
+
+        //INVENTARIO CAVALLI "Morgan"
+        {"A_C_Horse_Morgan_Bay": 60},
+        {"A_C_Horse_Morgan_BayRoan": 60},
+        {"A_C_Horse_Morgan_FlaxenChestnut": 60},
+        {"A_C_Horse_Morgan_LiverChestnut_PC": 60},
+        {"A_C_Horse_Morgan_Palomino": 60},
+
+        //INVENTARIO CAVALLI "Mustang"
+        {"A_C_Horse_Mustang_GoldenDun": 70},
+        {"A_C_Horse_Mustang_GrulloDun": 70},
+        {"A_C_Horse_Mustang_TigerStripedBay": 70},
+        {"A_C_Horse_Mustang_WildBay": 70},
+
+        //INVENTARIO CAVALLI "Nokota"
+        {"A_C_Horse_Nokota_BlueRoan": 50},
+        {"A_C_Horse_Nokota_ReverseDappleRoan": 50},
+        {"A_C_Horse_Nokota_WhiteRoan": 50},
+
+        //INVENTARIO CAVALLI "Shire"
+        {"A_C_Horse_Shire_DarkBay": 50},
+        {"A_C_Horse_Shire_LightGrey": 50},
+        {"A_C_Horse_Shire_RavenBlack": 50},
+
+        //INVENTARIO CAVALLI "Suffolk Punch"
+        {"A_C_Horse_SuffolkPunch_RedChestnut": 60},
+        {"A_C_Horse_SuffolkPunch_Sorrel": 60},
+
+        //INVENTARIO CAVALLI "Tennessee Walker"
+        {"A_C_Horse_TennesseeWalker_BlackRabicano": 70},
+        {"A_C_Horse_TennesseeWalker_Chestnut": 70},
+        {"A_C_Horse_TennesseeWalker_DappleBay": 70},
+        {"A_C_Horse_TennesseeWalker_FlaxenRoan": 70},
+        {"A_C_Horse_TennesseeWalker_MahoganyBay": 70},
+        {"A_C_Horse_TennesseeWalker_RedRoan": 70},
+        {"A_C_Horse_TennesseeWalker_GoldPalomino_PC": 70},
+
+        //INVENTARIO CAVALLI "Purosangue Inglese"
+        {"A_C_Horse_Thoroughbred_BlackChestnut": 60},
+        {"A_C_Horse_Thoroughbred_BloodBay": 60},
+        {"A_C_Horse_Thoroughbred_Brindle": 60},
+        {"A_C_Horse_Thoroughbred_DappleGrey": 60},
+        {"A_C_Horse_Thoroughbred_ReverseDappleBlack": 60},
+
+        //INVENTARIO CAVALLI "Turcomanno"
+        {"A_C_Horse_Turkoman_DarkBay": 50},
+        {"A_C_Horse_Turkoman_Gold": 50},
+        {"A_C_Horse_Turkoman_Silver": 50},
+
+        //INVENTARIO CAVALLI "Criollo"
+        {"A_C_Horse_Criollo_Dun": 50},
+        {"A_C_Horse_Criollo_MarbleSabino": 50},
+        {"A_C_Horse_Criollo_BayFrameOvero": 50},
+        {"A_C_Horse_Criollo_BayBrindle": 50},
+        {"A_C_Horse_Criollo_SorrelOvero": 50},
+        {"A_C_Horse_Criollo_BlueRoanOvero": 50},
+
+        //INVENTARIO CAVALLI "Bretone"
+        {"A_C_Horse_Breton_SteelGrey": 60},
+        {"A_C_Horse_Breton_MealyDapple": 60},
+        {"A_C_Horse_Breton_SealBrown": 60},
+        {"A_C_Horse_Breton_GrulloDun": 60},
+        {"A_C_Horse_Breton_Sorrel": 60},
+        {"A_C_Horse_Breton_RedRoan": 60},
+
+        //INVENTARIO CAVALLI "Trottatore del Norfolk"
+        {"A_C_HORSE_NORFOLKROADSTER_BLACK": 50},
+        {"A_C_HORSE_NORFOLKROADSTER_SPECKLEDGREY": 50},
+        {"A_C_HORSE_NORFOLKROADSTER_PIEBALDROAN": 50},
+        {"A_C_HORSE_NORFOLKROADSTER_ROSEGREY": 50},
+        {"A_C_HORSE_NORFOLKROADSTER_DAPPLEDBUCKSKIN": 50},
+        {"A_C_HORSE_NORFOLKROADSTER_SPOTTEDTRICOLOR": 50},
+
+        //INVENTARIO CAVALLI "Cob Irlandese"
+        {"A_C_Horse_GypsyCob_Whiteblagdon": 60},
+        {"A_C_Horse_GypsyCob_Piebald": 60},
+        {"A_C_Horse_GypsyCob_Skewbald": 60},
+        {"A_C_Horse_GypsyCob_PalominoBlagdon": 60},
+        {"A_C_Horse_GypsyCob_SplashedBay": 60},
+        {"A_C_Horse_GypsyCob_SplashedPiebald": 60},
+
+        //inventario cavalli vip
+        {"A_C_Horse_Gang_Dutch": 80 },
+        {"A_C_Horse_Gang_Micah": 90 },
+        {"A_C_Horse_Gang_John": 90 },
+        {"A_C_Horse_Gang_Sadie": 90 },
+        {"A_C_Horse_Gang_Karen": 90 },
+        {"A_C_Horse_Gang_Bill": 90 },
+        {"A_C_Horse_Gang_Charles_EndlessSummer": 100 },
+        {"A_C_Horse_Gang_Sadie_EndlessSummer": 100 },
+        {"A_C_Horse_John_EndlessSummer": 100 },
+        {"A_C_Horse_Gang_Lenny": 100 },
+        {"A_C_Horse_Gang_Charles": 100 }
+    ],
+
+    // ID + Hash + prezzo
+    "Complements": [{
+        "Coperta": [{
+            "Silwater Shore": ["0x127E0412", "0x20D4A0BF", "0x2A6D33E8", "0xDC87A9F", "0xFFB1DE72", 3.54],
+            "Roanoke Ridge": ["0x19C5E80C", "0x3278996D", "0x3D34F3", "0x64BE7DF8", "0xEC040C89", 3.54],
+            "Brave River": ["0x269583CA", "0x3973A986", "0x4A294AF1", "0x97EBE669", "0xED0190A3", 3.54],
+            "Cholla Springs": ["0x342916F3", "0x6B2084E5", "0x78FB209A", "0x8FAD4DFE", "0x9DE0EA65", 3.54],
+            "Nekoti Rock": ["0x3BA0D76D", "0x4BF1F80F", "0x5F0F9E4A", "0x71DFC3EA", "0xF506CA32", 3.54],
+            "Manzanita Post": ["0x4655E362", "0xAD283105", "0xC2EF5C93", "0xC8A467FD", "0xDBEF0E96", 3.54],
+            "Cotorra Spring": ["0x508B80B9", "0x67CAAF37", "0xEBB4B70D", 3.54],
+            "Bayou": ["0x533A022A", "0x823A602A", "0xB0F7BDA4", "0xBBF05395", "0xFDC3D6D3", 3.54],
+            "Owanjila": ["0x53B325B7", "0x7D637917", "0x90A31F96", "0x9AD633FC", "0xB19B4519", "0xC073E2CA", "0xC7688D20", 3.54],
+            "Millesani": ["0x5894FB24", "0x9E468686", "0xAB302059", "0xD9E17DBB", "0xE32A1050", 3.54],
+            "Devil's Crag": ["0x7951D487", "0xA3D5298D", "0xEDCB3D78", 3.54],
+            "Iron Cloud": ["0xC097E12C", "0xCDD2FB96", "0xD333865B", "0xE409A807", "0xF6484C84", 3.54]
+        }],
+        "Corna": [{
+            "Birch Dally": ["0x107D9598", "0x2A28C8BE", 1.21],
+            "Torquemada Maple": ["0x333CDC06", 1.21],
+            "Brass Eagle": ["0x34135CC3", 1.21],
+            "Poplar Platypus": ["0x3E40711D", 1.21],
+            "Steel Diablo": ["0x9AD2AA40", 1.21],
+            "Maple Platypus": ["0xC6C381F5", 1.21],
+            "Pine Dally": ["0xDBE6AC3B", 1.21],
+            "Viper redemption": ["0xE1B1B8F1", 1.21],
+            "Steel Dally": ["0xE1DC3856", 1.21],
+            "Steel Ten Crowns": ["0xED0BCEB5", 1.21],
+            "Birch Pot-bellied": ["0xF09C56EE", 1.21],
+            "Poplar Wide Neck": ["0xF826E4EB", 1.21],
+            "Birch Torquemada": ["0xF8CAE723", 1.21]
+        }],
+        "Bisaccia": [{
+            "Rovinata": ["0x1D4EDB88", "0x20AA8620", "0x293E17B3", "0x2AEFF6CA", "0x5277E9BA", "0x577EF434", "0x8BE10F93", "0x9D593283", "0xAE110017", "0xB4F40DD9", "0xC019F804", "0xC05AA4AA", "0xD048C482", "0xE2ADE94C", "0xE4108D59", "0xE57042B4", "0xE893DFD", "0xEEC77E72", "0xF0C30271", "0xF8FB69CA", 2.45]
+        }],
+        "Coda": [{
+            "Dreadlocks": ["0x12DBBBAF", "0x3B8A8D0C", "0x4951F22", "0x49CD2991", "0x607956E9", "0x6DB6F164", "0x7522834F", "0x84269E43", "0x876B27E0", "0x88A2AA53", "0x96EDC3D1", "0x972AC447", "0xA8A4673A", "0xBCD412B1", "0xCE62B5CE", "0xDD9F5447", "0xEFA67855", 3.21],
+            "Treccia": ["0x17EB79D3", "0x1A3B721B", "0x25B51566", "0x33E7B1CB", "0x4124CC49", "0x4F5268A4", "0xA3DA055A", "0xA62C9657", "0xA7438C29", "0xB4AB3354", "0xC2FA4FF2", "0xC74FCC45", "0xD143E02D", "0xEBC7218B", "0xED0397AC", "0xF6B0AB06", 3.21],
+            "Corta": ["0x1BB5EAA1", "0x1E9A18C2", "0x2E753874", "0x3B27D1DD", "0x3D212D77", "0x5062FC53", "0x508AD44A", "0x543203ED", "0x5F4871C5", "0x695B2E3F", "0x75C4C716", "0x82DB38EE", "0x84ADE4E4", "0xAFB492C", "0xC0AF3489", "0xDCE41557", "0xDDB48566", "0xEAEAB164", 2.45],
+            "Media": ["0x383E86F3", "0x3D1F13D4", "0x4B51B039", "0x574BC82D", "0x66C266F", "0x69756C80", "0x740701A3", "0x7A248ABE", "0x84D6B90", "0x894C290D", "0x9CB1CFD8", "0xA0775A83", "0xA4F0E056", "0xB244FE1E", "0xCDFF359A", "0xE38F5D96", "0xEAA5EEE7", "0xED787168", 2.44],
+            "Lunga": ["0x1F7A99EA", "0x30603BB5", "0x3AE050B5", "0x5D7FA043", "0x607E6DD", "0x73073A2", "0x810A5CE0", "0xB4374DB1", "0xC304EB4C", "0xD7D68A7B", "0xD9288D47", "0xD9EA1916", "0xEABBBAB9", "0xF4294320", "0xF4A3443C", "0xF867D611", 2.14]
+        }],
+        "Criniera": [{
+            "Dreadlocks": ["0x1FDC6D0F", "0x241D7FBD", "0x3A7C2C86", "0x483AC803", "0x512377B", "0x6038F7FF", "0x6D9412B5", "0x83563E39", "0x96FE6589", "0x9A640A3", "0xB2FB934B", "0xC929BFA7", "0xCDC9C8E7", "0xDCF5321", "0xE02377D6", "0xFF17AB82", "0xFFF3B76A", 2.45],
+            "Treccia": ["0x25627B98", "0x2E378E8A", "0x3BFE2A17", "0x4FCC51B3", "0x54A3CB0", "0x5D596CCD", "0x6F4510C4", "0x7D902D5A", "0x92B2579E", "0x97105EF6", "0xA0F4F423", "0xA64BFD6D", "0xB13D134B", "0xCF434F57", "0xD4E65BE5", "0xDC62E996", "0xE9FE04D0", 2.85],
+            "Corta": ["0x18199F48", "0x354F6B7", "0x3F1FEE4C", "0x4F148D45", "0x52DC15C8", "0x5DE62AE8", "0x648A3924", "0x7098D141", "0x86457C9A", "0x960C1B33", "0x99F5A3FA", "0xA4E1B8DE", "0xABA8475F", "0xB288D42C", "0xBD7B6B05", "0xC15371C1", "0xF2E555D8", 1.54],
+            "Media": ["0x130E341A", "0x16923E26", "0x1A5A45B6", "0x2FCAF0CB", "0x419D9470", "0x41EA9196", "0x5445B9C0", "0x5ED14B9F", "0x66215D77", "0x817B10F6", "0xA7A4DD49", "0xB5F379E6", "0xD894BF28", "0xE1435081", "0xEA46E28C", "0xFF020F3A", 1.96],
+            "Lunga": ["0x235DBF1", "0x446A6F01", "0x5F0395A3", "0x5FE29755", "0x632F2B7", "0x6CB9310E", "0x838E5EB8", "0x94F58186", "0x97D095F4", "0xA193A97A", "0xAA3FAC1A", "0xAFB7C24", "0xB881489D", "0xC8646863", "0xC9D16B31", "0xE0BC27A6", "0xFC74DF3B", 2.54]
+        }],
+        "Sella": [{
+            "McClelland Lumley": ["0x106961A8", "0x150D0DAA", "0x17153A45", "0x1C14443F", "0x1F7C4C5", "0x2E4668A3", "0x2ECD9E70", "0x3D0C3AED", "0x3F9F62CE", "0x4B372288", "0x5D717C9", "0x78F07DFA", "0xC04FE429", "0xD97573C1", "0xDE47F51", "0xEB1139AB", "0xF3BEA853", "0xF94D5623", 5.41],
+            "Mother Hubbard Kneller": ["0x14168240", "0x2844E292", "0x3E949A74", "0x5B6390D9", "0x5BBC54C3", "0x6D403492", "0x70BB7EC1", "0x7FD859C2", "0x87F421F7", "0x8D163776", "0x8D9D754C", "0x9CD94BC1", "0xBA6A921E", "0xBB335077", "0xC1AF1568", "0xCE8C2F22", "0xD11CBF82", "0xF36A78DE", 5.41],
+            "Dakota Kneller": ["0x15FB6791", "0x3827D232", "0x40C53D24", "0x47D2CB3F", "0x9533FA8E", "0xA7AC9F7B", "0xB7B33F88", "0xB9BE555D", "0xC7FC601A", "0xDA36048D", "0xE039FC0F", "0xE36C8274", "0xE52BAC3F", "0xEC882931", "0xF2F0045", "0xF4B14B4A", "0xF687A8AA", 5.41],
+            "Gerden cowboy": ["0x189F7005", "0x1D0BF8F2", "0x1EC65C0", "0x219D85E2", "0x4C1A5ADB", "0x522CCED", "0x5546EB7A", "0x5B45F932", "0x7092A211", "0x7DBB3E1C", "0x8E64DDB5", "0x8FFCF06B", "0xA39D34E", "0xAD4A6355", "0xBE703DF7", "0xBFD09512", "0xC0C04297", "0xD2FA64BC", "0xE5510BB8", "0xE6488B58", "0xF1BAA60D", "0xF7682D97", 3.22],
+            "Trail Gerden": ["0x1EE21489", "0x20359E53", "0x24F24446", "0x2E3F3A62", "0x306806F", "0x335DC49F", "0x534A7D59", "0x660B29F9", "0x6C622F8C", "0x70C65BED", "0x8E22730C", "0x93B7057", "0xC454830C", "0xD6BF27E1", "0xD7FC86BF", "0xE9B7AA35", "0xF4118E4", "0xFCE1D7A4", 3.22],
+            "Roping Stenger": ["0x21E8DDFA", "0x2E216DBC", "0x2F8C7941", "0x5A9E4F6C", "0x60DE5335", "0x6384D886", "0x64CEC6DF", "0x694DE418", "0x76887E89", "0x8DABACD7", "0x90489DD2", "0x9E0C3959", "0xB61F0668", "0xBC52F5E6", "0xC7D58D0B", "0xD61B2996", "0xDA84CF33", "0xFD4E14C5", 5.41],
+            "Lumley rancher": ["0x6FEABF89", "0x7A23C686", "0x7C19770A", "0x7C2C580C", "0x88C363C5", "0x8DD09A7C", "0x93DA8768", "0x9B1C95F8", "0x9FF23EBF", "0xA1154105", "0xA21923E5", "0xA8DB3175", "0xB357E58A", "0xC10B5450", "0xD2C8F7CB", "0xE5B31D9F", "0xF373B920", "0xFC6AF7AF", 5.41],
+            "Roping beaver": ["0x2BEA8ED4", 3.22],
+            "McClelland cougar": ["0x353FC03C", 3.22],
+            "Cowboy snake": ["0x7D795D72", 4.22],
+            "Rancher alligator": ["0xB5802A5F", 4.22],
+            "Trail panther": ["0xC76C46D9", 6.24],
+            "Mother Hubbard wild pig": ["0xD225CCA0", 5.11],
+            "Dakota bear": ["0xDE5A2905", 5.14]
+        }],
+        "Staffe": [{
+            "Security": ["0x3B3AB08", 2.54],
+            "Horseshoe bell": ["0x587DD49F", 2.65],
+            "Long Roper": ["0x67AF7302", 3.21],
+            "Thin strap": ["0x75178DD2", 2.59],
+            "English": ["0x8246282F", 2.14],
+            "Bell": ["0x8D0BC7DA", 3.56],
+            "Horseshoe": ["0x9EE8E174", 2.65],
+            "Covered": ["0xBDF19F85", 2.55],
+            "Baroque": ["0xCB9A3AD6", 3.11],
+            "Hooded": ["0xD8AE54FE", 4.26],
+            "Fine iron strap": ["0xE73FF221", 1.45]
+        }],
+        "Sacco a pelo": [{
+            "Lana": ["0x12F0DF9F", "0x18BB6B30", "0x1B43F045", "0x55A0E4FE", "0x69B21ADD", "0x7B55D476", "0x8C9F7709", "0x9FD99D7D", "0xAC1F34C", "0xD8258E14", "0xFFB0391E", 2.24],
+            "Tessuto": ["0x27543EBB", "0x36BEDD90", "0x4B7E0712", "0x73D157B4", "0x841C784A", "0xA1FD8B43", "0xB4532FEE", "0xBC664014", "0xD020E789", 1.24],
+            "Lana Trapuntata": ["0x45FEA6D8", "0x69B29DC5", "0x72FCB059", "0x7C8A149A", "0x84E5AFA", "0x8DD7B735", "0x98214B1C", "0x9D868568", "0xA643680C", "0xD258EF10", 1.25]
+        }],
+        "Lanterna": [{
+            "Normale": ["0x635E387C", 18.25]
+        }],
+        "Maschera": [{
+            "Normale": ["0xFA5B72BB", "0xF606EC4A", "0xEEF65F11", "0xEC10D626", "0xE3278C28", "0xDDCDB9A0", "0xD70C73EA", "0xC907FCA9", "0xC70D8F40", "0xBD887906", "0xB567EBF5", "0xB395D1C5", "0xB0395F88", "0xA45049C6", "0x9DB125FC", "0x9A11B219", "0x9946F874", "0x90A62272", "0x8DCC1CBE", "0x8DB38601", "0x8C471684", "0x872A0C5A", "0x7BFA791B", "0x7A773AC1", "0x702A4AF3", "0x6B355791", "0x69CD996E", "0x68FB97DE", "0x68DB4FAD", "0x62C5B02A", "0x61BEAE08", "0x4E22622C", "0x4C8C83A4", "0x406FC6C7", "0x30044BAC", "0x226B2F76", "0x13AC6E51", "0x08A78F53", "0xF0ED62FF", "0xF17728C7", 8.68]
+        }]
+    }],
+
+    // ID + prezzo
+    "Carts": [
+        { "huntercart01": 137.21 },
+        //{ "ArmySupplyWagon": 250 },
+        { "buggy01": 56.30 },
+        { "buggy02": 74.98 },
+        { "buggy03": 96.62 },
+        { "cart02": 42.5 },
+        { "cart01": 31 },
+        { "cart03": 42.5 },
+        { "cart04": 102.23 },
+        { "cart06": 125.37 },
+        { "cart07": 85.21 },
+        { "cart08": 115.42 },
+        { "cart05": 60.21 },
+        { "chuckwagon000x": 143.42 },
+        { "chuckwagon002x": 165.63 },
+        { "gatchuck": 190.45 },
+        { "utilliwag": 135.76 },
+        { "wagon02x": 173.45 },
+        { "wagon04x": 172.40 },
+        { "wagon05x": 154.28 },
+        { "supplywagon": 175.62 },
+        { "coach2": 374.43 },
+        { "coach3": 505.6 },
+        { "coach4": 265.34 },
+        { "coach5": 282.24 },
+        { "coach6": 323.24 },
+        //{ "coal_wagon": 250 },
+        //{ "logwagon": 250 },
+        //{ "logwagon2": 250 },
+        //{ "oilWagon01x": 250 },
+        //{ "oilWagon02x": 250 },
+        { "stagecoach001x": 470.54 },
+        { "stagecoach002x": 456.21 },
+        { "stagecoach003x": 365.67 },
+        //{ "stagecoach004x": 250 },
+        { "stagecoach005x": 413.84 },
+        { "stagecoach006x": 445.62 },        
+        //{ "supplywagon2": 92.35 },
+        //{ "wagonarmoured01x": 250 },
+        //{ "wagonCircus01x": 250 },
+        //{ "wagonCircus02x": 250 },
+        //{ "wagondairy01x": 250 },
+        { "wagontraveller01x": 95.83 },
+        { "wagon03x": 87.62 },
+        { "wagon06x": 140.86 },
+        { "wagondoc01x": 50000 },
+        { "wagonPrison01x": 50000 },
+        { "wagonwork01x": 50000 }
+    ],
+
+    // ID + Prezzo
+    "Horses": [{
+        "Alla portata di tutti": [{ 
+            "A_C_Donkey_01": 16,
+            "A_C_Horse_MP_Mangy_Backup": 20,
+            "A_C_HorseMule_01": 15
+            }],
+        "Paint Horse Americano": [{
+            "A_C_Horse_AmericanPaint_Greyovero": 189.29,
+            "A_C_Horse_AmericanPaint_Overo": 91.20,
+            "A_C_Horse_AmericanPaint_SplashedWhite": 94.60,
+            "A_C_Horse_AmericanPaint_Tobiano": 93.88
+            //"A_C_Horse_EagleFliess": 123.57
+        }],
+        "Trottatore Americano": [{
+            "A_C_Horse_AmericanStandardbred_Black": 89.40,
+            "A_C_Horse_AmericanStandardbred_Buckskin": 89.90,
+            "A_C_Horse_AmericanStandardbred_PalominoDapple": 87.21,
+            "A_C_Horse_AmericanStandardbred_SilverTailBuckskin": 96.21
+        }],
+        "Andaluso": [{
+            "A_C_Horse_Andalusian_DarkBay": 190.61,
+            "A_C_Horse_Andalusian_Perlino": 330.24,
+            "A_C_Horse_Andalusian_RoseGray": 332.23
+        }],
+        "Appaloosa": [{
+            "A_C_Horse_Appaloosa_BlackSnowflake": 188.22,
+            "A_C_Horse_Appaloosa_Blanket": 94.22,
+            "A_C_Horse_Appaloosa_BrownLeopard": 290.42,
+            "A_C_Horse_Appaloosa_FewSpotted_PC": 187.98,
+            "A_C_Horse_Appaloosa_Leopard": 302.21,
+            "A_C_Horse_Appaloosa_LeopardBlanket": 92.90
+        }],
+        "Arabo": [{
+            "A_C_Horse_Arabian_Black": 280.50,
+            "A_C_Horse_Arabian_Grey": 240.11,
+            "A_C_Horse_Arabian_RedChestnut": 93.90,
+            "A_C_Horse_Arabian_RoseGreyBay": 490.24,
+            "A_C_Horse_Arabian_WarpedBrindle_PC": 120.32,
+            "A_C_Horse_Arabian_White": 360.98
+        }],
+        "Ardennesse": [{
+            "A_C_Horse_Ardennes_BayRoan": 191.15,
+            "A_C_Horse_Ardennes_IronGreyRoan": 380.21,
+            "A_C_Horse_Ardennes_StrawberryRoan": 370.15
+        }],
+        "Belga": [{
+            "A_C_Horse_Belgian_BlondChestnut": 88.5,
+            "A_C_Horse_Belgian_MealyChestnut": 86.34
+        }],
+        "Olandese a Sangue Caldo": [{
+            "A_C_Horse_DutchWarmblood_ChocolateRoan": 221.40,
+            "A_C_Horse_DutchWarmblood_SealBrown": 189.32,
+            "A_C_Horse_Buell_WarVets": 287.95,
+            "A_C_Horse_DutchWarmblood_SootyBuckskin": 189.62
+        }],
+        "Unghere Mezzosangue": [{
+            "A_C_Horse_HungarianHalfbred_DarkDappleGrey": 187.54,
+            "A_C_Horse_HungarianHalfbred_FlaxenChestnut": 78.20,
+            "A_C_Horse_HungarianHalfbred_LiverChestnut": 329.15,
+            "A_C_Horse_HungarianHalfbred_PiebaldTobiano": 83.98
+        }],
+        "Americano da Sella": [{
+            "A_C_Horse_KentuckySaddle_Black": 72.0,
+            "A_C_Horse_KentuckySaddle_ButterMilkBuckskin_PC": 82.51,
+            "A_C_Horse_KentuckySaddle_ChestnutPinto": 73.25,
+            "A_C_Horse_KentuckySaddle_Grey": 72.98,
+            "A_C_Horse_KentuckySaddle_SilverBay": 69.21
+        }],
+        "Kladruber": [{
+            "A_C_Horse_Kladruber_Black": 263.24,
+            "A_C_Horse_Kladruber_Silver": 450.15,
+            "A_C_Horse_Kladruber_Cremello": 290.11,
+            "A_C_Horse_Kladruber_Grey": 292.23,
+            "A_C_Horse_Kladruber_DappleRoseGrey": 460.23,
+            "A_C_Horse_Kladruber_White": 265.15
+        }],
+        "Missouri Fox Trotter": [{
+            "A_C_Horse_MissouriFoxTrotter_AmberChampagne": 230.40,
+            "A_C_Horse_MissouriFoxTrotter_SableChampagne": 235.21,
+            "A_C_Horse_MissouriFoxTrotter_SilverDapplePinto": 232.64
+        }],
+        "Morgan": [{
+            "A_C_Horse_Morgan_Bay": 76.41,
+            "A_C_Horse_Morgan_BayRoan": 77.21,
+            "A_C_Horse_Morgan_FlaxenChestnut": 78.10,
+            "A_C_Horse_Morgan_LiverChestnut_PC": 102.21,
+            "A_C_Horse_Morgan_Palomino": 78.60
+        }],       
+        "Mustang": [{
+            "A_C_Horse_Mustang_GrulloDun": 263.21,
+            "A_C_Horse_Mustang_TigerStripedBay": 300.01,
+            "A_C_Horse_Mustang_WildBay": 266.70
+        }],
+        "Nokota": [{
+            "A_C_Horse_Nokota_BlueRoan": 80.72,
+            "A_C_Horse_Nokota_ReverseDappleRoan": 75.13,
+            "A_C_Horse_Nokota_WhiteRoan": 79.33
+        }],
+        "Shire": [{
+            "A_C_Horse_Shire_DarkBay": 140.21,
+            "A_C_Horse_Shire_LightGrey": 142.60,
+            "A_C_Horse_Shire_RavenBlack": 266.33
+        }],
+        "Suffolk Punch": [{
+            "A_C_Horse_SuffolkPunch_RedChestnut": 86.42,
+            "A_C_Horse_SuffolkPunch_Sorrel": 183.21
+        }],
+        "Tennessee Walker": [{
+            "A_C_Horse_TennesseeWalker_BlackRabicano": 75.68,
+            "A_C_Horse_TennesseeWalker_Chestnut": 77.42,
+            "A_C_Horse_TennesseeWalker_DappleBay": 80.74,
+            "A_C_Horse_TennesseeWalker_FlaxenRoan": 297.91,
+            "A_C_Horse_TennesseeWalker_MahoganyBay": 201,
+            "A_C_Horse_TennesseeWalker_RedRoan": 81.33,
+            "A_C_Horse_TennesseeWalker_GoldPalomino_PC": 184.22
+        }],
+        "Purosangue Inglese": [{
+            "A_C_Horse_Thoroughbred_BlackChestnut": 86.11,
+            "A_C_Horse_Thoroughbred_BloodBay": 80.41,
+            "A_C_Horse_Thoroughbred_Brindle": 81.60,
+            "A_C_Horse_Thoroughbred_DappleGrey": 82.15,
+            "A_C_Horse_Thoroughbred_ReverseDappleBlack": 80.98
+        }],
+        "Turcomanno": [{
+            "A_C_Horse_Turkoman_DarkBay": 401.01,
+            "A_C_Horse_Turkoman_Gold": 403.24,
+            "A_C_Horse_Turkoman_Silver": 410.15
+        }],
+        "Criollo": [{
+            "A_C_Horse_Criollo_Dun": 82.88,
+            "A_C_Horse_Criollo_MarbleSabino": 236.21,
+            "A_C_Horse_Criollo_BayFrameOvero": 250.64,
+            "A_C_Horse_Criollo_BayBrindle": 203.22,
+            "A_C_Horse_Criollo_SorrelOvero": 206.44,
+            "A_C_Horse_Criollo_BlueRoanOvero": 85.21
+        }],
+        "Bretone": [{
+            "A_C_Horse_Breton_SteelGrey": 160.21,
+            //"A_C_Horse_Breton_MealyDapple": 100,
+            "A_C_Horse_Breton_SealBrown": 330.42,
+            "A_C_Horse_Breton_GrulloDun": 291.21,
+            "A_C_Horse_Breton_Sorrel": 249.62,
+            "A_C_Horse_Breton_RedRoan": 110.40
+        }],
+        //"Zebra": [{ "A_C_HorseMulePainted_01": 100 }],
+        "Trottatore del Norfolk": [{
+            "A_C_HORSE_NORFOLKROADSTER_BLACK": 86.14,
+            "A_C_HORSE_NORFOLKROADSTER_SPECKLEDGREY": 85.90,
+            "A_C_HORSE_NORFOLKROADSTER_PIEBALDROAN": 160.80,
+            "A_C_HORSE_NORFOLKROADSTER_ROSEGREY": 109.40,
+            "A_C_HORSE_NORFOLKROADSTER_DAPPLEDBUCKSKIN": 280.21,
+            "A_C_HORSE_NORFOLKROADSTER_SPOTTEDTRICOLOR": 282.24  
+        }],
+        "Cob Irlandese": [{
+            "A_C_Horse_GypsyCob_Whiteblagdon": 265.20,
+            "A_C_Horse_GypsyCob_Piebald": 270.22,
+            "A_C_Horse_GypsyCob_Skewbald": 510.21            
+        }],
+        "Cavalli Vip": [{
+            "A_C_Horse_Gang_Dutch": 50000,
+            "A_C_Horse_Gang_Micah": 50000,
+            "A_C_Horse_Gang_John": 50000,
+            "A_C_Horse_Gang_Sadie": 50000,
+            "A_C_Horse_Gang_Karen": 50000,
+            "A_C_Horse_Gang_Bill": 50000,
+            "A_C_Horse_Gang_Charles_EndlessSummer": 50000,
+            "A_C_Horse_Gang_Sadie_EndlessSummer": 50000,
+            "A_C_Horse_John_EndlessSummer": 50000,
+            "A_C_Horse_Gang_Lenny": 50000,
+            "A_C_Horse_Gang_Charles": 50000,
+            "A_C_Horse_GypsyCob_PalominoBlagdon": 50000,
+            "A_C_Horse_GypsyCob_SplashedBay": 50000,
+            "A_C_Horse_GypsyCob_SplashedPiebald": 50000,
+            "A_C_Horse_Mustang_GoldenDun": 50000
+        }]        
+    }],
+
+
+
+    "Stables": [{
+            "name": "Stalla Saint Denis",
+            "BlipIcon": 1938782895,
+            "EnterStable": [2510.58, -1456.83, 46.31, 2.0],
+            "StableNPC": [2512.35, -1456.89, 45.2, 91.68],
+            "SpawnHorse": [2508.59, -1449.96, 45.5, 90.09],
+            "CamHorse": [2506.807, -1452.29, 48.61699, -34.77003, 0.0, -35.20742],
+            "CamHorseGear": [2508.876, -1451.953, 48.67999, -35.29771, 0.0, -0.4993192],
+            "SpawnCart": [2503.47, -1441.89, 46.31, 0.24],
+            "CamCart": [2506.428, -1437.7, 50.57832, -39.4497, 0.0, 120.535]
+        },
+        {
+            "name": "Stalla Valentine",
+            "BlipIcon": 1938782895,
+            "EnterStable": [-365.87, 789.51, 116.17, 2.0],
+            "StableNPC": [-365.15, 792.68, 115.18, 178.47],
+            "SpawnHorse": [-366.07, 781.81, 115.14, 5.97],
+            "CamHorse": [-367.9267, 783.0237, 117.7778, -36.42624, 0.0, -100.9786],
+            "CamHorseGear": [-367.9267, 783.0237, 117.7778, -36.42624, 0.0, -100.9786],
+            "SpawnCart": [-370.11, 786.99, 115.16, 274.18],
+            "CamCart": [-363.5831, 792.1113, 118.0419, -16.35144, 0.0, 143.9759]
+        },
+        {
+            "name": "Stalla Strawberry",
+            "BlipIcon": 1938782895,
+            "EnterStable": [-1816.81, -561.99, 156.07, 2.0],
+            "StableNPC": [-1818.45, -564.83, 155.06, 347.22],
+            "SpawnHorse": [-1820.26, -555.84, 155.16, 163.01],
+            "CamHorse": [-1819.512, -558.6999, 157.6765, -23.95241, 0.0, 28.46066],
+            "CamHorseGear": [-1819.512, -558.6999, 157.6765, -23.95241, 0.0, 28.46066],
+            "SpawnCart": [-1821.46, -561.41, 155.06, 256.24],
+            "CamCart": [-1816.372, -560.2017, 157.6678, -22.02157, 0.0, 124.3779]
+        },
+        {
+            "name": "Stalla Blackwater",
+            "BlipIcon": 1938782895,
+            "EnterStable": [-876.57, -1365.1, 43.53, 2.0],
+            "StableNPC": [-878.35, -1364.81, 42.53, 266.28],
+            "SpawnHorse": [-864.25, -1361.8, 42.7, 177.48],
+            "CamHorse": [-862.6163, -1362.927, 45.58158, -40.96593, 0.0, 71.8129],
+            "CamHorseGear": [-862.6163, -1362.927, 45.58158, -40.96593, 0.0, 71.8129],
+            "SpawnCart": [-872.58, -1366.57, 42.53, 270.35],
+            "CamCart": [-869.7852, -1361.103, 45.26991, -17.11994, 0.0, 161.4039]
+        },
+        {
+            "name": "Stalla Tumbleweed",
+            "BlipIcon": 1938782895,
+            "EnterStable": [-5514.24, -3041.81, -2.39, 2.0],
+            "StableNPC": [-5515.07, -3039.51, -3.39, 179.88],
+            "SpawnHorse": [-5519.47, -3039.32, -3.31, 181.62],
+            "CamHorse": [-5517.651, -3041.113, -0.50949, -33.14523, 0.0, 55.47822],
+            "CamHorseGear": [-5517.651, -3041.113, -0.50949, -33.14523, 0.0, 55.47822],
+            "SpawnCart": [-5520.65, -3044.3, -3.39, 270.83],
+            "CamCart": [-5514.191, -3040.633, -0.5108569, -18.79705, 0.0, 141.3175]
+        }
+    ]
+}

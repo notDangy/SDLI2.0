@@ -1,0 +1,280 @@
+
+{
+    "ButtonTransferHorse": "Dai il tuo cavallo",
+    "InputServerId": "ID della persona a ci dare il cavallo", 
+
+    "PressToOpen": "Premi [~e~Spazio~q~] per accedere alla stalla",
+
+    "PlaceHolderInputName": "Il nome deve essere minimo 3 lettere",
+
+    "TitleMenuStables": "Stalla",
+    "SubTitleMenuStables": "Scegli un'opzione",
+
+    "TitleMenuBuyHorses": "Cavalli in vendita",
+    "SubTitleMenuBuyHorses": "Scegli un cavallo",
+
+    "TitleMenuHorses": "Gestione cavalli",
+    "SubTitleMenuHorses": "Gestisci i tuoi cavalli",
+
+    "TitleMenuBuyCarts": "Carri in vendita",
+    "SubTitleMenuBuyCarts": "Scegli il tuo carro",
+
+    "TitleMenuCarts": "Gestione carri",
+    "SubTitleMenuCarts": "Gestisci i tuoi carri",
+
+    "subTitleConfirmBuy": "Il prezzo {0} è {1}$",
+    "ConfirmBuyButton": "Compra per {0}$",
+    "ConfirmBuyButtonDesc": "Compra cavallo",
+    "CancelBuyButton": "Annulla acquisto",
+    "CancelBuyButtonDesc": "Indietro",
+
+    "ButtonCart": "{0} per {1}$",
+    "ConfirmBuyComplements": "Totale complessivo {0}$", //Buy complements for
+
+    "StableIsFull": "La tua stalla è piena, libera uno slot per acquistarlo",
+
+    "InputNameButton": "Compra cavallo",
+    "InputNamePlaceholder": "Scegli il nome del tuo cavallo",
+    "InputCartNameButton": "Compra carro",
+    "InputCartNamePlaceholder": "Scegli il nome del tuo carro",
+
+    "SuccessfulBuyComp": "Hai acquistati il complemento per {0}$",
+    "SuccessfulBuyHorse": "Hai acquistato {0} per {1}$",
+    "NoMoney": "Non hai abbastanza soldi",
+    "NoDefaultHorses": "Non hai scelto nessun cavallo principale",
+    "NoDefaultCarts": "Non hai scelto nessun carro principale",
+    "HorseIsOcuppied": "Qualcun altro sta usando il tuo cavallo",
+    "CartIsOcuppied": "Qualcun altro sta usando il tuo cavallo",
+
+    "ButtonDeleteHorse": "Libera cavallo",
+    "DeleteConfirmation": "Scrivi il nome del tuo cavallo",
+    "HorseDeleted": "Il cavallo è libero",
+
+    "ButtonDeleteCart": "Abbandona carro",
+    "CartDeleted": "Hai abbandonato il carro",
+    "ItemInBlacklist": "Questo articolo non può essere trasferito", 
+
+    "NoComplement": "Nessun accessorio",
+    "SubMenuBuyComplements": "Accessori in vendita",
+    "ButtonSetDefaultHorse": "Imposta come principale", 
+    "PriceComplements": "Prezzo: ",
+    "BuyButtonComplements": "Si, compra - {0} per {1}$",
+    "YouBuyedThisComp": "Ce l'hai già",
+    "SetThisComp": "Equipaggia {0} a questo cavallo",
+
+    "HorseIsDead": "{0} ha bisogno di cure, devi aspettare {1} secondi",
+    "HorseDead": "{0} ha bisogno di cure, devi aspettare {1} secondi prima di richiamarlo",
+    "CartIsDead": "{0} è rotta, devi aspettare {1} secondi",
+    "CartDead": "{0} è rotta, devi aspettare {1} secondi per riprenderlo",
+
+    "ErrorQuantity": "Quantità errata",
+    "WeaponsNotAllowed": "Non può trasportare armi",
+
+    "MaxWeightQuantity": "Hai superato il limite massimo di oggetti trasortabili {0}/{1}",
+
+    //Horses
+    "A_C_Horse_AmericanPaint_Greyovero": "Overo Grigio - 189.29",
+    "A_C_Horse_AmericanPaint_Overo": "Overo - 91.20",
+    "A_C_Horse_AmericanPaint_SplashedWhite": "Bianco - 94.60",
+    "A_C_Horse_AmericanPaint_Tobiano": "Tobiano - 93.88",
+    //"A_C_Horse_EagleFliess": "Indiano Pezzato",
+
+    "A_C_Horse_AmericanStandardbred_Black": "Morello - 89.40",
+    "A_C_Horse_AmericanStandardbred_Buckskin": "Isabella - 89.9.",
+    "A_C_Horse_AmericanStandardbred_PalominoDapple": "Palomino Pomellato - 87.21",
+    "A_C_Horse_AmericanStandardbred_SilverTailBuckskin": "Isabella Coda Argentata - 96.21",
+
+    "A_C_Horse_Andalusian_DarkBay": "Baio Scuro - 190.61",
+    "A_C_Horse_Andalusian_Perlino": "Perlino - 330.24",
+    "A_C_Horse_Andalusian_RoseGray": "Grigio Rosa - 332.23",
+
+    "A_C_Horse_Appaloosa_BlackSnowflake": "Leopardo nero - 188.22",
+    "A_C_Horse_Appaloosa_Blanket": "Coperta Bianca - 94.22",
+    "A_C_Horse_Appaloosa_BrownLeopard": "Leopardo Marrone - 290.42",
+    "A_C_Horse_Appaloosa_FewSpotted_PC": "Leopardo Bianco - 187.98",
+    "A_C_Horse_Appaloosa_Leopard": "Leopardo - 302.21",
+    "A_C_Horse_Appaloosa_LeopardBlanket": "Coperta Leopardo - 92.90",
+
+    "A_C_Horse_Arabian_RedChestnut": "Rosso Castagna - 93.90",
+    "A_C_Horse_Arabian_WarpedBrindle_PC": "Marrone Tigrato - 120.32",
+    "A_C_Horse_Arabian_Grey": "Grigio - 240.11",
+    "A_C_Horse_Arabian_White": "Bianco - 360.98",
+    "A_C_Horse_Arabian_Black": "Morello - 280.50",
+    "A_C_Horse_Arabian_RoseGreyBay": "Baio Grigio Rosa - 490.24",
+
+    "A_C_Horse_Ardennes_BayRoan": "Baio Roano - 191.15",
+    "A_C_Horse_Ardennes_IronGreyRoan": "Roano Grigio Ferro - 380.21",
+    "A_C_Horse_Ardennes_StrawberryRoan": "Roano Fragola - 370.15",
+
+    "A_C_Horse_Belgian_BlondChestnut": "Sauro Biondo - 88.5",
+    "A_C_Horse_Belgian_MealyChestnut": "Sauro Pangarè - 86.34",
+
+    "A_C_Horse_DutchWarmblood_SealBrown": "Marrone Focato - 189.32",
+    "A_C_Horse_DutchWarmblood_SootyBuckskin": "Isabella Fuluggine - 189.62",
+    "A_C_Horse_DutchWarmblood_ChocolateRoan": "Roano Cioccolato - 221.40",
+    "A_C_Horse_Buell_WarVets": "Cremello Dorato - 287.95",
+
+    "A_C_Horse_HungarianHalfbred_FlaxenChestnut": "Sauro Flaxen - 78.20",  
+    "A_C_Horse_HungarianHalfbred_PiebaldTobiano": "Tobiano Pezzato - 83.98",
+    "A_C_Horse_HungarianHalfbred_DarkDappleGrey": "Grigio Scuro Pomellato - 187.54",
+    "A_C_Horse_HungarianHalfbred_LiverChestnut": "Rosso Castagna - 329.15",
+
+    "A_C_Horse_KentuckySaddle_Black": "Morello - 72.0", 
+    "A_C_Horse_KentuckySaddle_ChestnutPinto": "Pinto Scuro - 73.25",
+    "A_C_Horse_KentuckySaddle_Grey": "Grigio - 72.98",
+    "A_C_Horse_KentuckySaddle_SilverBay": "Baio Argentato - 69.21",
+    "A_C_Horse_KentuckySaddle_ButterMilkBuckskin_PC": "Latte - 82.51",
+
+    "A_C_Horse_Kladruber_Black": "Morello - 263.24",
+    "A_C_Horse_Kladruber_White": "Bianco - 265.15",
+    "A_C_Horse_Kladruber_Cremello": "Cremello - 290.11",
+    "A_C_Horse_Kladruber_Grey": "Grigio - 292.23",
+    "A_C_Horse_Kladruber_Silver": "Argentato - 450.15",
+    "A_C_Horse_Kladruber_DappleRoseGrey": "Pomellato Grigio Rosa - 460.23",
+
+    "A_C_Horse_MissouriFoxTrotter_AmberChampagne": "Champagne - 230.40",
+    "A_C_Horse_MissouriFoxTrotter_SableChampagne": "Sabbia Champagne - 235.21",
+    "A_C_Horse_MissouriFoxTrotter_SilverDapplePinto": "Pinto Pomellato Argentato - 232.64",
+
+    "A_C_Horse_Morgan_Bay": "Baio - 76.41",
+    "A_C_Horse_Morgan_BayRoan": "Baio Roano - 77.21",
+    "A_C_Horse_Morgan_FlaxenChestnut": "Sauro Flaxen - 78.10",
+    "A_C_Horse_Morgan_Palomino": "Palomino - 78.60",
+    "A_C_Horse_Morgan_LiverChestnut_PC": "Sauro Marrone - 102.21",
+
+    "A_C_Horse_MP_Mangy_Backup": "Ronzino - 20",
+
+    "A_C_Horse_Mustang_GrulloDun": "Falbo Grullo - 263.21",
+    "A_C_Horse_Mustang_TigerStripedBay": "Baio Tigrato - 300.01",
+    "A_C_Horse_Mustang_WildBay": "Baio Selvaggio - 266.70",
+
+    "A_C_Horse_Nokota_BlueRoan": "Roano Blu - 80.72",
+    "A_C_Horse_Nokota_WhiteRoan": "Roano Bianco - 79.33",
+    "A_C_Horse_Nokota_ReverseDappleRoan": "Roano Pomellato invertito - 75.13",
+
+    "A_C_Horse_Shire_DarkBay": "Baio Scuro - 140.21",
+    "A_C_Horse_Shire_LightGrey": "Grigio Chiaro - 142.60",
+    "A_C_Horse_Shire_RavenBlack": "Nero Corvino - 266.33",
+
+    "A_C_Horse_SuffolkPunch_RedChestnut": "Sauro Rosso - 86.42",
+    "A_C_Horse_SuffolkPunch_Sorrel": "Sorrel - 183.21",
+
+    "A_C_Horse_TennesseeWalker_BlackRabicano": "Rabicano Scuro - 75.68",
+    "A_C_Horse_TennesseeWalker_Chestnut": "Sauro - 77.42",
+    "A_C_Horse_TennesseeWalker_MahoganyBay": "Baio Pezzato - 201",
+    "A_C_Horse_TennesseeWalker_DappleBay": "Baio Pomellato - 80.74",
+    "A_C_Horse_TennesseeWalker_FlaxenRoan": "Roano Flaxen - 297.91",
+    "A_C_Horse_TennesseeWalker_GoldPalomino_PC": "Palomino Dorato - 184.22",
+    "A_C_Horse_TennesseeWalker_RedRoan": "Roano Rosso - 81.33",
+
+    "A_C_Horse_Thoroughbred_BloodBay": "Baio Sangue - 80.41",    
+    "A_C_Horse_Thoroughbred_DappleGrey": "Grigio Pomellato - 82.15",
+    "A_C_Horse_Thoroughbred_ReverseDappleBlack": "Nero Pomellato Invertito - 80.98",
+    "A_C_Horse_Thoroughbred_Brindle": "Striato - 81.60",
+    "A_C_Horse_Thoroughbred_BlackChestnut": "Sauro Nero - 86.11",
+
+    "A_C_Horse_Turkoman_DarkBay": "Baio Scuro - 401.01",
+    "A_C_Horse_Turkoman_Gold": "Dorato - 403.24",
+    "A_C_Horse_Turkoman_Silver": "Argentato - 410.15",
+
+    "A_C_Horse_Criollo_Dun": "Falbo - 82.88",
+    "A_C_Horse_Criollo_BlueRoanOvero": "Overo Roano Blu - 85.21",
+    "A_C_Horse_Criollo_SorrelOvero": "Overo Sorrel - 206.44",
+    "A_C_Horse_Criollo_BayBrindle": "Baio Striato - 203.22",
+    "A_C_Horse_Criollo_MarbleSabino": "Sabino Marmorizzato - 236.21",
+    "A_C_Horse_Criollo_BayFrameOvero": "Baio Overo Frame - 250.64",
+
+    "A_C_Horse_Breton_Sorrel": "Sorrel - 249.62",
+    "A_C_Horse_Breton_RedRoan": "Roano Rosso - 110.40",
+    "A_C_Horse_Breton_SealBrown": "Marrone Focato - 330.42",
+    "A_C_Horse_Breton_GrulloDun": "Falbo Grullo - 291.21",
+    "A_C_Horse_Breton_SteelGrey": "Grigio Acciaio - 160.21",
+    "A_C_Horse_Breton_MealyDapple": "Baio Pomellato Pangarè - NOPRICE",
+
+    "A_C_HorseMulePainted_01": "Zebra - ",
+
+    "A_C_HorseMule_01": "Mulo - 15",
+
+    "A_C_Donkey_01": "Asino - 16",
+
+    //NorfolkRoadster
+    "A_C_HORSE_NORFOLKROADSTER_BLACK": "Morello - 86.14",
+    "A_C_HORSE_NORFOLKROADSTER_SPECKLEDGREY": "Grigio a Macchie - 85.90",
+    "A_C_HORSE_NORFOLKROADSTER_PIEBALDROAN": "Roano Rosa - 160.80",
+    "A_C_HORSE_NORFOLKROADSTER_ROSEGREY": "Grigio Rosa - 109.40",
+    "A_C_HORSE_NORFOLKROADSTER_DAPPLEDBUCKSKIN": "Isabella Pomellato - 280.21",
+    "A_C_HORSE_NORFOLKROADSTER_SPOTTEDTRICOLOR": "Tricolore Maculato - 282.24",
+
+    //GipsyCob
+    "A_C_Horse_GypsyCob_Whiteblagdon": "Bianco Blagdon - 265.20",
+    "A_C_Horse_GypsyCob_Piebald": "Pezzato - 270.22",
+    "A_C_Horse_GypsyCob_Skewbald": "Pezzato Skewbald - 510.21",
+
+    //cavalli vip
+    "A_C_Horse_Gang_Dutch": "Arabo - Bianco Unico - 50000",
+    "A_C_Horse_Gang_Micah": "Fox T. Missouri - Nero Champagne - 50000",
+    "A_C_Horse_Gang_John": "Unghere M. - Marrone U - 50000",
+    "A_C_Horse_Gang_Sadie": "Fox T. Missouri - Marrone Champagne - 50000",
+    "A_C_Horse_Gang_Karen": "Nokota - Roano Argentato - 50000",
+    "A_C_Horse_Gang_Bill": "Ardanesse - Marrone Pezzato - 50000",
+    "A_C_Horse_Gang_Charles_EndlessSummer": "Nokota - Bianco Pezzato - 50000",
+    "A_C_Horse_Gang_Sadie_EndlessSummer": "Mustang - Falbo Grigio - 50000",
+    "A_C_Horse_John_EndlessSummer": "Purosangue Inglese - Morello - 50000",
+    "A_C_Horse_Gang_Lenny": "Mustang - Falbo Chiaro - 50000",
+    "A_C_Horse_Gang_Charles": "Appaloosa - Leopardo Maculato - 50000",
+    "A_C_Horse_GypsyCob_PalominoBlagdon": "Cob Irl. - Palomino Blagdon - 50000",
+    "A_C_Horse_GypsyCob_SplashedBay": "Cob Irl. - Baio Splash - 50000",
+    "A_C_Horse_GypsyCob_SplashedPiebald": "Cob Irl. - Splash pezzato - 50000",
+    "A_C_Horse_Mustang_GoldenDun": "Falbo Dorato - 50000",    
+
+       
+    // Carts
+    "huntercart01": "Carro da caccia",
+    //"ArmySupplyWagon": "Carro di Rifornimenti Militari",
+    "buggy01": "Calesse 1",
+    "buggy02": "Calesse 2",
+    "buggy03": "Calesse 3",
+    "cart02": "Calesse 4",
+    "cart01": "Carretto da Lavoro 1",
+    "cart03": "Carretto da lavoro 2",
+    "cart04": "Carretto da Lavoro 3",
+    "cart06": "Carretto da Lavoro 4",
+    "cart07": "Carretto da Lavoro 5",
+    "cart08": "Carretto da Lavoro 6",
+    "cart05": "Carretto con Botte",
+    "chuckwagon000x": "Carro 1",
+    "chuckwagon002x": "Carro 2",
+    "gatchuck": "Carro 3",
+    "utilliwag": "Carro 4",
+    "wagon02x": "Carro 5",
+    "wagon04x": "Carro 6",
+    "wagon05x": "Carro 7",
+    "supplywagon": "Carro 8",
+    "coach2": "Diligenza 1",
+    "coach3": "Diligenza 2",
+    "coach4": "Diligenza 3",
+    "coach5": "Diligenza 4",
+    "coach6": "Diligenza 5",
+    //"coal_wagon": "Coal Wagon",
+    //"logwagon": "Log Wagon 1",
+    //"logwagon2": "Log Wagon 2",
+    //"oilWagon01x": "Oil Wagon 1",
+    //"oilWagon02x": "Oil Wagon 2",
+    "stagecoach001x": "Diligenza 6",
+    "stagecoach002x": "Diligenza 7",
+    "stagecoach003x": "Diligenza 8",
+    //"stagecoach004x": "Stage Coach 4",
+    "stagecoach005x": "Diligenza 9",
+    "stagecoach006x": "Diligenza 10",
+    //"supplywagon2": "Supply Wagon 12",
+    //"wagonarmoured01x": "Armoured Wagon",
+    //"wagonCircus01x": "Circus Wagon 1",
+    //"wagonCircus02x": "Circus Wagon 2",
+    //"wagondairy01x": "Dairy Wagon",
+    "wagontraveller01x": "Carro Roulotte",
+    "wagon03x": "Carro da Trasporto 1",
+    "wagon06x": "Carro da Trasporto 2",
+    "wagondoc01x": "Carro da Medico",
+    "wagonPrison01x": "Carro per Prigionieri",
+    "wagonwork01x": "Carro del Saloon"
+}

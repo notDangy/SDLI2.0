@@ -1,0 +1,15 @@
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\obj\Debug\Wash.csprojAssemblyReference.cache
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\obj\Debug\Wash.csproj.CoreCompileInputs.cache
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\bin\Debug\Wash.net.dll
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\bin\Debug\Wash.net.pdb
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\bin\Debug\CitizenFX.Core.dll
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\obj\Debug\Wash.csproj.CopyComplete
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\obj\Debug\Wash.net.dll
+C:\Users\alegi\OneDrive\Desktop\Wash\Nuova cartella\Wash\Wash\obj\Debug\Wash.net.pdb
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\obj\Debug\Wash.csprojAssemblyReference.cache
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\obj\Debug\Wash.csproj.CoreCompileInputs.cache
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\obj\Debug\Wash.net.dll
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\obj\Debug\Wash.net.pdb
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\bin\Debug\Wash.net.dll
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\bin\Debug\Wash.net.pdb
+C:\ServerTest\resources\[scripts]\redm_wash\Nuova cartella\Wash\obj\Debug\Wash.csproj.CopyComplete

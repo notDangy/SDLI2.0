@@ -1,0 +1,10 @@
+{
+    "TakeFromFloor": "Raccogli",
+    "fullInventory": "Possiedi il numero massimo di oggetti",
+    "fullInventoryGive": "La persona possiede il numero massimo di oggetti  ",
+    "TryExploits": "Non puoi superare il limite",
+
+    "NotEnoughMoney": "Non hai abbastanza soldi",
+    "YouPaid": "Hai pagato {0}$ a {1}",
+    "YouReceived": "Hai ricevuto {0}$ da {1}"
+}

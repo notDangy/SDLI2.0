@@ -1,0 +1,882 @@
+﻿{
+  "defaultlang": "En", // set your language
+
+  "Stores": [
+    {
+      "name": "Armeria di Saint Denis",
+      "NPCModel": "U_M_M_NbxGunsmith_01", //Kuo Chao
+      "BlipIcon": -145868367,
+      "EnterStore": [ 2716.12, -1285.5, 48.62, 1.0 ],
+      "CameraMain": [ 2716.288, -1284.979, 50.22016, -7.764513, 0.0, -154.7173 ],
+      "NPCStore": [ 2717.23, -1286.94, 48.63, 34.73 ],
+      "SpawnObjectStore": [ 2716.71, -1286.26, 49.80, 24.94 ],
+      "SpawnAmmoInStores": [
+        [ 2721.034, -1286.821, 49.6806, 205.34, "p_ammoboxhalf01x", "ammo_bullet_revolver", 0.25 ], //item ammo box of 10 bullets
+        [ 2721.631, -1286.55, 49.6806, 25.34, "s_inv_used_pistolammo01x", "ammo_bullet_pistol", 0.25 ],
+        [ 2720.465, -1287.084, 49.6806, 205.34, "s_sh_doubleammo01x", "ammo_shotgun", 0.25 ],
+        [ 2719.061, -1285.645, 49.6806, -200.34, "s_inv_repeat_rifleammo01x", "ammo_bullet_repeater", 0.25 ],
+        [ 2718.604, -1285.488, 49.6806, -15.34, "s_inv_used_rifleammo01x", "ammo_bullet_rifle", 0.25 ],
+        [ 2714.976, -1280.644, 49.6806, 25.34, "s_inv_varmint_rifleammo01x", "ammo_bullet_varmint", 0.25 ]
+      ]
+    },
+    {
+      "name": "Armeria di Valentine",
+      "NPCModel": "S_M_M_STRDEALER_01",
+      "BlipIcon": -145868367,
+      "EnterStore": [ -281.16, 781.24, 119.53, 1.0 ],
+      "CameraMain": [ -280.8947, 781.0087, 120.0139, -8.367887, 0.0, 179.2106 ],
+      "NPCStore": [ -280.87, 778.5, 118.5, 0.03 ],
+      "SpawnObjectStore": [ -281.19, 779.78, 119.65, 358.81 ],
+      "SpawnAmmoInStores": [
+        [ -282.49, 779.72, 119.55, 0.03, "p_ammoboxhalf01x", "ammo_bullet_revolver", 0.25 ], //item ammo box of 10 bullets
+        [ -283.51, 779.72, 119.55, 0.03, "s_inv_used_pistolammo01x", "ammo_bullet_pistol", 0.25 ],
+        [ -283.03, 779.72, 119.55, 0.03, "s_inv_repeat_rifleammo01x", "ammo_bullet_repeater", 0.25 ]
+      ]
+    },
+    {
+      "name": "Armeria di Tumbleweed",
+      "NPCModel": "S_M_M_STRDEALER_01",
+      "BlipIcon": -145868367,
+      "EnterStore": [ -5508.67, -2964.52, -0.63, 1.0 ],
+      "CameraMain": [ -5508.52, -2964.3, -0.1410592, -7.3529, 0.0, -74.72726 ],
+      "NPCStore": [ -5506.14, -2963.83, -1.64, 105.35 ],
+      "SpawnObjectStore": [ -5507.45, -2964.23, -0.29, 105.11 ],
+      "SpawnAmmoInStores": [
+        [ -5506.62, -2966.85, -0.6, 105.14, "p_ammoboxhalf01x", "ammo_bullet_revolver", 0.25 ], //item ammo box of 10 bullets
+        [ -5506.82, -2966.1, -0.6, 105.14, "s_inv_used_pistolammo01x", "ammo_bullet_pistol", 0.25 ],
+        [ -5506.69, -2962.85, -0.6, 15.32, "s_inv_repeat_rifleammo01x", "ammo_bullet_repeater", 0.25 ]
+      ]
+    },
+    {
+      "name": "Armeria di Rhodes",
+      "NPCModel": "S_M_M_STRDEALER_01",
+      "BlipIcon": -145868367,
+      "EnterStore": [ 1322.91, -1321.02, 77.89, 1.0 ],
+      "CameraMain": [ 1322.89, -1321.226, 78.38355, -16.32112, 0.0, 164.2317 ],
+      "NPCStore": [ 1322.14, -1323.3, 76.89, 345.54 ],
+      "SpawnObjectStore": [ 1322.4, -1322.22, 78.04, 345.21 ],
+      "SpawnAmmoInStores": [
+        [ 1326.44, -1321.76, 77.93, 75.65, "p_ammoboxhalf01x", "ammo_bullet_revolver", 0.25 ], //item ammo box of 10 bullets
+        [ 1326.11, -1322.84, 77.93, 74.74, "s_inv_used_pistolammo01x", "ammo_bullet_pistol", 0.25 ],
+        [ 1326.17, -1322.29, 77.93, 78.94, "s_inv_repeat_rifleammo01x", "ammo_bullet_repeater", 0.25 ]
+      ]
+    },
+    {
+      "name": "Armeria di Annesburg",
+      "NPCModel": "S_M_M_STRDEALER_01",
+      "BlipIcon": -145868367,
+      "EnterStore": [ 2946.39, 1320.14, 44.82, 1.0 ],
+      "CameraMain": [ 2946.663, 1320.283, 45.31498, -21.16619, 0.0, -110.3879 ],
+      "NPCStore": [ 2948.69, 1319.2, 44.82, 70.1 ],
+      "SpawnObjectStore": [ 2947.52, 1319.59, 44.98, 70.21 ],
+      "SpawnAmmoInStores": []
+    }
+  ],
+
+  "AmmoGivesOnUse": [
+    {
+      "ammo_bullet_revolver": "AMMO_REVOLVER",
+      "ammo_bullet_pistol": "AMMO_PISTOL",
+      "ammo_shotgun": "AMMO_SHOTGUN",
+      "ammo_bullet_repeater": "AMMO_REPEATER",
+      "ammo_bullet_rifle": "AMMO_RIFLE",
+      "ammo_bullet_varmint": "AMMO_22"
+    }
+  ],
+
+  "Weapons": [
+    {
+      "Name": "Torcia",
+      "HashName": "WEAPON_MELEE_TORCH",
+      "WeaponModel": "p_torch01x",
+      "Price": 0.80,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Lazo",
+      "HashName": "WEAPON_LASSO",
+      "WeaponModel": "w_melee_lasso01",
+      "Price": 1.50,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Canna da pesca",
+      "HashName": "WEAPON_FISHINGROD",
+      "WeaponModel": "w_melee_fishingpole02",
+      "Price": 2,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Coltello da caccia",
+      "HashName": "WEAPON_MELEE_KNIFE",
+      "WeaponModel": "w_melee_knife02",
+      "Price": 3,
+      "AmmoHash": [],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_melee_knife02_grip1": 0
+        }
+      ]
+    },
+    {
+      "Name": "Machete",
+      "HashName": "WEAPON_MELEE_MACHETE",
+      "WeaponModel": "w_melee_machete01",
+      "Price": 4.28,
+      "AmmoHash": [],
+      "CompsHash": []
+    },    
+    {
+      "Name": "Accetta",
+      "HashName": "WEAPON_MELEE_HATCHET",
+      "WeaponModel": "w_melee_hatchet01",
+      "Price": 4.52,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Accetta da Cacciatore", 
+      "HashName": "WEAPON_MELEE_HATCHET_HUNTER",
+      "WeaponModel": "w_melee_hatchet07",
+      "Price": 5.47,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Arco", 
+      "HashName": "WEAPON_BOW",
+      "WeaponModel": "w_sp_bowarrow",
+      "Price": 9.99,
+      "AmmoHash": [
+        {
+          "AMMO_ARROW": 0.02
+        }
+      ],
+      "CompsHash": []
+    },
+    {
+      "Name": "Pistola Mauser",
+      "HashName": "WEAPON_PISTOL_MAUSER",
+      "WeaponModel": "w_pistol_mauser01",
+      "Price": 28,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_PISTOL": 0.03
+          
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_pistol_mauser01_sight1": 0,
+          "w_pistol_mauser01_sight2": 10,
+          "w_pistol_mauser01_grip1": 0,
+          "w_pistol_mauser01_grip2": 10,
+          "w_pistol_mauser01_grip3": 10,
+          "w_pistol_mauser01_grip4": 10,
+          "w_pistol_mauser01_clip": 0,
+          "w_pistol_mauser01_barrel1": 0,
+          "w_pistol_mauser01_barrel2": 10
+        }
+      ]
+    },
+    
+    {
+      "Name": "Revolver Doppia Azione",
+      "HashName": "WEAPON_REVOLVER_DOUBLEACTION",
+      "WeaponModel": "w_revolver_doubleaction01",
+      "Price": 20,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REVOLVER": 0.02
+          
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_revolver_doubleaction01_sight1": 0,
+          "w_revolver_doubleaction01_sight2": 10,
+          "w_revolver_doubleaction01_grip1": 0,
+          "w_revolver_doubleaction01_grip2": 10,
+          "w_revolver_doubleaction01_grip3": 10,
+          "w_revolver_doubleaction01_grip4": 10,
+          "w_revolver_doubleaction01_grip5": 10,
+          "w_revolver_doubleaction01_barrel01": 0,
+          "w_revolver_doubleaction01_barrel02": 10
+        }
+      ]
+    },
+    
+    {
+      "Name": "Fucile Varmint",
+      "HashName": "WEAPON_RIFLE_VARMINT",
+      "WeaponModel": "w_repeater_pumpaction01",
+      "Price": 42,
+      "AmmoHash": [
+        {
+          "AMMO_22": 0.02
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_repeater_pumpaction01_wrap1": 0,
+          "w_repeater_pumpaction01_sight1": 0,
+          "w_repeater_pumpaction01_sight2": 10,
+          "w_repeater_pumpaction01_grip1": 0,
+          "w_repeater_pumpaction01_grip2": 10,
+          "w_repeater_pumpaction01_grip3": 10,
+          "w_repeater_pumpaction01_clip1": 0,
+          "w_repeater_pumpaction01_clip2": 10,
+          "w_repeater_pumpaction01_clip3": 10
+        }
+      ]
+    },
+    
+    {
+      "Name": "Ripetitore Evans", 
+      "HashName": "WEAPON_REPEATER_EVANS",
+      "WeaponModel": "w_repeater_evans01",
+      "Price": 52,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REPEATER": 0.03
+          
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_repeater_evans01_wrap1": 0,
+          "w_repeater_evans01_sight1": 0,
+          "w_repeater_evans01_sight2": 10,
+          "w_repeater_evans01_grip1": 0,
+          "w_repeater_evans01_grip2": 10,
+          "w_repeater_evans01_grip3": 10
+        }
+      ]
+    },
+    
+    {
+      "Name": "Fucile Cannemozze",
+      "HashName": "WEAPON_SHOTGUN_SAWEDOFF",
+      "WeaponModel": "w_shotgun_sawed01",
+      "Price": 72,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_SHOTGUN": 0.03
+          
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_shotgun_sawed01_wrap1": 0,
+          "w_shotgun_sawed01_sight1": 0,
+          "w_shotgun_sawed01_sight2": 10,
+          "w_shotgun_sawed01_grip1": 0,
+          "w_shotgun_sawed01_grip2": 10,
+          "w_shotgun_sawed01_grip3": 10,
+          "w_shotgun_sawed01_stock1": 0,
+          "w_shotgun_sawed01_stock2": 10,
+          "w_shotgun_sawed01_stock3": 10
+        }
+      ]
+    },
+    
+    {
+      "Name": "Macchina Fotografica",
+      "HashName": "WEAPON_KIT_CAMERA_ADVANCED",
+      "WeaponModel": "p_camerabox_film01x",
+      "Price": 5,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+
+    {
+      "Name": "Lanterna Davy",
+      "HashName": "WEAPON_MELEE_DAVY_LANTERN",
+      "WeaponModel": "s_interact_lantern03x_pickup",
+      "Price": 5,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Lanterna ad Olio",
+      "HashName": "WEAPON_MELEE_LANTERN",
+      "WeaponModel": "s_interact_lantern03x_pickup",
+      "Price": 4.87,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+
+    {
+      "Name": "Binocolo",
+      "HashName": "weapon_kit_binoculars",
+      "WeaponModel": "p_binoculars01x",
+      "Price": 12,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+
+
+
+
+
+    //MENOUNO
+    {
+      "Name": "Doppietta", //ARMAIOLO
+      "HashName": "WEAPON_SHOTGUN_DOUBLEBARREL",
+      "WeaponModel": "w_shotgun_doublebarrel01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_SHOTGUN": 0.03
+          
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_shotgun_doublebarrel01_wrap1": 0,
+          "w_shotgun_doublebarrel01_sight1": 0,
+          "w_shotgun_doublebarrel01_sight2": 10,
+          "w_shotgun_doublebarrel01_grip1": 0,
+          "w_shotgun_doublebarrel01_grip2": 10,
+          "w_shotgun_doublebarrel01_grip3": 10,
+          "w_shotgun_doublebarrel01_barrel1": 0,
+          "w_shotgun_doublebarrel01_barrel2": 10,
+          "w_shotgun_doublebarrel01_mag1": 0,
+          "w_shotgun_doublebarrel01_mag2": 10,
+          "w_shotgun_doublebarrel01_mag3": 10
+        }
+      ]
+    },
+    {
+      "Name": "Fucile a Pompa a Ripetizione", //illegale
+      "HashName": "WEAPON_SHOTGUN_REPEATING",
+      "WeaponModel": "w_shotgun_repeating01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_SHOTGUN": 0.03
+          
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_shotgun_repeating01_wrap1": 0,
+          "w_shotgun_repeating01_sight1": 0,
+          "w_shotgun_repeating01_sight2": 10,
+          "w_shotgun_repeating01_grip1": 0,
+          "w_shotgun_repeating01_grip2": 10,
+          "w_shotgun_repeating01_grip3": 10,
+          "w_shotgun_repeating01_barrel1": 0,
+          "w_shotgun_repeating01_barrel2": 10
+        }
+      ]
+    },
+    {
+      "Name": "Fucile a Pompa", //ILLEGALE
+      "HashName": "WEAPON_SHOTGUN_PUMP",
+      "WeaponModel": "w_shotgun_pumpaction01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_SHOTGUN": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_shotgun_pumpaction01_wrap1": 0,
+          "w_shotgun_pumpaction01_sight1": 0,
+          "w_shotgun_pumpaction01_sight2": 10,
+          "w_shotgun_pumpaction01_grip1": 0,
+          "w_shotgun_pumpaction01_grip2": 10,
+          "w_shotgun_pumpaction01_grip3": 10,
+          "w_shotgun_pumpaction01_barrel1": 0,
+          "w_shotgun_pumpaction01_barrel2": 10,
+          "w_shotgun_pumpaction01_clip1": 0,
+          "w_shotgun_pumpaction01_clip2": 10,
+          "w_shotgun_pumpaction01_clip3": 10
+        }
+      ]
+    },
+    {
+      "Name": "Pistola SemiAutomatica", //ARMAIOLO
+      "HashName": "WEAPON_PISTOL_SEMIAUTO",
+      "WeaponModel": "w_pistol_semiauto01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_PISTOL": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_pistol_semiauto01_sight1": 0,
+          "w_pistol_semiauto01_sight2": 10,
+          "w_pistol_semiauto01_grip1": 0,
+          "w_pistol_semiauto01_grip2": 10,
+          "w_pistol_semiauto01_grip3": 10,
+          "w_pistol_semiauto01_grip4": 10,
+          "w_pistol_semiauto01_clip": 0,
+          "w_pistol_semiauto01_barrel1": 0,
+          "w_pistol_semiauto01_barrel2": 10
+        }
+      ]
+    },
+    {
+      "Name": "Pistola Volcanic", //ARMAIOLO
+      "HashName": "WEAPON_PISTOL_VOLCANIC",
+      "WeaponModel": "w_pistol_volcanic01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_PISTOL": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_pistol_volcanic01_sight1": 0,
+          "w_pistol_volcanic01_sight2": 10,
+          "w_pistol_volcanic01_grip1": 0,
+          "w_pistol_volcanic01_grip2": 10,
+          "w_pistol_volcanic01_grip3": 10,
+          "w_pistol_volcanic01_grip4": 10,
+          "w_pistol_volcanic01_barrel01": 0,
+          "w_pistol_volcanic01_barrel02": 10
+        }
+      ]
+    },
+    {
+      "Name": "Pistola M1899", //ARMAIOLO
+      "HashName": "WEAPON_PISTOL_M1899",
+      "WeaponModel": "w_pistol_m189902",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_PISTOL": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_pistol_m189902_sight1": 0,
+          "w_pistol_m189902_sight2": 10,
+          "w_pistol_m189902_grip1": 0,
+          "w_pistol_m189902_grip2": 10,
+          "w_pistol_m189902_grip3": 10,
+          "w_pistol_m189902_grip4": 10,
+          "w_pistol_m189902_clip1": 0,
+          "w_pistol_m189902_barrel01": 0,
+          "w_pistol_m189902_barrel02": 10
+        }
+      ]
+    },
+    {
+      "Name": "Revolver Schofield", //ARMAIOLO
+      "HashName": "WEAPON_REVOLVER_SCHOFIELD",
+      "WeaponModel": "w_revolver_schofield01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REVOLVER": 0.02
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_revolver_schofield01_sight1": 0,
+          "w_revolver_schofield01_sight2": 10,
+          "w_revolver_schofield01_grip1": 0,
+          "w_revolver_schofield01_grip2": 10,
+          "w_revolver_schofield01_grip3": 10,
+          "w_revolver_schofield01_grip4": 10,
+          "w_revolver_schofield01_barrel01": 0,
+          "w_revolver_schofield01_barrel02": 10
+        }
+      ]
+    },
+    {
+      "Name": "Revolver Lemat", //ARMAIOLO
+      "HashName": "WEAPON_REVOLVER_LEMAT",
+      "WeaponModel": "w_revolver_lemat01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REVOLVER": 0.02
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_revolver_lemat01_sight1": 0,
+          "w_revolver_lemat01_sight2": 10,
+          "w_revolver_lemat01_grip1": 0,
+          "w_revolver_lemat01_grip2": 10,
+          "w_revolver_lemat01_grip3": 10,
+          "w_revolver_lemat01_grip4": 10,
+          "w_revolver_lemat01_barrel01": 0,
+          "w_revolver_lemat01_barrel02": 10
+        }
+      ]
+    },
+    {
+      "Name": "Revolver Cattleman", //ARMAIOLO
+      "HashName": "WEAPON_REVOLVER_CATTLEMAN",
+      "WeaponModel": "w_revolver_cattleman01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REVOLVER": 0.02
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_revolver_cattleman01_sight1": 0,
+          "w_revolver_cattleman01_sight2": 10,
+          "w_revolver_cattleman01_grip1": 0,
+          "w_revolver_cattleman01_grip2": 10,
+          "w_revolver_cattleman01_grip3": 10,
+          "w_revolver_cattleman01_grip4": 10,
+          "w_revolver_cattleman01_grip5": 10,
+          "w_revolver_cattleman01_barrel01": 0,
+          "w_revolver_cattleman01_barrel02": 10
+        }
+      ]
+    },
+    {
+      "Name": "Revolver Navy", //VIP
+      "HashName": "WEAPON_REVOLVER_NAVY",
+      "WeaponModel": "w_revolver_navy01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REVOLVER": 0.02
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_revolver_navy01_barrel01": 0,
+          "w_revolver_navy01_barrel02": 10,
+          "w_revolver_navy01_grip1": 0,
+          "w_revolver_navy01_grip2": 10,
+          "w_revolver_navy01_grip3": 10,
+          "w_revolver_navy01_grip4": 10,
+          "w_revolver_navy01_sight1": 10,
+          "w_revolver_navy01_sight2": 0,
+          "w_revolver_navy02_barrel01": 10,
+          "w_revolver_navy02_grip1": 10,
+          "w_revolver_navy02_sight1": 10
+        }
+      ]
+    },
+    {
+      "Name": "Fucile Winchester", //ARMAIOLO
+      "HashName": "WEAPON_REPEATER_WINCHESTER",
+      "WeaponModel": "w_repeater_winchester01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REPEATER": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_repeater_winchester01_wrap1": 0,
+          "w_repeater_winchester01_sight1": 0,
+          "w_repeater_winchester01_sight2": 10,
+          "w_repeater_winchester01_grip1": 0,
+          "w_repeater_winchester01_grip2": 10,
+          "w_repeater_winchester01_grip3": 10
+        }
+      ]
+    },
+    {
+      "Name": "Fucile Henry", //ARMAIOLO
+      "HashName": "WEAPON_REPEATER_HENRY",
+      "WeaponModel": "w_repeater_henry01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REPEATER": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_repeater_henry01_wrap1": 0,
+          "w_repeater_henry01_sight1": 0,
+          "w_repeater_henry01_sight2": 10,
+          "w_repeater_henry01_grip1": 0,
+          "w_repeater_henry01_grip2": 10,
+          "w_repeater_henry01_grip3": 10
+        }
+      ]
+    },
+    {
+      "Name": "Carabina a Ripetizione", //ARMAIOLO
+      "HashName": "WEAPON_REPEATER_CARBINE",
+      "WeaponModel": "w_repeater_carbine01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_REPEATER": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_repeater_carbine01_wrap1": 0,
+          "w_repeater_carbine01_sight1": 0,
+          "w_repeater_carbine01_sight2": 10,
+          "w_repeater_carbine01_grip1": 0,
+          "w_repeater_carbine01_grip2": 10,
+          "w_repeater_carbine01_grip3": 10,
+          "w_repeater_carbine01_clip1": 0
+        }
+      ]
+    },
+    {
+      "Name": "Fucile Rolling Block", //ILLEGALE
+      "HashName": "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",
+      "WeaponModel": "w_rifle_rollingblock01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_RIFLE": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_rifle_rollingblock01_wrap1": 0,
+          "w_rifle_rollingblock01_sight2": 10,
+          "w_rifle_rollingblock01_sight1": 0,
+          "w_rifle_rollingblock01_grip1": 0,
+          "w_rifle_rollingblock01_grip2": 10,
+          "w_rifle_rollingblock01_grip3": 10,
+          "w_rifle_scopeinner01": 0,
+          "w_rifle_scope04": 10,
+          "w_rifle_scope03": 10,
+          "w_rifle_scope02": 10,
+          "w_rifle_cs_strap01": 0
+        }
+      ]
+    },
+    {
+      "Name": "Fucile Carcano", //ILLEGALE
+      "HashName": "WEAPON_SNIPERRIFLE_CARCANO",
+      "WeaponModel": "w_rifle_carcano01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_RIFLE": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_rifle_carcano01_wrap1": 0,
+          "w_rifle_carcano01_sight2": 10,
+          "w_rifle_carcano01_sight1": 0,
+          "w_rifle_carcano01_grip1": 0,
+          "w_rifle_carcano01_grip2": 10,
+          "w_rifle_carcano01_grip3": 10,
+          "w_rifle_carcano01_clip": 0,
+          "w_rifle_carcano01_clip2": 10,
+          "w_rifle_scopeinner01": 0,
+          "w_rifle_scope04": 10,
+          "w_rifle_scope03": 10,
+          "w_rifle_scope02": 10,
+          "w_rifle_cs_strap01": 0
+        }
+      ]
+    },
+    {
+      "Name": "Fucile Springfield", //ILLEGALE
+      "HashName": "WEAPON_RIFLE_SPRINGFIELD",
+      "WeaponModel": "w_rifle_springfield01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_RIFLE": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_rifle_springfield01_wrap1": 0,
+          "w_rifle_springfield01_sight2": 10,
+          "w_rifle_springfield01_sight1": 0,
+          "w_rifle_springfield01_grip1": 0,
+          "w_rifle_springfield01_grip2": 10,
+          "w_rifle_springfield01_grip3": 10,
+          "w_rifle_scopeinner01": 0,
+          "w_rifle_scope04": 10,
+          "w_rifle_scope03": 10,
+          "w_rifle_scope02": 10,
+          "w_rifle_cs_strap01": 0
+        }
+      ]
+    },
+    // { // La munición aún no funciona
+    //   "Name": "Fusil para elefantes",
+    //   "HashName": "WEAPON_RIFLE_ELEPHANT",
+    //   "WeaponModel": "w_rifle_elephant01",
+    //   "Price": 100.0,
+    //   "AmmoHash": [ //Máximo de balas
+    //       {
+    //           "AMMO_NITRO": 0.25
+    //       }
+    //   ],
+    //   "CompsHash": []
+    // },
+    {
+      "Name": "Fucile Bolt Action", //ARMAIOLO
+      "HashName": "WEAPON_RIFLE_BOLTACTION",
+      "WeaponModel": "w_rifle_boltaction01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_RIFLE": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_rifle_boltaction01_wrap1": 0,
+          "w_rifle_boltaction01_sight1": 0,
+          "w_rifle_boltaction01_sight2": 10,
+          "w_rifle_boltaction01_grip1": 0,
+          "w_rifle_boltaction01_grip2": 10,
+          "w_rifle_boltaction01_grip3": 10
+        }
+      ]
+    },
+    {
+      "Name": "Fucile a Pompa SemiAutomatica", //ILLEGALE
+      "HashName": "WEAPON_SHOTGUN_SEMIAUTO",
+      "WeaponModel": "w_shotgun_semiauto01",
+      "Price": -1,
+      "AmmoHash": [ //Máximo de balas
+        {
+          "AMMO_SHOTGUN": 0.03
+        }
+      ],
+      "CompsHash": [ //Precio Componente
+        {
+          "w_shotgun_semiauto01_wrap1": 0,
+          "w_shotgun_semiauto01_sight1": 0,
+          "w_shotgun_semiauto01_sight2": 10,
+          "w_shotgun_semiauto01_grip1": 0,
+          "w_shotgun_semiauto01_grip2": 10,
+          "w_shotgun_semiauto01_grip3": 10,
+          "w_shotgun_semiauto01_barrel1": 0,
+          "w_shotgun_semiauto01_barrel2": 10
+        }
+      ]
+    },
+    {
+      "Name": "Arco Migliorato", //VIP
+      "HashName": "WEAPON_BOW_IMPROVED",
+      "WeaponModel": "w_bow_improved01",
+      "Price": -1,
+      "AmmoHash": [
+        {
+          "AMMO_ARROW": 0.02
+        }
+      ],
+      "CompsHash": []
+    },
+    {
+      "Name": "Coltello Mandibola", //VIP
+      "HashName": "WEAPON_MELEE_KNIFE_JAWBONE",
+      "WeaponModel": "w_bow_improved01",
+      "Price": -1,
+      "AmmoHash": [],
+      "CompsHash": []
+    },
+    {
+      "Name": "Revolver Cattleman Mexican", //VIP
+      "HashName": "WEAPON_REVOLVER_CATTLEMAN_MEXICAN",
+      "WeaponModel": "w_bow_improved01",
+      "Price": -1,
+      "AmmoHash": [
+        {
+          "AMMO_REVOLVER": 0.02
+        }
+      ],
+      "CompsHash": []
+    },
+    {
+      "Name": "Revolver Gambler", //VIP
+      "HashName": "WEAPON_REVOLVER_DOUBLEACTION_GAMBLER",
+      "WeaponModel": "w_bow_improved01",
+      "Price": -1,
+      "AmmoHash": [
+        {
+          "AMMO_REVOLVER": 0.02
+        }
+      ],
+      "CompsHash": []
+    },
+    {
+      "Name": "Doppietta Esotica", //VIP
+      "HashName": "WEAPON_SHOTGUN_DOUBLEBARREL_EXOTIC",
+      "WeaponModel": "w_bow_improved01",
+      "Price": -1,
+      "AmmoHash": [
+        {
+          "AMMO_SHOTGUN": 0.03
+        }
+      ],
+      "CompsHash": []
+    },
+	{
+      "Name": "Tomahawk", //INDIANI
+      "HashName": "WEAPON_THROWN_TOMAHAWK",
+      "WeaponModel": "w_bow_improved01",
+      "Price": -1,
+      "AmmoHash": [
+        {
+          "AMMO_THROWN_TOMAHAWK": 0.02
+        }
+      ],
+      "CompsHash": []
+    }
+  ],
+
+  "AmmoLimit": [
+    {
+      "AMMO_TOMAHAWK": 3,
+	  "AMMO_THROWN_TOMAHAWK": 3,
+      "AMMO_TOMAHAWK_IMPROVED": 3,
+      "AMMO_TOMAHAWK_HOMING": 3,
+      "AMMO_THROWING_KNIVES": 8,
+      "AMMO_THROWING_KNIVES_IMPROVED": 8,
+      "AMMO_THROWING_KNIVES_POISON": 8,
+      "AMMO_ARROW": 40,
+      "AMMO_ARROW_DYNAMITE": 8,
+      "AMMO_ARROW_FIRE": 8,
+      "AMMO_ARROW_IMPROVED": 40,
+      "AMMO_ARROW_POISON": 8,
+      "AMMO_ARROW_SMALL_GAME": 40,
+      "AMMO_PISTOL": 100,
+      "AMMO_PISTOL_EXPRESS": 100,
+      "AMMO_PISTOL_EXPRESS_EXPLOSIVE": 10,
+      "AMMO_PISTOL_HIGH_VELOCITY": 100,
+      "AMMO_PISTOL_SPLIT_POINT": 50,
+      "AMMO_REVOLVER": 100,
+      "AMMO_REVOLVER_EXPRESS": 200,
+      "AMMO_REVOLVER_EXPRESS_EXPLOSIVE": 10,
+      "AMMO_REVOLVER_HIGH_VELOCITY": 200,
+      "AMMO_REVOLVER_SPLIT_POINT": 100,
+      "AMMO_22": 100, // No recarga el arma
+      "AMMO_REPEATER": 200,
+      "AMMO_REPEATER_EXPRESS": 200,
+      "AMMO_REPEATER_EXPRESS_EXPLOSIVE": 10,
+      "AMMO_REPEATER_HIGH_VELOCITY": 200,
+      "AMMO_REPEATER_SPLIT_POINT": 100, // No aparecen en el inventario aunque las hayas comprado
+      "AMMO_RIFLE": 100,
+      "AMMO_RIFLE_EXPRESS": 100,
+      "AMMO_RIFLE_EXPRESS_EXPLOSIVE": 10,
+      "AMMO_RIFLE_HIGH_VELOCITY": 100,
+      "AMMO_RIFLE_SPLIT_POINT": 50,
+      "AMMO_SHOTGUN": 100,
+      "AMMO_SHOTGUN_BUCKSHOT_INCENDIARY": 14,
+      "AMMO_SHOTGUN_EXPRESS_EXPLOSIVE": 14, // No aparecen en el inventario aunque las hayas comprado
+      "AMMO_SHOTGUN_SLUG": 60
+    }
+  ]
+}
