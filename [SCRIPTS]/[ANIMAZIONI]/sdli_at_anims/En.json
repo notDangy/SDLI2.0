@@ -1,0 +1,11 @@
+﻿{
+  "MainMenuTitle": "Character",
+  "MainMenuSubTitle": "Animations, ways of walking...",
+  "WalkStyleMenuTitle": "Walk",
+  "WalkStyleMenuSubTitle": "Ways of walking",
+  "AnimationsMenuTitle": "Animations",
+  "AnimationsMenuSubTitle": "Character animations",
+  "EmotesMenuTitle": "Emotes",
+  "EmotesMenuSubTitle": "character emotes",
+  "StopAnim": "Stop animation"
+}

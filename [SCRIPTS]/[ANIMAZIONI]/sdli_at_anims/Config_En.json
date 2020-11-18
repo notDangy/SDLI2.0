@@ -1,0 +1,359 @@
+﻿{
+  "defaultlang": "En", // Default language
+  "KeyToOpenMenu": "0xD8F7305", // Key for opening the Menu, U
+  "AutoScenarioActivated": true, // Leave it set to true if you want to start and stop sceneries with the keys bellow
+  "AutoScenarioKey": "0x1F6D95E5", // Key to start sceneries, F4
+  "StopAnimationKey": "0x26E9DC00", // Key to stop sceneries, Z
+
+  // Walk Style List
+  "WalkStyleList": [
+    {
+      "Name": "Normal",
+      "Style": "MP_Style_Default"
+    },
+    {
+      "Name": "Casual",
+      "Style": "MP_Style_Casual"
+    },
+    {
+      "Name": "Crazy",
+      "Style": "MP_Style_Crazy"
+    },
+    {
+      "Name": "Flamboyant",
+      "Style": "MP_Style_Flamboyant"
+    },
+    {
+      "Name": "Gunslinger",
+      "Style": "MP_Style_Gunslinger"
+    },
+    {
+      "Name": "Refined",
+      "Style": "MP_Style_Refined"
+    },
+    {
+      "Name": "Silent",
+      "Style": "MP_Style_SilentType"
+    },
+    {
+      "Name": "Greenhorn",
+      "Style": "MP_Style_Greenhorn"
+    },
+    {
+      "Name": "Veteran",
+      "Style": "MP_Style_Veteran"
+    },
+    {
+      "Name": "Easy Rider",
+      "Style": "MP_Style_EasyRider"
+    }
+  ],
+
+  // Animation List
+  "AnimationsList": [
+    {
+      "Name": "Knock on the door",
+      "Anim": "WORLD_HUMAN_KNOCK_DOOR",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Pee",
+      "Anim": "WORLD_HUMAN_PEE",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Sit on the floor",
+      "Anim": "WORLD_HUMAN_FIRE_SIT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Hands on the waist",
+      "Anim": "WORLD_HUMAN_BADASS",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Vomit",
+      "Anim": "WORLD_HUMAN_VOMIT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Kneel vomit",
+      "Anim": "WORLD_HUMAN_VOMIT_KNEEL",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Kneel face wash",
+      "Anim": "WORLD_HUMAN_WASH_FACE_BUCKET_GROUND",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Kneel observer",
+      "Anim": "WORLD_PLAYER_DYNAMIC_KNEEL",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Impatient",
+      "Anim": "WORLD_HUMAN_WAITING_IMPATIENT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Waiting",
+      "Anim": "WORLD_HUMAN_STAND_WAITING",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Inspect ground",
+      "Anim": "WORLD_HUMAN_CROUCH_INSPECT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Inspect",
+      "Anim": "WORLD_HUMAN_INSPECT",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Cross arms",
+      "Anim": "WORLD_HUMAN_STARE_STOIC",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Clean glass",
+      "Anim": "WORLD_HUMAN_BARTENDER_CLEAN_GLASS",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Lay on the counter 1",
+      "Anim": "WORLD_HUMAN_SHOPKEEPER",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Lay on the counter 2",
+      "Anim": "WORLD_HUMAN_SHOPKEEPER_CATALOG",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Hands on waist 2",
+      "Anim": "WORLD_HUMAN_STERNGUY_IDLES",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Take notes on a notebook",
+      "Anim": "WORLD_HUMAN_WRITE_NOTEBOOK",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Smoke cigar",
+      "Anim": "WORLD_HUMAN_SMOKE_CIGAR",
+      "Type": "scenario"
+    },
+    {
+      "Name": "Smoke cigarette",
+      "Anim": "WORLD_HUMAN_SMOKE_INTERACTION",
+      "Type": "scenario"
+    }
+  ],
+
+  // Emote List
+  "EmotesList": [
+    {
+      "Name": "Greet",
+      "Emote": -339257980
+    },
+    {
+      "Name": "Send kiss",
+      "Emote": 1927505461
+    },
+    {
+      "Name": "Nod with crossed arms",
+      "Emote": 1879954891
+    },
+    {
+      "Name": "Follow me!",
+      "Emote": 1115379199
+    },
+    {
+      "Name": "Supplicate",
+      "Emote": 164860528
+    },
+    {
+      "Name": "Shoot into the air",
+      "Emote": 1939251934
+    },
+    {
+      "Name": "Shoot forward",
+      "Emote": -1639456476
+    },
+    {
+      "Name": "Clap",
+      "Emote": -221241824
+    },
+    {
+      "Name": "Disapprove",
+      "Emote": 1509171361
+    },
+    {
+      "Name": "Threat",
+      "Emote": 1256841324
+    },
+    {
+      "Name": "Feign injury",
+      "Emote": -110352861
+    },
+    {
+      "Name": "Angry",
+      "Emote": 796723886
+    },
+    {
+      "Name": "Victory",
+      "Emote": -402959
+    },
+    {
+      "Name": "Bad smell",
+      "Emote": -166523388
+    },
+    {
+      "Name": "Approve",
+      "Emote": 425751659
+    },
+    {
+      "Name": "Spit",
+      "Emote": -2106738342
+    },
+    {
+      "Name": "Mirar el horizonte",
+      "Emote": 935157006
+    },
+    {
+      "Name": "Indicate 1",
+      "Emote": 1593752891
+    },
+    {
+      "Name": "Indicate 2",
+      "Emote": 7918540
+    },
+    {
+      "Name": "Indicate 3",
+      "Emote": 486225122
+    },
+    {
+      "Name": "Come here",
+      "Emote": 474409519
+    },
+    {
+      "Name": "Fish",
+      "Emote": 1159716480
+    },
+    {
+      "Name": "Flex muscles",
+      "Emote": -773960361
+    },
+    {
+      "Name": "Plot",
+      "Emote": 589481092
+    },
+    {
+      "Name": "Stop",
+      "Emote": -1691237868
+    },
+    {
+      "Name": "Filter",
+      "Emote": 831975651
+    },
+    {
+      "Name": "Friendly greet",
+      "Emote": 901097731
+    },
+    {
+      "Name": "Polite greet",
+      "Emote": -2121881035
+    },
+    {
+      "Name": "Greet with the hat",
+      "Emote": -1457020913
+    },
+    {
+      "Name": "Respect greet",
+      "Emote": -1801715172
+    },
+    {
+      "Name": "Happy to see you",
+      "Emote": 523585988
+    },
+    {
+      "Name": "¡Taa Daa!",
+      "Emote": -462132925
+    },
+    {
+      "Name": "Get indignant",
+      "Emote": 1802342943
+    },
+    {
+      "Name": "Sick",
+      "Emote": -1118911493
+    },
+    {
+      "Name": "Shut up",
+      "Emote": -1644757697
+    },
+    {
+      "Name": "Nod",
+      "Emote": -822629770
+    },
+    {
+      "Name": "Make fun",
+      "Emote": 803206066
+    },
+    {
+      "Name": "Deny",
+      "Emote": -653113914
+    },
+    {
+      "Name": "Slow clap",
+      "Emote": 1023735814
+    },
+    {
+      "Name": "Who, me?",
+      "Emote": 329631369
+    },
+    {
+      "Name": "Yeehaa",
+      "Emote": 445839715
+    },
+    {
+      "Name": "Feign cry",
+      "Emote": 246916594
+    },
+    {
+      "Name": "Lament",
+      "Emote": 81347960
+    },
+    {
+      "Name": "Chicken",
+      "Emote": 1825177171
+    },
+    {
+      "Name": "Fuck you 1",
+      "Emote": 354512356
+    },
+    {
+      "Name": "Fuck you 2",
+      "Emote": 969312568
+    },
+    {
+      "Name": "I'm watching you",
+      "Emote": -553424129
+    },
+    {
+      "Name": "Challenge",
+      "Emote": 1533402397
+    },
+    {
+      "Name": "Get angry",
+      "Emote": 987239450
+    },
+    {
+      "Name": "Pride",
+      "Emote": -1252070669
+    }
+  ]
+}
