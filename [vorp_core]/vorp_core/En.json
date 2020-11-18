@@ -1,0 +1,15 @@
+{
+    "IsConnected": "🚫 Account duplicato (rockstar | steam)",
+    "NoSteam": "🚫 Devi avere Steam aperto.",
+    "NoInWhitelist": "🚫 Non sei whitelistato, per info: https://discord.io/saintdenislifeitalia",
+    "NoPermissions": "Non hai il permesso!",
+    "CheckingIdentifier": "Controllando utente...",
+    "LoadingUser": "Caricando utente...",
+    "BannedUser": "Sei stato bannato, per info/appeal: https://discord.io/saintdenislifeitalia",
+    "TitleOnDead": "Sei morto!",
+    "SubTitleOnDead": "Verrai portato alla clinica in {0} secondi",
+    "SubTitlePressKey": "Premi ~e~PAGEDOWN~q~ per andare alla clinica.",
+    "YouAreCarried": "Ti stanno trasportando!",
+
+    "VoiceRangeChanged": "Voice chat range changed to {0} meters"
+}

@@ -1,0 +1,13 @@
+{
+    "IsConnected": "Questo account è già connesso (steam | rockstar)",
+    "NoSteam": "Devi avere Steam aperto! Per favore, apri Steam e riavvia RedM",
+    "NoInWhitelist": "Non fai parte della Whitelist",
+    "NoPermissions": "Non hai i privilegi",
+
+    "TitleOnDead": "Sei morto!",
+    "SubTitleOnDead": "Rientrerai tra {0} secondi",
+    "SubTitlePressKey": "Premi ~e~E~q~ per rientrare",
+    "YouAreCarried": "Stai venendo trasportato da una persona",
+
+    "VoiceRangeChanged": "Il raggio della chat vocale è cambiato a {0} metri"
+}

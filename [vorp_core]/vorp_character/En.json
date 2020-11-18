@@ -1,0 +1,346 @@
+{
+  "PressRightOrLeft": "Premi [<-] o [->] per scegliere il sesso",
+
+  "PressGuide": "Ruota <-[A] [D]-> | Zoom [W] o [S]",
+
+  //New Update
+  "CreateNewChar": "Crea nuovo personaggio",
+  "DeleteChar": "Cancella Personaggio",
+  "MoneyTag": "Soldi",
+  "CharactersFull": "Non puoi creare nuovi personaggi",
+  "PressSelectInfo": "Cambia personaggio <- o -> | Seleziona personaggio [ENTER]",
+
+  "CommandHat": "cappello",
+  "CommandEyeWear": "occhiali",
+  "CommandMask": "maschera",
+  "CommandNeckWear": "accessori",
+  "CommandNeckTies": "cravatte",
+  "CommandShirt": "camicia",
+  "CommandSuspender": "bretelle",
+  "CommandVest": "gilet",
+  "CommandCoat": "soprabito",
+  "CommandPoncho": "poncho",
+  "CommandCloak": "mantella",
+  "CommandGlove": "guanti",
+  "CommandRings": "anelli",
+  "CommandBracelet": "bracciali",
+  "CommandBelt": "cintura",
+  "CommandBuckle": "fibbia",
+  "CommandPant": "pantaloni",
+  "CommandSkirt": "gonna",
+  "CommandChap": "chaps",
+  "CommandBoots": "calzature",
+  "CommandSpurs": "speroni",
+  "CommandUndress": "svestiti",
+  "CommandDress": "vestiti",
+
+  "Scale": "Altezza #",
+  "ScaleList": "Altezza del Personaggio",
+  "ScaleDesc": "Scegli la tua altezza: 1 normale, 0,95 basso e 1.05 alto",
+
+  "EyeBrows": "Sopracciglia #",
+  "EyeBrowsList": "Tipo di Sopracciglia",
+  "EyeBrowsDesc": "Scegli la Forma delle sopracciglia",
+
+  "Scars": "Cicatrici #",
+  "ScarsList": "Tipo di Cicatrici",
+  "ScarsDesc": "Scegli Cicatrici",
+
+  "Spots": "Imperfezioni #",
+  "SpotsList": "Tipo di Imperfezioni",
+  "SpotsDesc": "Scegli Imperfezioni cutanee",
+
+  "Disc": "Macchie #",
+  "DiscList": "Tipo di Macchie",
+  "DiscDesc": "Scegli Macchie",
+
+  "Complex": "Scottature #",
+  "ComplexList": "Tipo di Scottature",
+  "ComplexDesc": "Scegli Scottature solari",
+
+  "Acne": "Acne #",
+  "AcneList": "Tipo di Acne",
+  "AcneDesc": "Scegli Acne",
+
+  "Ageing": "Rughe #",
+  "AgeingList": "Tipo di Rughe",
+  "AgeingDesc": "Scegli Invecchiamento del Viso",
+
+  "Moles": "Nei #",
+  "MolesList": "Tipo di Nei",
+  "MolesDesc": "Scegli Nei",
+
+  "Freckles": "Lentiggini #",
+  "FrecklesList": "Tipo di Lentiggini",
+  "FrecklesDesc": "Scegli Lentiggini",
+
+  "Grimes": "Sporcizia #",
+  "GrimesList": "Tipi di sporcizia",
+  "GrimesDesc": "Scegli sporcizia",
+
+  "Lipsticks": "Rossetto #",
+  "LipsticksList": "Tipo di Rossetto",
+  "LipsticksDesc": "Scegli Rossetto",
+
+  "LipsticksColors": "Colore #",
+  "LipsticksColorsList": "Colore del Rossetto",
+  "LipsticksColorsDesc": "Scegli il colore del Rossetto",
+
+  "LipsticksPColors": "Colore #",
+  "LipsticksPColorsList": "Sfumatura del Rossetto",
+  "LipsticksPColorsDesc": "Scegli Sfumatura del Rossetto",
+
+  "Shadows": "Ombretto #",
+  "ShadowsList": "Tipo di Ombretto",
+  "ShadowsDesc": "Scegli Ombretto",
+
+  "ShadowsColors": "Colore #",
+  "ShadowsColorsList": "Colore Ombretto",
+  "ShadowsColorsDesc": "Scegli colore Ombretto",
+
+  "ShadowsPColors": "Colore #",
+  "ShadowsPColorsList": "Sfumatura dell'Ombretto",
+  "ShadowsPColorsDesc": "Scegli Sfumatura Ombretto",
+
+  "Eyes": "Occhi #",
+  "EyesList": "Colore di Occhi",
+  "EyesDesc": "Scegli il Colore degli Occhi",
+
+  //Input Name 
+  "PlaceHolderInputName": "Scrivi il Nome ed il Cognome del tuo personaggio.",
+  "ButtonInputName": "Conferma",
+  "InputError": "Devi avere un nome più lungo di tre lettere.",
+
+  //Body
+  "TitleMainMenu": "Creazione Personaggio",
+  "SubTitleMainMenu": "Crea il tuo personaggio",
+  "FinishBtnMainMenu": "Completa e Salva",
+  "SubFinishBtnMainMenu": "Premi se sei sicuro di confermare.",
+
+  "TitleClothesMenu": "Camerino",
+  "SubTitleClothesMenu": "Vesti il tuo personaggio.",
+
+  "TitleFaceMenu": "Personalizza la faccia",
+  "SubTitleFaceMenu": "Personalizza la faccia del tuo personaggio.",
+
+  "TitleSkinMenu": "Personalizza corpo",
+  "SubTitleSkinMenu": "Personalizza il corpo del tuo personaggio.",
+
+  "TitleImportMenu": "Importa Personaggio",
+  "SubTitleImportMenu": "Se hai giocato in un altro server che usa VORP Core puoi utilizzare un personaggio giá creato in precedenza.",
+
+  "LegsValues": "Gambe #",
+  "TorsoValues": "Torso #",
+  "FaceValues": "Faccia #",
+  "MaskValue": "Maschera #",
+  "BodyColorValues": "Colore #",
+  "TypeValues": "Tipo #",
+  "BeardValue": "Barba #",
+  "HairValue": "Capelli #",
+  "BodySizeValue": "Corpo #",
+  "WaistValue": "Girovita #",
+  "NoExistValue": "Non Esiste",
+
+  "LegsType": "Tipo di Gambe",
+  "TorsoType": "Tipo di Torso",
+  "FaceType": "Tipo di Faccia",
+  "BodyColor": "Colore del corpo",
+  "FaceSize": "Dimensione Faccia",
+  "EyebrowHeight": "Altezza Sopracciglia",
+  "EyebrowWidth": "Ampiezza Sopracciglia",
+  "EyebrowDepth": "Profondità Sopracciglia",
+  "EarsHeight": "Altezza Orecchie",
+  "EarsAngle": "Inclinazione Orecchie",
+  "EarsSize": "Dimensione Orecchie",
+  "EarsLobeSize": "Dimensione Lobi Orecchie",
+  "EyelidsHeight": "Altezza Palpebre",
+  "EyelidsWidth": "Ampiezza Palpebre",
+  "EyeDepth": "Profondità Palpebre",
+  "EyeAngle": "Inclinazione Occhi",
+  "EyeSeparation": "Distanziamento Occhi",
+  "EyeHeight": "Altezza Occhi",
+  "NoseWidth": "Ampiezza Naso",
+  "NoseSize": "Dimensione Naso",
+  "NoseHeight": "Altezza Naso",
+  "NoseAngle": "Inclinazione Naso",
+  "NoseCurvature": "Curvatura Naso",
+  "NostrilsSeparation": "Distanza Narici",
+  "CheekbonesHeight": "Altezza Zigomi",
+  "CheekbonesWidth": "Ampiezza Zigomi",
+  "CheekbonesDepth": "Profonditá Zigomi",
+  "MouthWidth": "Ampiezza Bocca",
+  "MouthDepth": "Profondità Bocca",
+  "MouthDeviation": "Deviazione Bocca",
+  "MouthHeight": "Altezza Bocca",
+  "UpperLipHeight": "Altezza Labbro Superiore",
+  "UpperLipWidth": "Ampiezza Labbro Superiore",
+  "UpperLipDepth": "Profonditá Labbro Superiore",
+  "LowerLipHeight": "Altezza Labbro Inferiore",
+  "LowerLipWidth": "Ampiezza Labbro Inferiore",
+  "LowerLipDepth": "Profonditá Labbro Inferiore",
+  "MandibleHeight": "Altezza Mandibola",
+  "MandibleWidth": "Ampiezza Mandibola",
+  "MandibleDepth": "Profonditá Mandibola",
+  "ChinHeight": "Altezza Mento",
+  "ChinWidth": "Ampiezza Mento",
+  "ChinDepth": "Profonditá Mento",
+  "BeardType": "Tipo di Barba",
+  "HairType": "Tipo di Capelli",
+  "BodyType": "Tipo di Corpo",
+  "WaistType": "Tipo di Girovita",
+  "Confirm": "Conferma",
+
+  ///Descriptions of the body Menu sections
+  "LegsTypeDesc": "Scegli il tipo di gambe",
+  "TorsoTypeDesc": "Scegli il tipo di torso",
+  "FaceTypeDesc": "Scegli il tipo di faccia",
+  "BodyColorDesc": "Scegli il colore del corpo",
+  "FaceSizeDesc": "Scegli la dimensione della faccia",
+  "EyebrowHeightDesc": "Scegli l'altezza delle sopracciglia",
+  "EyebrowWidthDesc": "Scegli l'ampiezza delle sopracciglia",
+  "EyebrowDepthDesc": "Scegli la profonditá delle sporacciglia",
+  "EarsHeightDesc": "Scegli l'altezza delle orecchie",
+  "EarsAngleDesc": "Scegli l'inclinazione delle orecchie",
+  "EarsSizeDesc": "Scegli la dimensione delle orecchie",
+  "EarsLobeSizeDesc": "Scegli la dimensione dei lobi",
+  "EyelidsHeightDesc": "Scegli l'altezza delle palpebre",
+  "EyelidsWidthDesc": "Scegli l'ampiezza delle palpebre",
+  "EyeDepthDesc": "Scegli la profonditá degli occhi",
+  "EyeAngleDesc": "Scegli l'inclinazione degli occhi",
+  "EyeSeparationDesc": "Scegli il distanziamento degli occchi",
+  "EyeHeightDesc": "Scegli l'altezza degli occhi",
+  "NoseWidthDesc": "Scegli l'ampiezza del naso",
+  "NoseSizeDesc": "Scegli la dimensione del naso",
+  "NoseHeigthDesc": "Scegli l'altezza del naso",
+  "NoseAngleDesc": "Scegli l'inclinazione del naso",
+  "NoseCurvatureDesc": "Scegli la curvatura del naso",
+  "NostrilsSeparationDesc": "Scegli il distanziamento delle narici",
+  "CheekbonesHeightDesc": "Scegli l'altezza degli zigomi",
+  "CheekbonesWidthDesc": "Scegli l'ampiezza degli zigomi",
+  "CheekbonesDepthDesc": "Scegli la profonditá degli zigomi",
+  "MouthWidthDesc": "Scegli l'ampiezza della bocca",
+  "MouthDepthDesc": "Scegli la profonditá della bocca",
+  "MouthDeviationDesc": "Scegli la deviazione della bocca",
+  "MouthHeightDesc": "Scegli l'altezza della bocca",
+  "UpperLipHeightDesc": "Scegli l'altezza del labbro superiore",
+  "UpperLipWidthDesc": "Scegli l'ampiezza del labbro superiore",
+  "UpperLipDepthDesc": "Scegli la profonditá del labbro superiore",
+  "LowerLipHeightDesc": "Scegli l'altezza del labbro inferiore",
+  "LowerLipWidthDesc": "Scegli l'ampiezza del labbro inferiore",
+  "LowerLipDepthDesc": "Scegli la profonditá del labbro inferiore",
+  "MandibleHeightDesc": "Scegli l'altezza della mandibola",
+  "MandibleWidthDesc": "Scegli l'ampiezza della mandibola",
+  "MandibleDepthDesc": "Scegli la profonditá della mandibola",
+  "ChinHeightDesc": "Scegli l'altezza del mento",
+  "ChinWidthDesc": "Scegli l'ampiezza del mento",
+  "ChinDepthDesc": "Scegli la profonditá del mento",
+  "BeardTypeDesc": "Scegli la barba",
+  "HairTypeDesc": "Scegli i capelli",
+  "BodyTypeDesc": "Scegli il tipo di corpo",
+  "WaistTypeDesc": "Scegli il girovita",
+  "ConfirmDesc": "Passa ai vestiti, potrai ritornare in questa sezione anche una volta passati al vestiario",
+
+  //Ropa
+  "TitleMenuClothes": "Camerino", // Menu Tittle
+  "SubTitleMenuClothes": "Vesti il tuo personaggio", // Menu Description
+
+  "HatsValue": "Cappello #", // The options of the hats section
+  "GlassesValue": "Occhiali #", // The options of the glasses section
+  "NeckwearValue": "Accessori #", // The options of the neckwear section
+  "TiesValue": "Cravatta #", // The options of the ties section
+  "ShirtsValue": "Camicia #", // The options of the shirts section
+  "SuspendersValue": "Bretelle #", // The options of the suspenders section
+  "VestsValue": "Gilet #", // The options of the vests section
+  "CoatsValue": "Soprabito #", // The options of the coats section
+  "PonchosValue": "Poncho #", // The options of the ponchos section
+  "CloaksValue": "Mantello #", // The options of the cloaks section
+  "GlovesValue": "Guanti #", // The options of the gloves section
+  "RingsValue": "Anello #", // The options of the rings section
+  "BraceletsValue": "Bracciale #", // The options of the bracelets section
+  "HolstersValue": "Fondina #", // The options of the holsters section
+  "BeltsValue": "Cintura #", // The options of the belts section
+  "BucklesValue": "Fibbia #", // The options of the buckles section
+  "PantsValue": "Pantaloni #", // The options of the pants section
+  "SkirtsValue": "Gonna #", // The options of the skirts section
+  "ChapsValue": "Chaps #", // The options of the chaps section
+  "BootsValue": "Calzature #", // The options of the boots section
+  "SpursValue": "Speroni #", // The options of the spurs section
+  "NoHatsValue": "Senza cappello", // The option it gives when you do not wear a hat
+  "NoGlassesValue": "Senza occhiali", // The option it gives when you do not wear glasses
+  "NoNeckwearValue": "Senza acccessori", // The option it gives when you do not wear neckwear
+  "NoTiesValue": "Senza cravatta", // The option it gives when you do not wear a tie
+  "NoShirtsValue": "Senza camicia", // The option it gives when you do not wear a shirt
+  "NoSuspendersValue": "Senza bretelle", // The option it gives when you do not wear suspenders
+  "NoVestsValue": "Senza gilet", // The option it gives when you do not wear a vest
+  "NoCoatsValue": "Senza soprabito", // The option it gives when you do not wear a coat
+  "NoPonchosValue": "Senza Poncho", // The option it gives when you do not wear a poncho
+  "NoCloaksValue": "Senza mantello", // The option it gives when you do not wear a cloak
+  "NoGlovesValue": "Senza guanti", // The option it gives when you do not wear gloves
+  "NoRingsValue": "Senza anelli", // The option it gives when you do not wear a ring
+  "NoBraceletsValue": "Senza bracciali", // The option it gives when you do not wear a bracelet
+  "NoHolstersValue": "Senza fondina", // The option it gives when you do not wear a holster
+  "NoBeltsValue": "Senza cintura", // The option it gives when you do not wear a belt
+  "NoBucklesValue": "Senza fibbia", // The option it gives when you do not wear a buckle
+  "NoPantsValue": "Senza pantaloni", // The option it gives when you do not wear pants
+  "NoSkirtsValue": "Senza gonna", // The option it gives when you do not wear a skirt
+  "NoChapsValue": "Senza chaps", // The option it gives when you do not wear chaps
+  "NoBootsValue": "Senza calzature", // The option it gives when you do not wear boots
+  "NoSpursValue": "Senza speroni", // The option it gives when you do not wear spurs
+  "NoMaskValue": "Senza maschera", // The option it gives when you do not wear a face mask
+
+  "Hats": "Cappelli",
+  "Glasses": "Occhiali",
+  "Masks": "Maschere",
+  "Neckwear": "Accessori per il collo",
+  "Ties": "Cravatte",
+  "Shirts": "Camicie",
+  "Suspenders": "Bretelle",
+  "Vests": "Gilet",
+  "Coats": "Soprabito",
+  "CoatsClosed": "Soprabito Chiuso",
+  "Ponchos": "Poncho",
+  "Cloaks": "Mantelli",
+  "Gloves": "Guanti",
+  "RightRings": "Anelli mano destra",
+  "LeftRings": "Anelli mano sinistra",
+  "Bracelets": "Bracciali",
+  "PrimaryHolsters": "Fondina principale",
+  "Belts": "Cinture",
+  "Buckles": "Fibbie",
+  "SecondaryHolsters": "Fondina secondaria",
+  "Pants": "Pantaloni",
+  "Skirts": "Gonne",
+  "Chaps": "Chaps",
+  "Boots": "Calzature",
+  "Spurs": "Speroni",
+
+  "Finish": "Finisci di vestire il tuo personaggio", // Confirms the options of the Menu
+
+  // Descriptions of the Clothing Menu
+  "HatsDesc": "Scegli il cappello",
+  "GlassesDesc": "Scegli gli occhiali",
+  "MasksDesc": "Scegli la maschera, se ne vuoi una",
+  "NeckwearDesc": "Scegli gli accessori per il collo",
+  "TiesDesc": "Scegli la cravatta",
+  "ShirtsDesc": "Scegli la camicia",
+  "SuspendersDesc": "Scegli le bretelle",
+  "VestsDesc": "Scegli il gilet",
+  "CoatsDesc": "Scegli il soprabito",
+  "PonchosDesc": "Scegli il poncho",
+  "CloaksDesc": "Scegli il mantello",
+  "GlovesDesc": "Scegli i guanti",
+  "RightRingsDesc": "Scegli gli anelli della mano destra",
+  "LeftRingsDesc": "Scegli gli anelli della mano sinistra",
+  "BraceletsDesc": "Scegli i bracciali",
+  "PrimaryHolstersDesc": "Scegli la fondina principale",
+  "BeltsDesc": "Scegli la cintura",
+  "BucklesDesc": "Scegli la fibbia",
+  "SecondaryHolstersDesc": "Scegli la fondina secondaria",
+  "PantsDesc": "Scegli i pantaloni",
+  "SkirtsDesc": "Scegli la gonna",
+  "ChapsDesc": "Scegli i chaps",
+  "BootsDesc": "Scegli le calzature",
+  "SpursDesc": "Scegli gli speroni",
+  "FinishDesc": "Ottimo hai completato il tuo personaggio, per cambiare il tuo vestiario recati a un negozio di vestiti",
+  "TipFinal": "Benvenuto su Saint Denis Life Italia, speriamo che la tua esperienza nel server sia il piú divertente possibile; per favore non saltare dalla mongolfiera e goditi la vista."
+}

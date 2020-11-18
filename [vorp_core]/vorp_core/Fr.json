@@ -1,0 +1,15 @@
+{
+    "IsConnected": "🚫 Compte dupliqué connecté (steam | rockstar)",
+    "NoSteam": "🚫 Vous devez avoir Steam ouvert, veuillez ouvrir Steam et redémarrer RedM",
+    "NoInWhitelist": "🚫 Vous n'êtes pas dans la Whitelist",
+    "NoPermissions": "Vous n'avez pas assez d'autorisations",
+    "CheckingIdentifier": "Vérification de votre identifiant",
+    "LoadingUser": "Chargement de votre utilisateur",
+    "BannedUser": "Vous êtes banni du serveur",
+    "TitleOnDead": "Vous êtes morts!",
+    "SubTitleOnDead": "Vous réapparaîtrez dans {0} secondes",
+    "SubTitlePressKey": "Appuyez ~e~E~q~ pour réapparaître",
+    "YouAreCarried": "Vous êtes porté par une personne",
+
+    "VoiceRangeChanged": "La portée du chat vocal est passée à {0} mètres"
+}
