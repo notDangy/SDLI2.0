@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<script>
+		$(function(){
+			window.onload = (e) => { 
+				window.addEventListener('message', (event) => {	            
+					var item = event.data;
+					if (item !== undefined && item.type === "ui") {		                
+						if (item.display === true) {
+		                  		    $("#mina").show();
+									document.getElementById('text').innerHTML = item.text ;
+									var x = document.getElementById("powiekszenie");
+									x.style.height = item.liczba+"px";
+									console.log(item.liczba);
+			
+						} else {
+		                    $("#mina").hide();
+				
+		                }
+					}
+				});
+			}; 
+		});
+		
+		
+		
+			                
+		
+	</script>
+
+<div id="mina">
+	<div class="container" id="powiekszenie">
+		<h1 id="text"></h1>
+	</div>
+</div>
+
+</body>
+</html>

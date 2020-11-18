@@ -1,0 +1,10 @@
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('biggame', 'Carne de caza mayor', 60, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('venison', 'Carne de venado', 60, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('bird', 'Carne de ave', 60, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('stingry', 'Carne correosa cruda', 60, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('game', 'Carne de caza', 60, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('pork', 'Carne de cerdo', 60, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('consumable_meat_gristly', 'Carne de cerdo cocinada', 30, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('consumable_stringy', 'Carne correosa cocinada', 30, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('consumable_meat_mature', 'Carne de caza cocinada', 30, 1, 'item_standard', 1);
+INSERT INTO items(item, label, limit, can_remove, type, usable) VALUES ('consumable_meat_bird', 'Carne de ave cocinada', 30, 1, 'item_standard', 1);

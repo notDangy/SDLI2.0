@@ -1,0 +1,14 @@
+{
+  "zona": "Zona: ",
+  "dia": "D�a: ",
+  "temp": "", 
+  "hora": "Hora: ",
+  "fuera_ciudad": "~COLOR_REDLIGHT~Fuera de ciudad",
+  "lunes": "Lunes",
+  "martes": "Martes",
+  "miercoles": "Miercoles",
+  "jueves": "Jueves",
+  "viernes": "Viernes",
+  "sabado": "S�bado",
+  "domingo": "Domingo"
+}

@@ -1,0 +1,26 @@
+Config = {}
+
+Config.weather = {
+    "Blizzard",
+    "Clouds",
+    "Drizzle",
+    "Fog",
+    "GroundBlizzard",
+    "Hail",
+    "HighPressure",
+    "Hurricane",
+    "Misty",
+    "Overcast",
+    "OvercastDark",
+    "Rain",
+    "Sandstorm",
+    "Shower",
+    "Sleet",
+    "Snow",
+    "SnowClearing",
+    "SnowLight",
+    "Sunny",
+    "Thunder",
+    "Thunderstorm",
+    "WhiteOut",
+}

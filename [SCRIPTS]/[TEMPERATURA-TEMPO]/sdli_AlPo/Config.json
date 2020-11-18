@@ -1,0 +1,33 @@
+{
+  "defaultlang": "Es",
+
+  "Fahrenheit": false,
+  // Sensitive data: Modify only under your responsability
+
+  "Text": {
+    "Pos": [ 0.115, 0.965 ] //0.20, 0.959     0.15 0.959
+  },
+
+  // Celsius:
+  "ExtremeColdC": -5,
+  "ColdC": 5,
+  "CoolC": 10,
+  "WarmC": 20,
+  "HotC": 25,
+  "ExtremeHotC": 30,
+
+  // Fahrenheit:
+  "ExtremeColdF": -5,
+  "ColdF": 5,
+  "CoolF": 10,
+  "WarmF": 20,
+  "HotF": 25,
+  "ExtremeHotF": 30,
+
+  "LittleStaminaReduction": -3,
+  "MediumStaminaReduction": -6,
+  "LargeStaminaReduction": -15,
+  "LittleWaterReduction": -3,
+  "MediumWaterReduction": -6,
+  "LargeWaterReduction": -15
+}

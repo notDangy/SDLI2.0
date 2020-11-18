@@ -1,0 +1,26 @@
+#documento {
+  margin-left: 40%;
+  margin-top: 8%;
+  width: 650px;
+  height: 300px;
+  background: url(image.png) center;
+  background-size: 100% 100%;
+  overflow: auto;
+  border-radius: 5px;
+  font-family: typewriter;
+}
+
+@font-face {
+  font-family: typewriter;
+  src: url(TravelingTypewriter.otf);
+}
+
+.info {
+  margin-left: 10%;
+  
+}
+
+.line1 {
+  display: inline;
+}
+

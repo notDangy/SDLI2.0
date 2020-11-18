@@ -1,0 +1,40 @@
+.container {
+	width:400px;
+	height:80px;
+	margin: auto auto;	
+	position:relative;
+		
+	
+}
+.container h1 {
+	margin: 0;
+	padding: 0;
+	font-family: crock;
+	text-transform: uppercase;
+	text-align:center;
+	position:relative;
+	top:50%;
+	color:white;
+	transform: translateY(-50%);
+	font-size: 22px;
+	font-size: fit-width | fit-height | fit-height-precise;
+	
+}
+
+	
+#mina {
+	display: none;
+	overflow: hidden;	
+	margin-top:30%;
+	margin-left:-70%;
+	
+}
+#powiekszenie{
+	
+	height:80px;
+}
+			
+@font-face {
+	font-family: crock;
+	src: url(crock.ttf);
+}		
