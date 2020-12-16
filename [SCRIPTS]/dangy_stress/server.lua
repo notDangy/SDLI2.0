@@ -12,7 +12,7 @@ AddEventHandler('dangy_stress:share', function(value)
         for k,v in pairs(stressList) do 
             if _source == v.id then
                 stressList[k].stress = value
-                return 0
+                return
             end
         end
         table.insert(stressList, {id = _source, stress = value})
